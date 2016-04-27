@@ -17,15 +17,26 @@ dl {
 address {
     margin-bottom: 0;
 }
+p {
+    margin-bottom: 0;
+}
 .container {
     min-width: 1200px;
 }
 
 #header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1200px;
     height: 160px;
     background-color: #fff;
     border-bottom: 2px solid #f8b61d;
-    .container {
+    &.gnb-opened {
+        
+    }
+    > .container {
         position: relative;
         padding-left: 0;
         padding-right: 0;
@@ -54,6 +65,12 @@ address {
             top: 40px;
             margin-right: 0;
             width: 155px;
+            &.depart {
+                right: 0;
+            }
+            &.campus {
+                right: 165px;
+            }
             .btn {
                 padding-top: 0;
                 padding-bottom: 0;
@@ -63,22 +80,16 @@ address {
                 border-color: #ccc;
                 text-align: left;
                 font-size: 13px;
-            }
-            .btn-caret {
-                position: absolute;
-                top: 0;
-                right: 0;
-                padding: 0;
-                width: 26px;
-                text-align: center;
-                line-height: 24px;
-                color: #999;
-            }
-            &.depart {
-                right: 0;
-            }
-            &.campus {
-                right: 165px;
+                p {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 26px;
+                    height: 26px;
+                    text-align: center;
+                    line-height: 26px;
+                    border-left: 1px solid #ccc;
+                }
             }
             .dropdown-menu {
                 left: 0;
@@ -96,47 +107,432 @@ address {
             }
         }
     }
-    .gnb {
-        clear: both;
-        position: absolute;
-        bottom: 0;
-        left: 0;
+    #gnb {
+        position: relative;
+        margin-top: -48px;
         width: 100%;
         height: 50px;
-        > ul {
-            overflow: hidden;
-            > li {
-                float: left;
-                margin-left: 100px;
-                width: 72px;
-                &:nth-of-type(1) {
-                    margin-left: 0;
-                }
-                &:nth-of-type(6) {
-                    width: 135px;
-                }
-                &:nth-of-type(7) {
-                    width: 105px;
-                }
-                > a {
-                    display: block;
-                    width: 100%;
-                    height: 50px;
-                    text-align: center;
-                    font-size: 17px;
-                    color: #000;
-                    text-decoration: none;
-                    font-weight: bold;
-                    letter-spacing: -1px;
-                }
-            }  
+        z-index: 100;
+        > .container {
+            padding-left: 0;
+            padding-right: 0;
+            > ul {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    margin-left: 100px;
+                    width: 72px;
+                    background-color: transparent;
+                    &:nth-of-type(1) {
+                        margin-left: 0;
+                    }
+                    &:nth-of-type(6) {
+                        width: 135px;
+                    }
+                    &:nth-of-type(7) {
+                        width: 105px;
+                    }
+                    > a {
+                        display: block;
+                        width: 100%;
+                        height: 50px;
+                        text-align: center;
+                        font-size: 17px;
+                        color: #000;
+                        text-decoration: none;
+                        font-weight: bold;
+                        letter-spacing: -1px;
+                    }
+                    > div {
+                        display: none;
+                        position: absolute;
+                        top: 50px;
+                        left: 0;
+                        width: 100%;
+                        background-color: #fff;
+                        > .container {
+                            padding-left: 0;
+                            padding-right: 0;
+                            min-height: 315px;
+                            background-image: url(/images/bg_gnb_sub.gif);
+                            background-repeat: no-repeat;
+                            background-position: 0 200px;
+                            .summary {
+                                float: left;
+                                width: 225px;
+                                letter-spacing: -1px;
+                                h3 {
+                                    margin-top: 40px;
+                                    margin-bottom: 10px;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                }
+                                hr {
+                                    margin: 0;
+                                    width: 70px;
+                                    border-top-color: #333;
+                                    text-align: left;
+                                }
+                                p {
+                                    margin-top: 20px;
+                                    font-size: 13px;
+                                    color: #666;
+                                    line-height: 20px;
+                                }
+                            }
+                            .sub {
+                                overflow: hidden;
+                                margin-top: 85px;
+                                margin-left: 500px;
+                                width: 600px;
+                                li {
+                                    float: left;
+                                    margin-bottom: 20px;
+                                    width: 150px;
+                                    a {
+                                        font-size: 14px;
+                                        color: #333;
+                                        text-decoration: none;
+                                        letter-spacing: -1px;
+                                        &:focus,
+                                        &:hover {
+                                            color: #faa61a;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.active {
+                        > a {
+                            background-image: url(/images/ico_gnb_active.gif);
+                            background-repeat: no-repeat;
+                            background-position: 50% 100%;
+                        }
+                        > div {
+                            display: block;
+                        }
+                    }
+                }  
+            }
         }
     }
 }
 
-#content {
-    min-height: 500px;
-    background-color: #fff;
+body.main {
+    #content {
+        margin-top: 160px;
+        min-height: 500px;
+        background-color: #eee;
+    }
+}
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+/*
+body.sub {
+    #container {
+        margin-top: 160px;
+        background-color: #ffcb05;
+        background-image: url(/images/bg_sub_body.gif);
+        background-repeat: repeat-y;
+        background-position: 50% 0;
+    }
+    #aside {
+        width: 230px;
+        background-color: yellow;
+    }
+    #content {
+        min-height: 500px;
+        background-color: #fff;
+    }
+}
+*/
+body.sub {
+    > .wrapper {
+        margin-top: 160px;
+        background-image: url(/images/bg_sub_body.gif);
+        background-repeat: repeat-y;
+        background-position: 50% 0;
+        > .visual {
+            height: 240px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-color: #fff;
+            font-family: 'Roboto', sans-serif;
+            p {
+                margin-top: 65px;
+                color: #fff;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            &.visual-1 {
+                background-image: url(/images/bg_sub_visual.gif);
+            }
+        }
+        > .container {
+            display: table;
+            width: 100%;
+            .aside {
+                display: table-cell;
+                width: 230px;
+                background-color: #ffcb05;
+                vertical-align: top;
+                #aside {
+                    h3 {
+                        margin-top: 60px;
+                        margin-bottom: 70px;
+                        padding-left: 15px;
+                        font-size: 30px;
+                        color: #000;
+                        letter-spacing: -2px;
+                    }
+                    #lnb {
+                        margin-bottom: 40px;
+                        ul {
+                            li {
+                                a {
+                                    display: block;
+                                    padding-left: 15px;
+                                    height: 50px;
+                                    color: #000;
+                                    font-size: 15px;
+                                    line-height: 50px;
+                                    letter-spacing: -1px;
+                                    text-decoration: none;
+                                }
+                                &.active {
+                                    margin-left: -15px;
+                                    background-image: url(/images/bg_lnb_active.gif);
+                                    background-repeat: no-repeat;
+                                    background-position: 0 0;
+                                    background-color: #fff;
+                                    a {
+                                        padding-left: 45px;
+                                        font-size: 17px;
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .quick {
+                        margin-bottom: 20px;
+                        width: 200px;
+                        ul {
+                            margin-left: 0;
+                            margin-right: 0;
+                            li {
+                                margin-bottom: 30px;
+                                padding-left: 0;
+                                padding-right: 0;
+                                background-repeat: no-repeat;
+                                background-position: 50% 0;
+                                a {
+                                    display: block;
+                                    padding-top: 45px;
+                                    height: 65px;
+                                    color: #000;
+                                    text-align: center;
+                                    line-height: 20px;
+                                    font-size: 13px;
+                                    letter-spacing: -1px;
+                                }
+                                &:nth-of-type(1) {
+                                    background-image: url(/images/ico_printer.png);
+                                }
+                                &:nth-of-type(2) {
+                                    background-image: url(/images/ico_namecard.png);
+                                }
+                                &:nth-of-type(3) {
+                                    background-image: url(/images/ico_car.png);
+                                }
+                                &:nth-of-type(4) {
+                                    background-image: url(/images/ico_rollpaper.png);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .content {
+                display: table-cell;
+                padding-left: 70px;
+                padding-top: 60px;
+                width: 940px;
+                height: 500px;
+                background-color: #fff;
+                vertical-align: top;
+                .breadcrumb {
+                    margin-bottom: 25px;
+                    padding: 0;
+                    background-color: #fff;
+                    li {
+                        color: #555;
+                        &:before {
+                            content: '>';
+                        }
+                        &:first-child:before {
+                            content: '';
+                        }
+                        a {
+                            color: #555;
+                        }
+                    }
+                }
+                #content {
+                    .page-header {
+                        margin-top: 0;
+                        margin-bottom: 55px;
+                        border-bottom: 0;
+                        h2 {
+                            margin-bottom: 30px;
+                            letter-spacing: -2px;
+                            font-size: 44px;
+                            small {
+                                letter-spacing: -1px;
+                                font-size: 18px;
+                                i {
+                                    color: #f5b324;
+                                    font-style: normal;
+                                }
+                            }
+                        }
+                        hr {
+                            margin: 0 0 0 1px;
+                            width: 35px;
+                            border-top-color: #000;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #content {
+        .table-wrap {
+            border-top: 2px solid #555;
+            .table {
+                border-top: 0;
+                border-spacing: 0;
+                th, td {
+                    height: 40px;
+                    vertical-align: middle;
+                }
+                th {
+                    border-top: 0;
+                    background-color: #f9f9f9;
+                }
+                thead {
+                    th {
+                        border-top: 0;
+                        border-bottom: 0;
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                }
+                tbody {
+                    th {
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                    td {
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+                &.non-thead {
+                    tbody {
+                        td {
+                            border-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+        ul.nav {
+            li {
+                a {
+                    border: 1px solid #dfdfdf;
+                    border-left: 0;
+                    border-radius: 0;
+                    background-color: #f9f9f9;
+                    line-height: 21px;
+                    color: #333;
+                    font-size: 14px;
+                    letter-spacing: -1px;
+                }
+                &:first-child {
+                    a {
+                        border-left: 1px solid #dfdfdf;
+                    }
+                }
+                &.active {
+                    a {
+                        background-color: #685b55;
+                        border-color: #685b55;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .paging {
+            text-align: center;
+            .pagination {
+                li {
+                    a {
+                        border-radius: 50%;
+                        color: #666;
+                        border: 0;
+                        font-size: 14px;
+                        &:focus,
+                        &:hover {
+                            background-color: #fff;
+                            text-decoration: underline;
+                        }
+                    }
+                    &.active {
+                        a {
+                            background-color: #333;
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .search-area {
+            position: relative;
+            .form-group {
+                margin-bottom: 0;
+                height: 40px;
+                #search-keyword {
+                    position: relative;
+                    -webkit-transition: none;
+                    transition: none;
+                    height: 40px;
+                    padding-right: 40px;
+                    box-shadow: none;
+                    border-radius: 0;
+                    vertical-align: top;
+                    &:focus {
+                        border-color: #ccc;
+                    }
+                }
+            }
+            button[type="submit"] {
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                width: 38px;
+                height: 38px;
+                color: #ccc;
+                background-color: #fff;
+                border-radius: 0;
+            }
+        }
+    }
 }
 
 #footer {
@@ -209,5 +605,30 @@ address {
         position: absolute;
         top: 80px;
         right: 15px;
+    }
+}
+
+#not-supported-ie-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    z-index: 9998;
+}
+#not-supported-ie-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 9999;
+    p {
+        text-align: center;
+        font-size: 30px;
     }
 }
