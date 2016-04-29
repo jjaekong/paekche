@@ -25,15 +25,17 @@
         controls: false
     });
     
-    $(document).on('click', '#news .news-controls .next', function() {
+    $(document).on('click', '#news .news-controls .next', function(e) {
         newsSlider.stopAuto();
         newsSlider.goToNextSlide();
         newsSlider.startAuto();
+        e.preventDefault();
     });
-    $(document).on('click', '#news .news-controls .prev', function() {
+    $(document).on('click', '#news .news-controls .prev', function(e) {
         newsSlider.stopAuto();
         newsSlider.goToPrevSlide();
         newsSlider.startAuto();
+        e.preventDefault();
     });
     
     $('#shortcuts .slider').bxSlider({
