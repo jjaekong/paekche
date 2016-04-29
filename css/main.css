@@ -1,0 +1,375 @@
+@charset "UTF-8";
+#container-slider .slide {
+  height: 840px;
+  background-position: 50% 0; }
+  #container-slider .slide .slide-link {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+#content > .bx-wrapper {
+  position: relative; }
+  #content > .bx-wrapper > .bx-controls {
+    position: absolute;
+    bottom: 65px;
+    width: 100%; }
+    #content > .bx-wrapper > .bx-controls .bx-pager {
+      text-align: center; }
+      #content > .bx-wrapper > .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        margin: 0 5px;
+        width: 14px;
+        height: 14px; }
+        #content > .bx-wrapper > .bx-controls .bx-pager .bx-pager-item a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          text-indent: -999em; }
+          #content > .bx-wrapper > .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #fff; }
+
+#main-container {
+  background-image: url(/images/main/bg_content.jpg); }
+
+#main-content {
+  position: relative;
+  margin: 80px auto 0;
+  width: 1100px;
+  height: 640px;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+#notice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 300px;
+  background-color: #fff; }
+  #notice .nav li a {
+    height: 50px;
+    border-radius: 0;
+    line-height: 30px;
+    color: #333;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    letter-spacing: -1px; }
+  #notice .nav li:first-child a {
+    border-left: 0; }
+  #notice .nav li.active a {
+    position: relative;
+    background-color: #685b55;
+    color: #fff; }
+    #notice .nav li.active a:before {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      margin-left: -5px;
+      width: 10px;
+      height: 10px;
+      background-image: url(/images/main/ico_arrow_down.gif);
+      background-position: 50% 0;
+      background-repeat: no-repeat; }
+  #notice .tab-content {
+    padding: 35px 20px; }
+    #notice .tab-content ol li {
+      position: relative;
+      padding-right: 90px;
+      line-height: 30px; }
+      #notice .tab-content ol li a {
+        display: block;
+        overflow: hidden;
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+        #notice .tab-content ol li a:before {
+          content: 'ㆍ'; }
+        #notice .tab-content ol li a span {
+          position: absolute;
+          right: 0;
+          font-size: 12px;
+          color: #666; }
+        #notice .tab-content ol li a:focus, #notice .tab-content ol li a:hover {
+          color: #999; }
+          #notice .tab-content ol li a:focus span, #notice .tab-content ol li a:hover span {
+            color: #999; }
+
+#news {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 700px;
+  height: 50px;
+  background-color: #fff; }
+  #news h4 {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffd217;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-image: url(/images/main/bg_news_heading.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    font-weight: bold; }
+    #news h4:before {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: -4px;
+      vertical-align: middle;
+      content: '';
+      width: 14px;
+      height: 14px;
+      background-image: url(/images/main/ico_speaker.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%; }
+  #news .news-list {
+    float: left;
+    margin-left: 10px;
+    width: 500px;
+    height: 50px; }
+    #news .news-list ul {
+      width: 500px;
+      height: 50px; }
+      #news .news-list ul li {
+        height: 50px;
+        line-height: 50px; }
+        #news .news-list ul li a {
+          overflow: hidden;
+          display: block;
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          color: #333;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+  #news .news-controls {
+    float: left;
+    width: 50px; }
+    #news .news-controls p {
+      height: 20px;
+      line-height: 20px;
+      text-align: center; }
+      #news .news-controls p:first-child {
+        margin-top: 5px; }
+      #news .news-controls p a {
+        color: #333; }
+
+#departs {
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 390px;
+  height: 200px; }
+  #departs .bx-wrapper .bx-controls {
+    position: absolute;
+    height: 12px;
+    bottom: 20px;
+    left: 20px; }
+    #departs .bx-wrapper .bx-controls .bx-pager {
+      text-align: center; }
+      #departs .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        margin: 0 2px;
+        width: 12px;
+        height: 12px; }
+        #departs .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border: 1px solid #333;
+          border-radius: 50%;
+          text-indent: -999em;
+          background-color: rgba(51, 51, 51, 0.01); }
+          #departs .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #333; }
+
+#artists {
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  width: 440px;
+  height: 450px; }
+  #artists .bx-wrapper .bx-controls {
+    position: absolute;
+    height: 14px;
+    top: 20px;
+    right: 20px; }
+    #artists .bx-wrapper .bx-controls .bx-pager {
+      float: right;
+      text-align: center; }
+      #artists .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        margin: 0 4px;
+        width: 14px;
+        height: 14px; }
+        #artists .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          text-indent: -999em;
+          background-color: rgba(255, 255, 255, 0.01); }
+          #artists .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #fff; }
+    #artists .bx-wrapper .bx-controls .bx-controls-auto {
+      float: left; }
+      #artists .bx-wrapper .bx-controls .bx-controls-auto .bx-controls-auto-item a {
+        display: block;
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        color: #ffd217; }
+
+#issue {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  padding: 20px;
+  width: 250px;
+  height: 290px;
+  background-color: #fff; }
+  #issue h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #111; }
+  #issue .issue-content a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none; }
+    #issue .issue-content a:focus, #issue .issue-content a:hover {
+      opacity: .9; }
+    #issue .issue-content a figure div {
+      width: 210px;
+      height: 135px;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    #issue .issue-content a figure figcaption h5 {
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #111;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 14px;
+      letter-spacing: -1px; }
+    #issue .issue-content a figure figcaption p {
+      overflow: hidden;
+      width: 100%;
+      height: 36px;
+      line-height: 18px;
+      font-size: 13px;
+      color: #999; }
+  #issue .more {
+    position: absolute;
+    color: #f8b61d;
+    top: 20px;
+    right: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px; }
+
+#schedules {
+  position: absolute;
+  top: 360px;
+  right: 0;
+  padding: 15px 20px;
+  width: 250px;
+  height: 150px;
+  background-color: #ffd217; }
+  #schedules ul li a {
+    display: block;
+    padding-left: 40px;
+    font-size: 13px;
+    color: #111;
+    line-height: 30px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: 3px 50%; }
+    #schedules ul li a span {
+      float: right;
+      margin-top: 5px;
+      font-size: 12px; }
+  #schedules ul li:nth-of-type(1) a {
+    background-image: url(/images/main/ico_pencil_sm.png); }
+  #schedules ul li:nth-of-type(2) a {
+    background-image: url(/images/main/ico_letter_sm.png); }
+  #schedules ul li:nth-of-type(3) a {
+    background-image: url(/images/main/ico_gradcap_sm.png);
+    background-position: 0 50%; }
+  #schedules ul li:nth-of-type(4) a {
+    background-image: url(/images/main/ico_namecard_sm.png); }
+
+#shortcuts {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 1100px;
+  height: 120px;
+  background-color: #fff; }
+  #shortcuts ul {
+    margin: 0 auto;
+    width: 945px; }
+    #shortcuts ul li a {
+      display: block;
+      margin: 0 auto;
+      width: 120px;
+      height: 90px;
+      font-size: 13px;
+      color: #666;
+      text-decoration: none;
+      text-align: center; }
+      #shortcuts ul li a span {
+        display: block;
+        height: 60px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; }
+      #shortcuts ul li a:focus, #shortcuts ul li a:hover {
+        color: #ffd217; }
+    #shortcuts ul li.shortcut-1 a span {
+      background-image: url(/images/main/ico_printer.png); }
+    #shortcuts ul li.shortcut-2 a span {
+      background-image: url(/images/main/ico_namecard.png); }
+    #shortcuts ul li.shortcut-3 a span {
+      background-image: url(/images/main/ico_camera.png); }
+    #shortcuts ul li.shortcut-4 a span {
+      background-image: url(/images/main/ico_car.png); }
+    #shortcuts ul li.shortcut-5 a span {
+      background-image: url(/images/main/ico_rollpaper.png); }
+    #shortcuts ul li.shortcut-6 a span {
+      background-image: url(/images/main/ico_book.png); }
+    #shortcuts ul li.shortcut-7 a span {
+      background-image: url(/images/main/ico_school.png); }
+  #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center; }
+    #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+      left: 28px; }
+    #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+      right: 28px; }
+
+/*# sourceMappingURL=main.css.map */

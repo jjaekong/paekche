@@ -300,7 +300,6 @@ body.sub {
                                     font-size: 15px;
                                     line-height: 50px;
                                     letter-spacing: -1px;
-                                    text-decoration: none;
                                 }
                                 &.active {
                                     margin-left: -15px;
@@ -312,6 +311,7 @@ body.sub {
                                         padding-left: 45px;
                                         font-size: 17px;
                                         font-weight: bold;
+                                        text-decoration: none;
                                     }
                                 }
                             }
@@ -530,6 +530,45 @@ body.sub {
                 color: #ccc;
                 background-color: #fff;
                 border-radius: 0;
+            }
+        }
+        .btn-area {
+            margin-top: 20px;
+            .btn {
+                padding-top: 9px;
+                padding-bottom: 9px;
+                border-radius: 0;
+                &.btn-sm {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    height: 30px;
+                    font-size: 14px;
+                    line-height: 28px;
+                }
+                &.btn-primary {
+                    min-width: 90px;
+                    background-color: #685b55;
+                    border-color: #685b55;
+                    &:focus,
+                    &:hover {
+                        background-color: rgba(#685b55, .85);
+                        border-color: rgba(#685b55, .85);
+                    }
+                }
+                &.btn-default {
+                    min-width: 60px;
+                }
+                &.btn-important {
+                    min-width: 90px;
+                    background-color: #d22d36;
+                    border-color: #d22d36;
+                    color: #fff;
+                    &:focus,
+                    &:hover {
+                        background-color: rgba(#d22d36, .85);
+                        border-color: rgba(#d22d36, .85);
+                    }
+                }
             }
         }
     }

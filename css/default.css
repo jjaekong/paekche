@@ -246,8 +246,7 @@ body.sub > .wrapper {
           color: #000;
           font-size: 15px;
           line-height: 50px;
-          letter-spacing: -1px;
-          text-decoration: none; }
+          letter-spacing: -1px; }
         body.sub > .wrapper > .container .aside #aside #lnb ul li.active {
           margin-left: -15px;
           background-image: url(/images/bg_lnb_active.gif);
@@ -257,7 +256,8 @@ body.sub > .wrapper {
           body.sub > .wrapper > .container .aside #aside #lnb ul li.active a {
             padding-left: 45px;
             font-size: 17px;
-            font-weight: bold; }
+            font-weight: bold;
+            text-decoration: none; }
       body.sub > .wrapper > .container .aside #aside .quick {
         margin-bottom: 20px;
         width: 200px; }
@@ -404,6 +404,35 @@ body.sub #content .search-area {
     color: #ccc;
     background-color: #fff;
     border-radius: 0; }
+body.sub #content .btn-area {
+  margin-top: 20px; }
+  body.sub #content .btn-area .btn {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 0; }
+    body.sub #content .btn-area .btn.btn-sm {
+      padding-top: 0;
+      padding-bottom: 0;
+      height: 30px;
+      font-size: 14px;
+      line-height: 28px; }
+    body.sub #content .btn-area .btn.btn-primary {
+      min-width: 90px;
+      background-color: #685b55;
+      border-color: #685b55; }
+      body.sub #content .btn-area .btn.btn-primary:focus, body.sub #content .btn-area .btn.btn-primary:hover {
+        background-color: rgba(104, 91, 85, 0.85);
+        border-color: rgba(104, 91, 85, 0.85); }
+    body.sub #content .btn-area .btn.btn-default {
+      min-width: 60px; }
+    body.sub #content .btn-area .btn.btn-important {
+      min-width: 90px;
+      background-color: #d22d36;
+      border-color: #d22d36;
+      color: #fff; }
+      body.sub #content .btn-area .btn.btn-important:focus, body.sub #content .btn-area .btn.btn-important:hover {
+        background-color: rgba(210, 45, 54, 0.85);
+        border-color: rgba(210, 45, 54, 0.85); }
 
 #footer {
   height: 200px;

@@ -148,6 +148,20 @@
                             <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span><span class="sr-only">검색</span></button>
                         </form>
                     </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-sm btn-primary">버튼 primary</a>
+                            <a href="#" class="btn btn-sm btn-default">버튼 default</a>
+                            <a href="#" class="btn btn-sm btn-important">버튼 important</a>
+                        </p>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-primary">버튼 primary arrow <span class="glyphicon glyphicon-menu-right"></span></a>
+                            <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-menu-right"></span> 버튼 default</a>
+                            <a href="#" class="btn btn-important">버튼 important</a>
+                        </p>
+                    </div>
                 </main>
             </div>
         </div>
