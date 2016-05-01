@@ -37,8 +37,7 @@
   position: relative;
   margin: 80px auto 0;
   width: 1100px;
-  height: 640px;
-  background-color: rgba(255, 255, 255, 0.3); }
+  height: 640px; }
 
 #notice {
   position: absolute;
@@ -362,14 +361,22 @@
     margin-top: -12px;
     width: 24px;
     height: 24px;
-    background-color: #ccc;
+    background-color: #fff;
     color: #fff;
     border-radius: 50%;
     line-height: 24px;
-    text-align: center; }
+    text-align: center;
+    border: 1px solid #ccc; }
     #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
       left: 28px; }
     #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
       right: 28px; }
+    #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a span {
+      padding-top: 3px;
+      color: #ccc; }
+    #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a:hover {
+      background-color: #ccc; }
+      #shortcuts .bx-wrapper .bx-controls .bx-controls-direction a:hover span {
+        color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

@@ -125,6 +125,31 @@ p {
                     background-color: transparent;
                     &:nth-of-type(1) {
                         margin-left: 0;
+                        > div {
+                            > .container {
+                                background-image: url(/images/bg_gnb_1.gif);
+                                background-repeat: no-repeat;
+                                background-position: 0 200px;
+                            }
+                        }
+                    }
+                    &:nth-of-type(4) {
+                        > div {
+                            > .container {
+                                background-image: url(/images/bg_gnb_4.gif);
+                                background-repeat: no-repeat;
+                                background-position: 0 180px;
+                            }
+                        }
+                    }
+                    &:nth-of-type(5) {
+                        > div {
+                            > .container {
+                                background-image: url(/images/bg_gnb_5.gif);
+                                background-repeat: no-repeat;
+                                background-position: 0 180px;
+                            }
+                        }
                     }
                     &:nth-of-type(6) {
                         width: 135px;
@@ -154,9 +179,6 @@ p {
                             padding-left: 0;
                             padding-right: 0;
                             min-height: 315px;
-                            background-image: url(/images/bg_gnb_sub.gif);
-                            background-repeat: no-repeat;
-                            background-position: 0 200px;
                             .summary {
                                 float: left;
                                 width: 225px;

@@ -64,39 +64,31 @@
                 </li>
                 <li>
                     <a href="#">학과안내</a>
-                    <div>
-                        <div class="container">
-                            <ul>
-                                <li><a href="#">설립이념</a></li>
-                                <li><a href="#">대학연혁</a></li>
-                                <li><a href="#">상징소개</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </li>
                 <li>
                     <a href="#">입학안내</a>
-                    <div>
-                        <div class="container">
-                            <ul>
-                                <li><a href="#">설립이념</a></li>
-                                <li><a href="#">대학연혁</a></li>
-                                <li><a href="#">상징소개</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">이사장인사말</a></li>
-                                <li><a href="#">비전 및 발전전략</a></li>
-                                <li><a href="#">학교조직</a></li>
-                                <li><a href="#">캠퍼스 안내</a></li>
-                                <li><a href="#">총장인사말</a></li>
-                                <li><a href="#">특성화전략</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </li>
                 <li>
                     <a href="#">대학생활</a>
                     <div>
                         <div class="container">
+                            <div class="summary">
+                                <h3>대학생활</h3>
+                                <hr>
+                                <p>백제예술대학교는 최상의 미적 가치로서의 예술 창작과 표현을 추구합니다.</p>
+                            </div>
+                            <ul class="sub">
+                                <li><a href="#">학사일정</a></li>
+                                <li><a href="#">학사 Q&amp;A</a></li>
+                                <li><a href="#">인터넷, IT서비스</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">재학성 서비스</a></li>
+                                <li><a href="#">장학제도</a></li>
+                                <li><a href="#">도서관 안내</a></li>
+                                <li><a href="#">학사행정</a></li>
+                                <li><a href="#">통학버스 운행 안내</a></li>
+                                <li><a href="#">방송국</a></li>
+                            </ul>
                         </div>
                     </div>
                 </li>
@@ -104,22 +96,30 @@
                     <a href="#">백제광장</a>
                     <div>
                         <div class="container">
+                            <div class="summary">
+                                <h3>백제광장</h3>
+                                <hr>
+                                <p>백제예술대학교는 최상의 미적 가치로서의 예술 창작과 표현을 추구합니다.</p>
+                            </div>
+                            <ul class="sub">
+                                <li><a href="#">뉴스&amp;공지사항</a></li>
+                                <li><a href="#">백제스타</a></li>
+                                <li><a href="#">자취, 하숙안내</a></li>
+                                <li><a href="#">학사공지</a></li>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">성희롱 상담실</a></li>
+                                <li><a href="#">백제뉴스</a></li>
+                                <li><a href="#">벼룩시장, 분실물신고</a></li>
+                                <li><a href="#">학생 상담실</a></li>
+                            </ul>
                         </div>
                     </div>
                 </li>
                 <li>
                     <a href="#">교수학습지원센터</a>
-                    <div>
-                        <div class="container">
-                        </div>
-                    </div>
                 </li>
                 <li>
                     <a href="#">NCS지원센터</a>
-                    <div>
-                        <div class="container">
-                        </div>
-                    </div>
                 </li>
             </ul>
         </div>
