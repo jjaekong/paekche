@@ -68,7 +68,7 @@ p {
       border-color: #ccc;
       text-align: left;
       font-size: 13px; }
-      #header .util .dropdown .btn p {
+      #header .util .dropdown .btn span {
         position: absolute;
         top: 0;
         right: 0;
