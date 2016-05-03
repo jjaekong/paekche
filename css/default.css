@@ -318,7 +318,7 @@ body.sub > .wrapper {
             color: #555; }
       body.sub > .wrapper > .container .content #content .page-header {
         margin-top: 0;
-        margin-bottom: 55px;
+        margin-bottom: 0;
         border-bottom: 0; }
         body.sub > .wrapper > .container .content #content .page-header h2 {
           margin-bottom: 30px;

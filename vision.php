@@ -51,7 +51,6 @@
                         <h2>설립이념<small>우리 대학의 설립과 <i>교육 목표 체계</i></small></h2>
                         <hr>
                     </div>
-
 					<section class="ideology">
 						<div class="section-header">
 							<h3 class="section-title">건학이념</h3>

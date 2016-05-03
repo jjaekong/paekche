@@ -44,61 +44,44 @@
                 <ol class="breadcrumb">
                     <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
                     <li><a href="#">대학소개</a></li>
-                    <li class="active">설립이념</li>
+                    <li class="active">이사장 인사말</li>
                 </ol>
-                <main id="content" class="introduce vision">
+                <main id="content" class="introduce greeting">
 					<div class="page-header">
-                        <h2>설립이념<small>우리 대학의 설립과 <i>교육 목표 체계</i></small></h2>
+                        <h2>이사장 인사말</h2>
                         <hr>
                     </div>
-
-					<section class="ideology">
+					<section class="chairman">
 						<div class="section-header">
-							<h3 class="section-title">건학이념</h3>
+							<h3 class="section-title">문화 예술인의 터전,<span>백제예술대학교</span></h3>
 						</div>
 						<div class="section-content">
-							<p>
-								우리문화예술의 정통성을 바탕으로 그 본류를 주도하고 미래를 선도하는<br>
-								<strong>"예술인 교육"</strong>
-							</p>
-							<img src="/images/m_visual.jpg" alt="자연인,문화인,예술인">
-						</div>
-					</section>
-					<section class="purpose">
-						<div class="section-header">
-							<h3> 교육목적</h3>
-						</div>
-						<div class="section-content">
-							<p>
-								<strong>"우리문화예술의 정통성을 바탕으로 그 본류를 주도하고 미래를 선도하는 예술인 교육"</strong><br>
-								이라는 건학 이념을 구현하기 위해 우리는 우리문화예술의 본질을 이해하고 존중하며, 사회와 같이 호흡하고 고민하는 예술가 정신을 함양하여 각자의 예술표현의 욕구를 실제 예술현장에서 살아 있는 모습으로 행위 함으로써, 당대 문화예술의 본류를 이루고 또 이끌어가는 예술인, 예능인으로 교육하고자 한다.
-							</p>
-						</div>
-					</section>
-					<section class="target">
-						<div class="section-header">
-							<h3>교육목표</h3>
-						</div>
-						<p>우리 백제예술대학교는 다음과 같은 예술인상을 길러낸다.</p>
-						<div class="section-content">
-							<ul>
-								<li>
-									<img src="/images/cont_img1.jpg" alt="">
-									<p>사회와 대중과 같이<br>호흡하는 예술인</p>
-								</li>
-								<li>
-									<img src="/images/cont_img2.jpg" alt="">
-									<p>창의적인<br>예술인</p>
-								</li>
-								<li>
-									<img src="/images/cont_img3.jpg" alt="">
-									<p>행동하고 고민하는<br>예술인</p>
-								</li>
-								<li>
-									<img src="/images/cont_img4.jpg" alt="">
-									<p>시대적 요구와 조화되는<br>예술인</p>
-								</li>
-							</ul>
+							<div class="introduce">	
+								<img src="/images/introduce/chairman.jpg " alt="이사장인사말">
+								<ul>
+									<li>서울대학교 사회학과 졸업</li>
+									<li>전라북도지사</li>
+									<li>경향신문사 정치부장</li>
+									<li>MBC 문화방송 사장</li>
+								</ul>
+								<ul>
+									<li>(주) MBC경향신문 사장</li>
+									<li>백제문화 연구원 상임고문</li>
+									<li>전통문화 예술진흥회 총재</li>
+									<li>전주이씨 대동종악원 이사장</li>
+								</ul>	
+							</div>
+							<div class="intro">
+								<p>
+									인류의 문화는 예술이라는 표현수단을 통하여 전래, 발전되어 왔으며<br> 찬란한 문화유산과 역사를 자랑하는 우리민족은 심오하고 독특한<br>
+									예술적 감각을 지니고있습니다. 근래의 경제사회적 변혁과 양적인<br> 팽창시대의 우리 문화예술도끊임없는 신사조의 출현과 예술작품의 홍수<br>
+									속에 오늘을 맞이하고 있습니다. 
+								</p>
+								<p>
+									이에 우리 백제예술대학교는 전통성 있는 우리 문화의 본질을 이해하고<br> 표현하며 미래를 선도적으로 이끌어 갈 문화 예술인의 터전을 마련하여,<br> 자연인, 문화인,예술인의 교훈을 바탕으로 역사의 흐름 속에서<br> 한국문화의 본류와 함께 발전할 것입니다. 
+								</p>
+								<img src="/images/introduce/chief.png" alt="학교법인백암학원이사장 이환희">
+							</div>
 						</div>
 					</section>
                 </main>
