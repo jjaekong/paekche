@@ -1,0 +1,25 @@
+/* introduce vision*/
+/* ideology */
+.introduce.vision .ideology .section-header {font-size:24px; }
+.introduce.vision .ideology .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.vision .ideology .section-content {text-align:center; }
+.introduce.vision .ideology .section-content p {font-size:18px; margin-top:50px; line-height:50px; }
+.introduce.vision .ideology .section-content strong {font-size:36px; color:#d22d36; }
+.introduce.vision .ideology .section-content img {margin-top:60px; }
+
+/* purpose */
+.introduce.vision .purpose .section-header {margin-top:100px; }
+.introduce.vision .purpose .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.vision .purpose .section-content strong {font-size:22px; color:#d22d36; line-height:80px; }
+.introduce.vision .purpose .section-content p {font-size:15px; color:#555; line-height:28px; letter-spacing:-1px; }
+
+/* target */
+.introduce.vision .target {padding-bottom:150px; }
+.introduce.vision .target .section-header {margin-top:80px; }
+.introduce.vision .target .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.vision .target p {font-size:22px; color:#333; margin-top:32px; }
+.introduce.vision .target .section-content { }
+.introduce.vision .target .section-content ul {overflow:hidden; margin-left:20px; }
+.introduce.vision .target .section-content ul li {background:url("/images/introduce/arrow.png") 177px 70px no-repeat; float:left; text-align:center; margin-top:80px; width:205px; padding-right:45px; }
+.introduce.vision .target .section-content ul li:nth-of-type(4) {background:none; width:160px; padding-right:0px; }
+.introduce.vision .target .section-content ul li p {font-size:16px; line-height:20px; color:#8b8b8b; letter-spacing:-1px; }
