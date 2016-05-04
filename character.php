@@ -68,7 +68,7 @@
 							</div>
 						</div>
 						<div class="propel">
-							<h3>추진방향</h3>
+							<h3>추진방향<small> Progress direction</small></h3>
 							<div>
 								<h4>01</h4>
 								<p>산업체교류 및 현장 실무 중심의<br>교육체계구축</p>
