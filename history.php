@@ -151,27 +151,6 @@
             </div>
         </div>
     </div>
-<style>
-/* paekche-history */
-/* section-header */
-.introduce.history .paekche-history {overflow:hidden; padding-bottom:154px; }
-.introduce.history .paekche-history .section-header {position:relative; background:url("/images/introduce/bg_year.png") center no-repeat; float:left; width:284px; height:180px; margin:20px 130px 0 0; }
-.introduce.history .paekche-history .section-header h3 {margin-top:45px; font-weight:bold; font-size:30px; color:#fff; line-height:30px; text-align:center; }
-.introduce.history .paekche-history .section-header a {position:absolute; top:70px; left:0; }
-.introduce.history .paekche-history .section-header a:nth-of-type(2) {position:absolute; top:70px; left:262px; }
-
-/* section-content */
-.introduce.history .paekche-history .section-content {float:left; overflow:hidden; width:456px; margin-top:40px; }
-.introduce.history .paekche-history .section-content ol li h4 {float:left; margin:0; font-size:30px; }
-.introduce.history .paekche-history .section-content ol li:nth-of-type(1) {margin-top:0; }
-.introduce.history .paekche-history .section-content ol li {margin-top:58px; }
-.introduce.history .paekche-history .section-content ol li ol dl {float:left; width:340px; margin-left:44px; }
-.introduce.history .paekche-history .section-content ol li ol dt {float:left; color:#d22d36; font-size:16px; font-weight:bold; line-height:28px; }
-.introduce.history .paekche-history .section-content ol li ol dd {font-size:14px; margin-left:60px; letter-spacing:-1px; line-height:28px; color:#555; }
-.introduce.history .paekche-history .section-content ol li ol:after {content:""; display:block; clear:both; }
-
-
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

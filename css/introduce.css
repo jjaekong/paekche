@@ -1,4 +1,4 @@
-/* introduce vision*/
+/* vision*/
 /* ideology */
 .introduce.vision .ideology .section-header {font-size:24px; margin-top:50px; }
 .introduce.vision .ideology .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px;  }
@@ -24,6 +24,7 @@
 .introduce.vision .target .section-content ul li:nth-of-type(4) {background:none; width:160px; padding-right:0px; }
 .introduce.vision .target .section-content ul li p {font-size:16px; line-height:20px; color:#8b8b8b; letter-spacing:-1px; }
  
+
 /* greeting */
 /* chairman */
 .introduce.greeting .chairman .section-header .section-title {font-size:30px; margin-top:34px; }
@@ -44,6 +45,7 @@
 .introduce.greeting .chairman .section-content .intro p:nth-of-type(2) {margin-left:30px; }
 .introduce.greeting .chairman .section-content .intro img {position:absolute; bottom:0; right:0; }
 
+
 /* president */
 /* chancellor */
 .introduce.president .chancellor .section-header .section-title {font-size:30px; margin-top:34px; }
@@ -63,3 +65,62 @@
 .introduce.president .chancellor .section-content .intro p {font-size:15px; line-height:28px; color:#555; float:left; text-align:left; letter-spacing:-1px; }
 .introduce.president .chancellor .section-content .intro p:nth-of-type(2) {margin-left:30px; }
 .introduce.president .chancellor .section-content .intro img {position:absolute; bottom:0; right:0; }
+
+
+/* history */
+/* section-header */
+.introduce.history .paekche-history {overflow:hidden; padding-bottom:154px; }
+.introduce.history .paekche-history .section-header {position:relative; background:url("/images/introduce/bg_year.png") center no-repeat; float:left; width:284px; height:180px; margin:20px 130px 0 0; }
+.introduce.history .paekche-history .section-header h3 {margin-top:45px; font-weight:bold; font-size:30px; color:#fff; line-height:30px; text-align:center; }
+.introduce.history .paekche-history .section-header a {position:absolute; top:70px; left:0; }
+.introduce.history .paekche-history .section-header a:nth-of-type(2) {position:absolute; top:70px; left:262px; }
+
+/* section-content */
+.introduce.history .paekche-history .section-content {float:left; overflow:hidden; width:456px; margin-top:40px; }
+.introduce.history .paekche-history .section-content ol li h4 {float:left; margin:0; font-size:30px; }
+.introduce.history .paekche-history .section-content ol li:nth-of-type(1) {margin-top:0; }
+.introduce.history .paekche-history .section-content ol li {margin-top:58px; }
+.introduce.history .paekche-history .section-content ol li ol dl {float:left; width:340px; margin-left:44px; }
+.introduce.history .paekche-history .section-content ol li ol dt {float:left; color:#d22d36; font-size:16px; font-weight:bold; line-height:28px; }
+.introduce.history .paekche-history .section-content ol li ol dd {font-size:14px; margin-left:60px; letter-spacing:-1px; line-height:28px; color:#555; }
+.introduce.history .paekche-history .section-content ol li ol:after {content:""; display:block; clear:both; }
+
+
+/* strategic */
+/* vision */
+.introduce.strategic .strategy .vision {background:url("/images/introduce/u_arrow.png") center bottom no-repeat; text-align:center; height:150px; margin-top:54px; }
+.introduce.strategic .strategy .vision h3 {font-size:30px;}
+.introduce.strategic .strategy .vision p {font-size:20px; color:#555; margin-top:22px;}
+
+/* mission */
+.introduce.strategic .strategy .mission {background:url("/images/introduce/u_arrow.png") center bottom no-repeat; text-align:center; height:150px; }
+.introduce.strategic .strategy .mission h3 {font-size:30px; margin-top:50px;}
+.introduce.strategic .strategy .mission p {font-size:20px; color:#555; margin-top:22px;}
+
+/* target */
+.introduce.strategic .strategy .target {background:url("/images/introduce/u_arrow.png") center bottom no-repeat; text-align:center; height:300px; margin-top:52px; }
+.introduce.strategic .strategy .target h3 {font-size:30px; margin-top:50px;}
+.introduce.strategic .strategy .target div {position:relative; background:url("/images/introduce/target.png") center no-repeat; width:872px; margin:0 auto; height:180px; margin-top:33px; }
+.introduce.strategic .strategy .target p {position:absolute; top:65px; left:55px; font-size:18px; font-weight:bold; line-height:24px; color:#fff; }
+.introduce.strategic .strategy .target p:nth-of-type(2) {position:absolute; top:65px; left:268px; }
+.introduce.strategic .strategy .target p:nth-of-type(3) {position:absolute; top:75px; left:475px; }
+.introduce.strategic .strategy .target p:nth-of-type(4) {position:absolute; top:65px; left:675px; }
+
+/* core */
+.introduce.strategic .strategy .core {text-align:center; margin-top:50px; }
+.introduce.strategic .strategy .core h3 {font-size:30px; }
+.introduce.strategic .strategy .core div {overflow:hidden; margin-top:50px; padding-left:44px; }
+.introduce.strategic .strategy .core div dl {float:left; background:url("/images/introduce/edu.png") top center no-repeat; margin-right:56px; }
+.introduce.strategic .strategy .core div dt {font-size:15px; font-weight:bold; color:#d22d36; line-height:28px; margin-top:108px; }
+.introduce.strategic .strategy .core div dd {font-size:15px; line-height:28px; text-indent:5px; letter-spacing:-1px; }
+.introduce.strategic .strategy .core div dl:nth-of-type(2) {background:url("/images/introduce/research.png") top center no-repeat; }
+.introduce.strategic .strategy .core div dl:nth-of-type(3) {background:url("/images/introduce/cooperation.png") top center no-repeat; margin-right:0px; }
+.introduce.strategic .strategy .core div:nth-of-type(2) {margin:30px 0 100px 0; padding-left:220px;  } 
+.introduce.strategic .strategy .core div:nth-of-type(2) dt {font-size:15px; font-weight:bold; color:#d22d36; line-height:28px; margin-top:108px; } 
+.introduce.strategic .strategy .core div:nth-of-type(2) dd {ont-size:15px; line-height:28px; text-indent:5px; letter-spacing:-1px; } 
+.introduce.strategic .strategy .core div:nth-of-type(2) dl:nth-of-type(1) {background:url("/images/introduce/characteristic.png") top center no-repeat; margin-right:56px; }
+.introduce.strategic .strategy .core div:nth-of-type(2) dl:nth-of-type(2) {background:url("/images/introduce/management.png") top center no-repeat; margin-right:0px; }
+
+/* task */
+.introduce.strategic .strategy .task {background:url("/images/introduce/task.png") center no-repeat; width:831px; margin:0 auto; height:119px; margin-bottom:150px; }
+.introduce.strategic .strategy .task p {font-size:22px; color:#f37021; text-align:center; line-height:135px; }
