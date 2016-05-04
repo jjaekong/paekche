@@ -23,7 +23,7 @@
 .introduce.vision .target .section-content ul li {background:url("/images/introduce/arrow.png") 177px 70px no-repeat; float:left; text-align:center; margin-top:80px; width:205px; padding-right:45px; }
 .introduce.vision .target .section-content ul li:nth-of-type(4) {background:none; width:160px; padding-right:0px; }
 .introduce.vision .target .section-content ul li p {font-size:16px; line-height:20px; color:#8b8b8b; letter-spacing:-1px; }
-
+ 
 /* greeting */
 /* chairman */
 .introduce.greeting .chairman .section-header .section-title {font-size:30px; margin-top:34px; }

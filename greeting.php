@@ -46,7 +46,7 @@
                     <li><a href="#">대학소개</a></li>
                     <li class="active">이사장 인사말</li>
                 </ol>
-                <main id="content" class="introduce chairman">
+                <main id="content" class="introduce greeting">
 					<div class="page-header">
                         <h2>이사장 인사말</h2>
                         <hr>
