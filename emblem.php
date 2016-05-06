@@ -23,8 +23,8 @@
                             <li><a href="#">총장 인사말</a></li>
                             <li><a href="#">대학연혁</a></li>
                             <li><a href="#">비전 및 발전전략</a></li>
-                            <li class="active"><a href="#">특성화전략</a></li>
-                            <li><a href="#">상징소개</a></li>
+                            <li><a href="#">특성화전략</a></li>
+                            <li class="active"><a href="#">상징소개</a></li>
                             <li><a href="#">학교조직</a></li>
                             <li><a href="#">찾아오시는 길</a></li>
                             <li><a href="#">캠퍼스 안내</a></li>
@@ -44,54 +44,50 @@
                 <ol class="breadcrumb">
                     <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
                     <li><a href="#">대학소개</a></li>
-                    <li class="active">특성화전략</li>
+                    <li class="active">상징소개</li>
                 </ol>
-                <main id="content" class="introduce character">
+                <main id="content" class="introduce emblem">
 					<div class="page-header">
-                        <h2>특성화전략<small> 특성화목표와<i> 추진방향</i></small></h2>
+                        <h2>상징소개</h2>
 						<hr>
                     </div>
-					<section class="artist">
-						<div class="future">
-							<h3>특성화</h3>
-							<p><span>"현재"</span>를 주도하고 <span>"미래"</span>를 선도하는 예술대학</p>
-							<p><img src="/images/introduce/artist.png" alt="예술 예능 분야의 수준 높은 예술 행위인 양성"></p>
+					<section class="lesson">
+						<h3>교훈</h3>
+						<strong>PAEKCHE<br><i>INSTITUTE OF THE ARTS</i></strong>
+						<p><img src="/images/introduce/lesson.png" alt="교훈석"></p>
+						<div><img src="/images/introduce/nature.png" alt="자연인 문화인 예술인" /></div>
+					</section>
+					<section class="insignia">
+						<h3>교표</h3>
+						<div class="logo">
+							<h4>Logo</h4>
+							<img src="/images/introduce/logo.jpg" alt="로고">
 						</div>
-						<div class="core">
-							<h3>핵심전략<small> Core Strategy</small></h3>
-							<div>
-								<ul>
-									<li><p><span>방송,영상</span><br>제작인력 양성</p></li>
-									<li><p><span>공연,문화</span><br>예술인 양성</p></li>
-									<li><p><span>글로벌 뮤지션</span><br>양성</p></li>
-								</ul>
-							</div>
+						<div class="symbol">
+							<h4>Symbol</h4>
+							<img src="/images/introduce/symbol.jpg" alt="로고">
 						</div>
-						<div class="propel">
-							<h3>추진방향<small> Progress direction</small></h3>
-							<ol>
-								<li>
-									<h4>01</h4>
-									<p>산업체교류 및 현장 실무 중심의<br>교육체계구축</p>
-									<p>방송영상장비 공동사용,<br>영상정보 공유 등으로<br>교육의 질 확보</p>
-								</li>
-							
-								<li>
-									<h4>02</h4>
-									<p>공연예술분야 특화사업<br>주도척 참여</p>
-									<p>예능 전문가<br>진출프로그램의 가동</p>
-								</li>
-								<li>
-									<h4>03</h4>
-									<p>국내 음악계의 트랜드<br>피드백 체계 구축</p>
-									<p>세계 뮤직시장 흐름의 트랜드<br>분석 및 학습 체계 구축<br>컨버스형 뮤직 엔터테이너 육성</p>
-								</li>
-							</ol>
+						<h5>백제예술대학교 로고는</h5>
+						<p>
+							<i>Cosmos(우주)</i>와<i>Globle(세계적인)</i>을 상징하는 2개의 원 속에 창의적 감성(Yellow)과 냉철한 이성(Black)이 조화롭게 이루어져<br>
+							화려하게 빛나는 <i>신성(new star)</i>을 중심으로 역동적 에너지의 불꽃으로 승화하는 이미지를 상징한다.
+						</p>
+					</section>
+					<section class="inside">
+						<div class="flag">
+							<h4>교기<small> 백제예술대학교 <i>교기</i></small></h4>
+							<img src="/images/introduce/flag.jpg" alt="교기">
+							<p>교기</p>
+						</div>
+						<div class="song">
+							<h4>교가<small> 백제예술대학교 <i>교가</i></small></h4>
+							<p><a href="#">교가 듣기</a></p>
+							<p><a href="#">악보 보기</a></p>
 						</div>
 					</section>
                 </main>
             </div>
-        </div>
+        </div> 
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
