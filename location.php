@@ -56,8 +56,8 @@
 						<hr>
                     </div>
 					<section class="direction">
-						<p><img src="/images/introduce/map.jpg" alt="지도"></p>
-						<div class="btn-area">	
+						<div><img src="/images/introduce/map.jpg" alt="지도"></div>
+						<div class="btn-area">
 							<p><a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-menu-right"></span> 오시는길 프린트하기 </a></p>
 						</div>
 					</section>
@@ -83,7 +83,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td rowspan="3" style="border-right:1px solid #ccc;">서울</td>
+										<td rowspan="3">서울</td>
 										<td>직행버스</td>
 										<td>
 											<ul>
@@ -91,7 +91,7 @@
 												<li>행선지 : 익산</li>
 												<li>
 													서울 → 익산톨게이트 통과 후, 익산 왕궁 농공단지 앞  [직행버스<br>
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;임시정류장]에서 하차, 콜택시 이용
+													임시정류장]에서 하차, 콜택시 이용
 												</li>
 											</ul>
 										</td>
@@ -116,7 +116,7 @@
 												<li>행선지 : 전주,익산</li>
 												<li>
 													전주역 하차, 전주역파출소앞에서 545번, 546번 시내버스 승차<br>
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대학까지 25분 소요
+													대학까지 25분 소요
 												</li>
 												<li>익산역 하차, 맞은편 버스승강장에서 555번 좌석버스 승차 / 40분 소요</li>
 											</ul>
@@ -131,7 +131,7 @@
 												<li>행선지 : 전주,익산</li>
 												<li>
 													전주 고속버스터미널 하자, 전북은행본점까지 도보[20분] 후 시내버스<br>
-													&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;또는 통학버스 활용 (30분 소요)
+													또는 통학버스 활용 (30분 소요)
 												</li>
 												<li>익산직행버스터미널 하차, 버스승강장에서 555번 좌석버스 승차 (50분소요)</li>
 											</ul>
@@ -306,7 +306,7 @@
 						</div>
 					</section>
 					<section class="bus-schedule">
-						<div class="table-wrap" style="border-top:none;">
+						<div class="table-wrap">
 							<table class="table table-bordered">
 								<colgroup>
 									<col style="width:50%">
@@ -384,7 +384,6 @@
 									</tr>
 								</tbody>
 							</table>
-
 							<table class="table table-bordered">
 								<colgroup>
 									<col style="width:50%">
