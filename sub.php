@@ -50,61 +50,65 @@
                         <h2>설립이념 <small>우리 대학의 설립과 <i>교육 목표 체계</i></small></h2>
                         <hr>
                     </div>
-                    <div class="table-wrap">
-                        <table class="table table-bordered">
-                            <colgroup>
-                                <col style="width: 100px">
-                                <col>
-                                <col>
-                                <col>
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th>셀제목1</th>
-                                    <th>셀제목2</th>
-                                    <th>셀제목3</th>
-                                    <th>셀제목4</th>
-                                    <th>셀제목5</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>셀내용1</td>
-                                    <td>셀내용2</td>
-                                    <td>셀내용3</td>
-                                    <td>셀내용4</td>
-                                    <td>셀내용5</td>
-                                </tr>
-                                <tr>
-                                    <td>셀내용1</td>
-                                    <td>셀내용2</td>
-                                    <td>셀내용3</td>
-                                    <td>셀내용4</td>
-                                    <td>셀내용5</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="table-wrap">
+                            <table class="table table-bordered">
+                                <colgroup>
+                                    <col style="width: 100px">
+                                    <col>
+                                    <col>
+                                    <col>
+                                    <col>
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>셀제목1</th>
+                                        <th>셀제목2</th>
+                                        <th>셀제목3</th>
+                                        <th>셀제목4</th>
+                                        <th>셀제목5</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>셀내용1</td>
+                                        <td>셀내용2</td>
+                                        <td>셀내용3</td>
+                                        <td>셀내용4</td>
+                                        <td>셀내용5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>셀내용1</td>
+                                        <td>셀내용2</td>
+                                        <td>셀내용3</td>
+                                        <td>셀내용4</td>
+                                        <td>셀내용5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div class="table-wrap">
-                        <table class="table table-bordered non-thead">
-                            <colgroup>
-                                <col style="width: 100px">
-                                <col>
-                            </colgroup>
-                            <tbody class="non-thead">
-                                <tr>
-                                    <th>셀제목1</th>
-                                    <td>셀내용1</td>
-                                </tr>
-                                <tr>
-                                    <th>셀제목2</th>
-                                    <td>셀내용2</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="table-wrap">
+                            <table class="table table-bordered non-thead">
+                                <colgroup>
+                                    <col style="width: 100px">
+                                    <col>
+                                </colgroup>
+                                <tbody class="non-thead">
+                                    <tr>
+                                        <th>셀제목1</th>
+                                        <td>셀내용1</td>
+                                    </tr>
+                                    <tr>
+                                        <th>셀제목2</th>
+                                        <td>셀내용2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div><!-- 이 div는 의미없음, 아래탭은 컨텐츠 부분과 id맞춰줘야 함 -->
+                    <div style="margin-top: 50px; margin-bottom: 50px;"><!-- 이 div는 의미없음, 아래탭은 컨텐츠 부분과 id맞춰줘야 함 -->
                         <ul class="nav nav-pills nav-justified" role="tablist">
                             <li role="presentation" class="active"><a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">PC고장수리 / SW배정</a></li>
                             <li role="presentation"><a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">네트워크시설</a></li>
@@ -118,7 +122,16 @@
                             <div role="tabpanel" class="tab-pane" id="tab-4">nav-tab-4</div>
                         </div>
                     </div>
-                    <div>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <ul class="nav nav-pills nav-justified">
+                            <li role="presentation" class="active"><a href="#">학칙</a></li>
+                            <li role="presentation"><a href="#">학사내규</a></li>
+                            <li role="presentation"><a href="#">휴복학/자퇴/재입학</a></li>
+                            <li role="presentation"><a href="#">증명서/학생증 발급안내</a></li>
+                            <li role="presentation"><a href="#">학사 FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
                         <nav class="paging">
                             <ul class="pagination">
                                 <li>
@@ -139,28 +152,80 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="search-area">
-                        <form>
-                            <div class="form-group">
-                                <label for="search-keyword" class="sr-only">검색어</label>
-                                <input type="text" name="#" id="search-keyword" class="form-control">
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="search-area">
+                            <form>
+                                <div class="form-group">
+                                    <label for="search-keyword" class="sr-only">검색어</label>
+                                    <input type="text" name="#" id="search-keyword" class="form-control">
+                                </div>
+                                <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span><span class="sr-only">검색</span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-sm btn-primary">버튼 primary</a>
+                                <a href="#" class="btn btn-sm btn-default">버튼 default</a>
+                                <a href="#" class="btn btn-sm btn-important">버튼 important</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="btn-area">
+                            <p>
+                                <a href="#" class="btn btn-primary">버튼 primary arrow <span class="glyphicon glyphicon-menu-right"></span></a>
+                                <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-menu-right"></span> 버튼 default</a>
+                                <a href="#" class="btn btn-important">버튼 important</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div style="margin-top: 50px; margin-bottom: 50px;">
+                        <div class="panel-group accordion-list" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" >
+                                            제목 #1
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse-1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        내용 #1
+                                    </div>
+                                </div>
                             </div>
-                            <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span><span class="sr-only">검색</span></button>
-                        </form>
-                    </div>
-                    <div class="btn-area">
-                        <p>
-                            <a href="#" class="btn btn-sm btn-primary">버튼 primary</a>
-                            <a href="#" class="btn btn-sm btn-default">버튼 default</a>
-                            <a href="#" class="btn btn-sm btn-important">버튼 important</a>
-                        </p>
-                    </div>
-                    <div class="btn-area">
-                        <p>
-                            <a href="#" class="btn btn-primary">버튼 primary arrow <span class="glyphicon glyphicon-menu-right"></span></a>
-                            <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-menu-right"></span> 버튼 default</a>
-                            <a href="#" class="btn btn-important">버튼 important</a>
-                        </p>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
+                                            제목 #2
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse-2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        내용 #2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" class="collapsed">
+                                            제목 #3
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse-3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        내용 #3
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </main>
             </div>
