@@ -18,15 +18,15 @@
                     <h3>대학소개</h3>
                     <nav id="lnb">
                         <ul>
-                            <li><a href="#">설립이념</a></li>
-                            <li><a href="#">이사장 인사말</a></li>
-                            <li><a href="#">총장 인사말</a></li>
-                            <li class="active"><a href="#">대학연혁</a></li>
-                            <li><a href="#">비전 및 발전전략</a></li>
-                            <li><a href="#">특성화전략</a></li>
-                            <li><a href="#">상징소개</a></li>
-                            <li><a href="#">학교조직</a></li>
-                            <li><a href="#">찾아오시는 길</a></li>
+                            <li><a href="/introduce/vision.php">설립이념</a></li>
+                            <li><a href="/introduce/greeting.php">이사장 인사말</a></li>
+                            <li><a href="/introduce/president.php">총장 인사말</a></li>
+                            <li class="active"><a href="/introduce/history.php">대학연혁</a></li>
+                            <li><a href="/introduce/strategic.php">비전 및 발전전략</a></li>
+                            <li><a href="/introduce/character.php">특성화전략</a></li>
+                            <li><a href="/introduce/emblem.php">상징소개</a></li>
+                            <li><a href="/introduce/group.php">학교조직</a></li>
+                            <li><a href="/introduce/location.php">찾아오시는 길</a></li>
                             <li><a href="#">캠퍼스 안내</a></li>
                         </ul>
                     </nav>
