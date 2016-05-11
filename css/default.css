@@ -68,7 +68,7 @@ p {
       border-color: #ccc;
       text-align: left;
       font-size: 13px; }
-      #header .util .dropdown .btn p {
+      #header .util .dropdown .btn span {
         position: absolute;
         top: 0;
         right: 0;
@@ -442,6 +442,33 @@ body.sub #content .btn-area {
       body.sub #content .btn-area .btn.btn-important:focus, body.sub #content .btn-area .btn.btn-important:hover {
         background-color: rgba(210, 45, 54, 0.85);
         border-color: rgba(210, 45, 54, 0.85); }
+body.sub #content .accordion-list .panel {
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #ccc; }
+  body.sub #content .accordion-list .panel .panel-heading {
+    padding: 0;
+    background-color: #f9f9f9; }
+    body.sub #content .accordion-list .panel .panel-heading .panel-title {
+      font-size: 14px;
+      color: #333;
+      line-height: 23px;
+      font-weight: bold; }
+      body.sub #content .accordion-list .panel .panel-heading .panel-title a {
+        display: block;
+        padding: 10px 20px;
+        background-image: url(/images/ico_menu_up.png);
+        background-repeat: no-repeat;
+        background-position: 820px 50%; }
+        body.sub #content .accordion-list .panel .panel-heading .panel-title a.collapsed {
+          background-image: url(/images/ico_menu_down.png);
+          background-position: 820px 50%; }
+  body.sub #content .accordion-list .panel .panel-body {
+    padding: 20px;
+    border-top: 1px solid #ccc; }
+  body.sub #content .accordion-list .panel:first-child {
+    border-top: 2px solid #555; }
 
 #footer {
   height: 200px;

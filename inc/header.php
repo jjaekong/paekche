@@ -12,7 +12,7 @@
             <div class="campus dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="campus-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     교내사이트
-                    <p><span class="glyphicon glyphicon-menu-down"></span></p>
+                    <span class="glyphicon glyphicon-menu-down"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="campus-dropdown">
                     <li><a href="#">교내사이트 #1</a></li>
@@ -24,7 +24,7 @@
             <div class="depart dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="depart-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                     학과사이트
-                    <p><span class="glyphicon glyphicon-menu-down"></span></p>
+                    <span class="glyphicon glyphicon-menu-down"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="depart-dropdown">
                     <li><a href="#">학과사이트 #1</a></li>

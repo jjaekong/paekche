@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>백제예술대학교</title>
-    <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Roboto' rel='stylesheet'>
+    
+    <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/default.css" rel="stylesheet">
     <!--[if lt IE 9]>

@@ -80,7 +80,7 @@ p {
                 border-color: #ccc;
                 text-align: left;
                 font-size: 13px;
-                p {
+                span {
                     position: absolute;
                     top: 0;
                     right: 0;
@@ -590,6 +590,42 @@ body.sub {
                         background-color: rgba(#d22d36, .85);
                         border-color: rgba(#d22d36, .85);
                     }
+                }
+            }
+        }
+        .accordion-list {
+            .panel {
+                margin-top: 0;
+                border: 0;
+                border-radius: 0;
+                border-bottom: 1px solid #ccc;
+                .panel-heading {
+                    padding: 0;
+                    background-color: #f9f9f9;
+                    .panel-title {
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 23px;
+                        font-weight: bold;
+                        a {
+                            display: block;
+                            padding: 10px 20px;
+                            background-image: url(/images/ico_menu_up.png);
+                            background-repeat: no-repeat;
+                            background-position: 820px 50%;
+                            &.collapsed {
+                                background-image: url(/images/ico_menu_down.png);
+                                background-position: 820px 50%;
+                            }
+                        }
+                    }
+                }
+                .panel-body {
+                    padding: 20px;
+                    border-top: 1px solid #ccc;
+                }
+                &:first-child {
+                    border-top: 2px solid #555;
                 }
             }
         }
