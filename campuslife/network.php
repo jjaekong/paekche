@@ -57,7 +57,7 @@
 							<li><a href="/campuslife/repair.php">PC고장수리 / SW배정</a></li>
 							<li class="active"><a href="/campuslife/network.php">네트워크시설</a></li>
 							<li><a href="/campuslife/software_info.php">소프트웨어정보</a></li>
-							<li><a href="#">프로그램저작권 관련 FAQ</a></li>
+							<li><a href="/campuslife/program_faq.php">프로그램저작권 관련 FAQ</a></li>
 						</ul>
 						<div class="tab-content">
 							<h4>네트워크 시설 이용안내</h4>
