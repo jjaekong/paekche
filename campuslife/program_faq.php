@@ -126,7 +126,7 @@
 										<div class="panel-heading">
 											<h4 class="panel-title">
 												<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" class="collapsed">
-													단속시 불법복제 프로그램 사용이 적발되었다면 처벌은 어떠한 것이 있습니까? 
+													단속시 불법복제 프로그램 사용이 적발되었다면 처벌은 어떠한 것이 있습니까?
 												</a>
 											</h4>
 										</div>
@@ -145,17 +145,6 @@
 			</div>
 		</div> 
 	</div>
-<style>
-/* faq */
-.campuslife.program_faq .faq {margin:53px 0 270px 0; }
-.campuslife.program_faq .faq .panel .panel-title {letter-spacing:-1px; }
-.campuslife.program_faq .faq .panel .panel-title a {width:844px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
-.campuslife.program_faq .faq .panel .panel-title a:before {content:"Q"; font-style:italic; padding-right:15px;  }
-.campuslife.program_faq .faq .panel .panel-body {padding:20px 49px !important;}
-.campuslife.program_faq .faq .panel .panel-body {position:relative; font-size:14px; line-height:24px; letter-spacing:-0.9px; }
-.campuslife.program_faq .faq .panel .panel-body:before {position:absolute; top:20px; left:20px; content:"A"; font-style:italic; font-weight:bold; color:#d22d36; display:inline-block; }
-
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
