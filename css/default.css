@@ -1,6 +1,6 @@
 body {
   min-width: 1200px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 12px;
   background-color: #222;
   color: #333; }
@@ -19,6 +19,10 @@ address {
 
 p {
   margin-bottom: 0; }
+
+label {
+  margin-bottom: 0;
+  font-weight: normal; }
 
 .container {
   min-width: 1200px; }
@@ -350,10 +354,12 @@ body.sub #content .table-wrap {
       border-top: 0;
       border-bottom: 0;
       text-align: center;
-      font-size: 14px; }
+      font-size: 14px;
+      font-weight: normal; }
     body.sub #content .table-wrap .table tbody th {
       font-size: 14px;
-      text-align: center; }
+      text-align: center;
+      font-weight: normal; }
     body.sub #content .table-wrap .table tbody td {
       font-size: 14px;
       color: #666; }

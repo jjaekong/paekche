@@ -1,6 +1,6 @@
 body {
     min-width: 1200px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 12px;
     background-color: #222;
     color: #333;
@@ -19,6 +19,10 @@ address {
 }
 p {
     margin-bottom: 0;
+}
+label {
+    margin-bottom: 0;
+    font-weight: normal;
 }
 .container {
     min-width: 1200px;
@@ -452,12 +456,14 @@ body.sub {
                         border-bottom: 0;
                         text-align: center;
                         font-size: 14px;
+                        font-weight: normal;
                     }
                 }
                 tbody {
                     th {
                         font-size: 14px;
                         text-align: center;
+                        font-weight: normal;
                     }
                     td {
                         font-size: 14px;

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+.board-list .table td {
+  text-align: center; }
+  .board-list .table td.title {
+    overflow: hidden;
+    padding-left: 20px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    .board-list .table td.title a {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+      width: 400px;
+      color: #666;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+      .board-list .table td.title a img {
+        margin-left: 5px;
+        vertical-align: middle; }
+  .board-list .table td .label {
+    display: inline-block;
+    padding: 0;
+    min-width: 50px;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 5px; }
+    .board-list .table td .label.label-notice {
+      background-color: #d22d36; }
+.board-list .table tbody tr.reply td.title a:before {
+  content: 'ㄴ'; }
+.board-list .table tbody tr:last-child td {
+  border-bottom: 1px solid #ccc; }
+.board-list .paging .pagination {
+  margin-top: -20px;
+  margin-bottom: 0; }
+.board-list .btn-area p {
+  text-align: right; }
+
+.board-view {
+  width: 870px;
+  border-top: 2px solid #333; }
+  .board-view > header {
+    position: relative;
+    padding: 10px 250px 10px 30px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+    .board-view > header h3 {
+      overflow: hidden;
+      display: block;
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 100%;
+      font-size: 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      line-height: 23px; }
+    .board-view > header dl {
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      line-height: 23px; }
+      .board-view > header dl dt {
+        display: none; }
+      .board-view > header dl dd {
+        display: inline-block; }
+        .board-view > header dl dd:nth-of-type(2):before {
+          padding-left: 3px;
+          padding-right: 6px;
+          content: '|'; }
+  .board-view > .board-content {
+    padding: 20px !important;
+    min-height: 300px;
+    font-size: 14px !important;
+    line-height: 30px !important;
+    color: #666 !important;
+    border-bottom: 1px solid #ccc; }
+  .board-view > .board-nav li {
+    border-bottom: 1px solid #ccc; }
+    .board-view > .board-nav li a {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      padding-left: 55px;
+      padding-right: 10px;
+      font-size: 14px;
+      color: #666;
+      line-height: 40px;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+      .board-view > .board-nav li a > .glyphicon {
+        position: absolute;
+        left: 15px;
+        line-height: 40px;
+        color: #999;
+        font-size: 10px; }
+  .board-view > .btn-area .row > div:nth-of-type(1) .btn-list {
+    width: 90px;
+    background-color: #333;
+    border-color: #333;
+    color: #fff; }
+  .board-view > .btn-area .row > div:nth-of-type(2) {
+    text-align: right; }
+    .board-view > .btn-area .row > div:nth-of-type(2) .btn {
+      margin-left: 5px; }
+
+.board-write .table tbody td label {
+  font-weight: normal; }
+.board-write .table tbody td .form-control {
+  border-radius: 0;
+  box-shadow: none; }
+.board-write .table tbody td:nth-of-type(1) {
+  padding-left: 40px;
+  background-color: #f9f9f9;
+  color: #333 !important; }
+.board-write .table tbody td:nth-of-type(2) {
+  padding-left: 20px;
+  padding-right: 20px; }
+.board-write .btn-area p {
+  text-align: center; }
+  .board-write .btn-area p .btn {
+    margin: 0 5px;
+    width: 100px; }
+
+/*# sourceMappingURL=board.css.map */
