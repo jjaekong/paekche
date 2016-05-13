@@ -262,6 +262,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.program_faq .faq .tab-content .panel .panel-body {position:relative; font-size:14px; line-height:24px; letter-spacing:-0.9px; }
 .campuslife.program_faq .faq .tab-content .panel .panel-body:before {position:absolute; top:20px; left:20px; content:"A"; font-style:italic; font-weight:bold; color:#d22d36; display:inline-block; }
 
+
 /* administration */
 /* tab-content */
 .campuslife.statutes .administration {margin-top:32px; }
@@ -269,60 +270,58 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.statutes .administration .tab-content .panel .panel-body {margin-bottom:100px; }
 .campuslife.statutes .administration .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
 
-/* 공통 */
-.campuslife.statutes .administration .tab-content .panel .panel-body ol li {font-size:14px; letter-spacing:-1px; line-height:24px; }
-.campuslife.statutes .administration .tab-content .panel .panel-body span {height:23px; width:16px; display:inline-block; float:left; }
+/* circle-number */
+.campuslife.statutes .administration .tab-content .panel .panel-body .circle-number {padding-left:0; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .circle-number > li {position:relative; padding-left:17px; counter-increment:my-list-index; letter-spacing:-1px; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:6px; display:inline-block; margin-right:5px; width:13px; height:13px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
 
-.campuslife.statutes .administration .tab-content .panel .panel-body h5 {font-size:14px; letter-spacing:-1px; font-weight:bold; margin-bottom:0; padding-bottom:5px; }
+/* decimal-number */
+.campuslife.statutes .administration .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:17px; letter-spacing:-1px; font-size:14px; }
+
+.campuslife.statutes .administration .tab-content .panel .panel-body h5 {font-size:14px; letter-spacing:-1px; font-weight:bold; }
 .campuslife.statutes .administration .tab-content .panel .panel-body p {font-size:14px; line-height:24px; letter-spacing:-1px; }
-.campuslife.statutes .administration .tab-content .panel .panel-body strong {font-size:14px; line-height:24px; font-weight:normal; }
-.campuslife.statutes .administration .tab-content .panel .panel-body ol li h6 {font-size:14px; margin:3px 0 5px 0; line-height:20px; }
-
-/* 제1장 */
+.campuslife.statutes .administration .tab-content .panel .panel-body ol li {font-size:14px; line-height:24px;}
 .campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap {margin-top:40px; }
-.campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table {text-align:center; }
-.campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table thead tr:nth-of-type(2) {border-top:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table thead th {border-right:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table td {border-right:1px solid #ccc; border-bottom:1px solid #ccc; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .table-wrap .table {text-align:center; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .table-wrap .table thead tr:nth-of-type(2) {border-top:1px solid #ccc; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .table-wrap .table thead th {border-right:1px solid #ccc; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .table-wrap .table td {border-right:1px solid #ccc; border-bottom:1px solid #ccc; }
 .campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table tr:last-child {background-color:#fafafa; }
 .campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table th:last-child {border-right:0; }
 .campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table td:last-child {border-right:0; }
 .campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap .table tbody tr:nth-of-type(1) td:nth-of-type(4):before {content:"*"; padding-right:2px; color:#d22d36; }
-
-/* 제3장  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(3) ol:nth-of-type(3) li ol {margin-left:16px; }
-
-/* 제5장  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(5) ol li ol {margin-left:16px; }
-
-/* 제7장  */
 .campuslife.statutes .administration .tab-content .panel:nth-of-type(7) .table-wrap {margin:40px 0 40px 16px; }
 .campuslife.statutes .administration .tab-content .panel:nth-of-type(7) .table-wrap .table {text-align:center; border:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(7) .table-wrap .table tbody tr {border-bottom:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(7) .table-wrap .table thead tr th {border-right:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(7) .table-wrap .table tbody tr td {border-right:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(7) ol li ol {margin-left:16px; }
+.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(22) li:nth-of-type(2) ol li{position:relative; padding-left:20px; }
+.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(22) li:nth-of-type(2) ol li:nth-of-type(1):before {position:absolute; top:0; left:0; content:"가)";}
+.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(22) li:nth-of-type(2) ol li:nth-of-type(2):before {position:absolute; top:0; left:0; content:"나)";}
+.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(22) li:nth-of-type(2) ol li:nth-of-type(3):before {position:absolute; top:0; left:0; content:"다)";}
+.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) .table-wrap {margin:40px 0 40px 16px; }
+.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) .table-wrap .table {text-align:center; border:1px solid #ccc; }
 
-/* 제8장  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(8) ol li ol {margin-left:16px; }
 
-/* 제9장  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(9) ol li ol {margin-left:16px; }
+/* college */
+.campuslife.college_inner .college {margin-top:32px; }
+.campuslife.college_inner .college .tab-content {margin:50px 0 150px 0; }
+.campuslife.college_inner .college .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
+.campuslife.college_inner .college .tab-content .panel .panel-body h5 {font-size:14px; font-weight:bold; }
+.campuslife.college_inner .college .tab-content .panel .panel-body p {font-size:14px; letter-spacing:-1px; line-height:24px; }
+.campuslife.college_inner .college .tab-content .panel .panel-body ol li {font-size:14px; letter-spacing:-1px; line-height:24px; }
+.campuslife.college_inner .college .tab-content .panel .panel-body .table-wrap {margin:40px 0; text-align:center; }
 
-/* 제12장  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(12) ol li ol {margin-left:16px; }
+/* circle-number */
+.campuslife.college_inner .college .tab-content .panel .panel-body .circle-number {padding-left:0; }
+.campuslife.college_inner .college .tab-content .panel .panel-body .circle-number > li {position:relative; padding-left:15px; counter-increment:my-list-index; letter-spacing:-1px; }
+.campuslife.college_inner .college .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:7px; display:inline-block; margin-right:5px; width:12px; height:12px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
 
-/* 제16장  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(16) ol li ol {margin-left:16px; }
+/* decimal-number */
+.campuslife.college_inner .college .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:15px; letter-spacing:-1px; }
 
-/* 부칙  */
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(8) li:nth-of-type(2) ol li:nth-of-type(3) {margin-bottom:2px; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol li ol {margin-left:10px; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(8) li ol li span {width:19px; height:50px; display:inline-block; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(9) .table-wrap {margin:40px 0 40px 16px; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(9) .table-wrap .table {text-align:center; border:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(9) .table-wrap .table tbody tr {border-bottom:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(9) .table-wrap .table thead tr th {border-right:1px solid #ccc; }
-.campuslife.statutes .administration .tab-content .panel:nth-of-type(18) ol:nth-of-type(9) .table-wrap .table tbody tr td {border-right:1px solid #ccc; }
-
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(2) .panel-body p:nth-of-type(1) {margin-bottom:5px; }
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(11) .panel-body p {margin-bottom:20px; }
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body ul {margin:40px 0 40px 28px;  ;list-style-type:disc; }
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body h6 {font-size:14px; font-weight:bold; }
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body h6:before {content:"※"; padding-right:3px;}
+.campuslife.college_inner .college .tab-content .btn-area {margin-bottom:150px; }
+.campuslife.college_inner .college .tab-content .btn-area p {width:358px; height:20px; margin-top:30px; }
 
