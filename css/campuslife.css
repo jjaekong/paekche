@@ -267,7 +267,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* tab-content */
 .campuslife.statutes .administration {margin-top:32px; }
 .campuslife.statutes .administration .tab-content {margin:40px 0 1000px 0; }
-.campuslife.statutes .administration .tab-content .panel .panel-body {margin-bottom:100px; }
+.campuslife.statutes .administration .tab-content .panel .panel-body {margin-bottom:100px; padding-right:0 !important; }
 .campuslife.statutes .administration .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
 
 /* circle-number */
@@ -303,6 +303,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* college */
 .campuslife.college_inner .college {margin-top:32px; }
 .campuslife.college_inner .college .tab-content {margin:40px 0 150px 0; }
+.campuslife.college_inner .college .tab-content .panel .panel-body {padding-right:0 !important; }
 .campuslife.college_inner .college .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
 .campuslife.college_inner .college .tab-content .panel .panel-body h5 {font-size:14px; font-weight:bold; margin:0; margin:15px 0 5px 0;}
 .campuslife.college_inner .college .tab-content .panel .panel-body p {font-size:14px; letter-spacing:-1px; line-height:24px; }
@@ -322,9 +323,149 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body ul {margin-left:2px; }
 .campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body ul li:before {content:"ㆍ"; }
 
-.campuslife.college_inner .college .tab-content .btn-area {margin-bottom:150px; height:50px;  overflow:hidden; }
+.campuslife.college_inner .college .tab-content .btn-area {margin-bottom:150px; height:50px; overflow:hidden; }
 .campuslife.college_inner .college .tab-content .btn-area p {margin-top:10px; width:358px; height:20px; float:left; }
-.campuslife.college_inner .college .tab-content h6 {margin-top:25px; font-size:14px; font-weight:bold; float:right; }
-.campuslife.college_inner .college .tab-content h6:before {content:"※"; padding-right:3px;}
+.campuslife.college_inner .college .tab-content .btn-area strong {font-weight:normal; margin-top:15px; font-size:14px; float:right; }
 
 
+/* certificate */
+/* issue */
+.campuslife.certificate .issue {margin-top:32px; }
+.campuslife.certificate .issue .tab-content {margin:40px 0 150px 0; }
+.campuslife.certificate .issue .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body {overflow:hidden; padding-right:0 !important;}
+.campuslife.certificate .issue .tab-content .panel .panel-body > strong:nth-of-type(1) {font-size:13px; float:right; margin:30px 0; font-weight:normal; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap {margin:40px 0 0 10px; letter-spacing:-1px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap tr td {padding-left:20px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap .table {font-size:14px; margin-bottom:50px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap .table tr td p {position:relative; padding-left:12px; letter-spacing:-1px; line-height:24px; } 
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap .table tr td p:before {position:absolute; top:0; left:0px; content:"※"; padding-right:3px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table {text-align:center; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table ol {list-style:decimal; padding-left:12px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table ol li {text-align:left; letter-spacing:-1px; line-height:24px;}
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table tr:last-child {height:123px;}
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table p {text-align:left; letter-spacing:-1px; }
+
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) {font-size:14px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr td {text-align:left; padding-left:20px;}
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(3) {height:122px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(3) td {line-height:24px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(6) {height:82px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(7) {height:82px; }
+ 
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table {text-align:center; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(3) {height:122px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(1) {text-align:left; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(2) {text-align:left; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(3) {text-align:left; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(4) {text-align:left; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(14) {text-align:left; height:78px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(4) .table {margin-bottom:0; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(4) .table tr td a {color:#666; text-decoration:none; }
+
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table {margin-bottom:0; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(1) {height:280px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(1) td {text-align:center; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(1) td img {width:286px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(2) {height:80px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(3) {height:80px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(4) {height:120px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(6) {height:80px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td {text-align:left; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li {position:relative; padding-left:12px; }
+.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li:before {position:absolute; top:0; left:0; content:"ㆍ"; }
+
+/* circle-number */
+.campuslife.certificate .issue .tab-content .panel .panel-body .circle-number {padding-left:0; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .circle-number > li {position:relative; padding-left:15px; counter-increment:my-list-index; letter-spacing:-1px; }
+.campuslife.certificate .issue .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:5px; display:inline-block; margin-right:5px; width:12px; height:12px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
+
+
+/* readmission */
+/* readmission-info */
+.campuslife.readmission .readmission-info {margin-top:32px; }
+.campuslife.readmission .readmission-info .tab-content {margin:40px 0 150px 0; }
+.campuslife.readmission .readmission-info .tab-content > strong {font-size:13px; float:right; margin-top:10px; font-weight:normal; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body {padding-right:0 !important; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 20px -17px; text-indent:17px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body p {line-height:24px; letter-spacing:-1px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body p:before {content:"※"; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body {font-size:14px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .table-wrap {margin:40px 0 0 10px; letter-spacing:-1px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .table-wrap .table tr td {padding-left:20px; line-height:24px;}
+
+/* absence */
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence {position:relative; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence > p:nth-of-type(1) {margin-left:10px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence > p:nth-of-type(1):before {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .btn-area {position:absolute; top:18px; right:0; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .btn-area p:before {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .btn-area a {background:url("/images/campuslife/down_bg.png") 7px 5px no-repeat; width:180px; height:35px; font-size:13px; letter-spacing:-1px; padding-left:35px !important; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td i {font-style:normal; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td i:after {content:"⇒"; padding:0 10px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr {height:80px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr:nth-of-type(1) {height:165px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul li {position:relative; float:left; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul li:after {content:">"; padding:0 10px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul li:last-child:after {content:""; }
+
+/* returning */
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning {position:relative; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning h3 {margin-top:60px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning ol {list-style:decimal; margin-left:25px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning ol li {line-height:24px; letter-spacing:-1px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .btn-area {position:absolute; top:65px; right:0; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul li {float:left; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul li:after {content:"→"; padding:0 10px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul li:last-child:after {content:""; }
+
+/* 자퇴 */
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body {position:relative; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body h5 {margin:40px 0 40px 10px; font-size:14px; font-weight:bold; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .btn-area {position:absolute; top:45px; right:0; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body p {margin-left:10px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body p:before {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul {overflow:hidden;  }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li {position:relative; float:left; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li:after {content:">"; padding:0 10px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li:last-child:after {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap:last-child .table {text-align:center; }
+
+/* 전과 */
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body {position:relative; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .btn-area {position:absolute; top:75px; right:0; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body p {margin:0 0 70px 8px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body p:before {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body ol {list-style:decimal; margin-left:13px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(2) {height:120px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(5) {height:162px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul li {float:left; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul li:after {content:"→"; padding:0 10px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul li:last-child:after {content:"";}
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(5) ul li {position:relative; padding-left:13px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(5) ul li:before {position:absolute; top:0; left:0; content:"ㆍ";}
+
+/* 재입학 */
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body {position:relative; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .btn-area {position:absolute; top:45px; right:0; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body p {margin-left:10px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body p:before {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body > .table-wrap {margin-top:16px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul li {float:left; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul li:after {content:">"; padding:0 10px;}
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul li:last-child:after {content:""; }
+
+/* 병역이행 */
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(5) .panel-body p {margin-left:10px; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(5) .panel-body p:before {content:""; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(5) .panel-body .army-delay {margin:40px 0 0 10px; }
+
+
+/* broadcasting */
+.campuslife.broadcasting .broadcasting-intro {text-align:center; }
+.campuslife.broadcasting .broadcasting-intro h3 {margin-top:60px; font-size:30px; color:#d22d36; }
+.campuslife.broadcasting .broadcasting-intro p {margin:30px 0 60px 0; font-size:15px; line-height:24px; letter-spacing:-1px; }

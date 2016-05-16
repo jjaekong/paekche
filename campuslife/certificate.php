@@ -56,7 +56,7 @@
 						<ul class="nav nav-pills nav-justified">
 							<li role="presentation"><a href="/campuslife/statutes.php">학칙</a></li>
 							<li role="presentation"><a href="/campuslife/college_inner.php">학사내규</a></li>
-							<li role="presentation"><a href="#">휴복학/자퇴/재입학</a></li>
+							<li role="presentation"><a href="/campuslife/readmission.php">휴복학/자퇴/재입학</a></li>
 							<li role="presentation" class="active"><a href="/campuslife/certificate.php">증명서/학생증 발급안내</a></li>
 							<li role="presentation"><a href="#">학사 FAQ</a></li>
 						</ul>
@@ -376,7 +376,7 @@
 														<tr>
 															<th>Sample</th>
 															<td>
-																<img src="/images/campuslife/school_card.jpg" alt="학생증" />
+																<img src="/images/campuslife/school_card.jpg" alt="학생증 샘플" />
 															</td>
 														</tr>
 														<tr>
@@ -433,71 +433,16 @@
 												</table>
 											</div>
 											<strong>발급문의 : 학생지원처(260-9105)</strong>
-
 										</div>
 									</div>
 								</div>
 							</div>
-						
 						</div>
 					</div>
 				</main>
 			</div>
 		</div>
 	</div>
-<style>
-/* certificate */
-/* issue */
-.campuslife.certificate .issue {margin-top:32px; }
-.campuslife.certificate .issue .tab-content {margin:40px 0 150px 0; }
-.campuslife.certificate .issue .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body {overflow:hidden; }
-.campuslife.certificate .issue .tab-content .panel .panel-body > strong:nth-of-type(1) {font-size:13px; float:right; margin:30px 0;}
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap {margin:40px 0 0 10px; letter-spacing:-1px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap tr td {padding-left:20px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap .table {font-size:14px; margin-bottom:50px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap .table tr td p {position:relative; padding-left:12px; letter-spacing:-1px; line-height:24px; } 
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap .table tr td p:before {position:absolute; top:0; left:0px; content:"※"; padding-right:3px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table {text-align:center; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table ol {list-style:decimal; padding-left:12px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table ol li {text-align:left; letter-spacing:-1px; line-height:24px;}
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table tr:last-child {height:123px;}
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(1) .table p {text-align:left; letter-spacing:-1px; }
-
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) {font-size:14px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr td {text-align:left; padding-left:20px;}
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(3) {height:122px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(3) td {line-height:24px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(6) {height:82px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(2) .table tr:nth-of-type(7) {height:82px; }
- 
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table {text-align:center; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(3) {height:122px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(1) {text-align:left; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(2) {text-align:left; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(3) {text-align:left; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(4) {text-align:left; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(3) .table tr:nth-of-type(14) {text-align:left; height:78px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .table-wrap:nth-of-type(4) .table {margin-bottom:0; }
-
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table {margin-bottom:0; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(1) {height:280px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(1) td {text-align:center; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(1) td img {width:286px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(2) {height:80px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(3) {height:80px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(4) {height:120px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr:nth-of-type(6) {height:80px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td {text-align:left; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li {position:relative; padding-left:12px; }
-.campuslife.certificate .issue .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li:before {position:absolute; top:0; left:0; content:"ㆍ"; }
-
-/* circle-number */
-.campuslife.certificate .issue .tab-content .panel .panel-body .circle-number {padding-left:0; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .circle-number > li {position:relative; padding-left:15px; counter-increment:my-list-index; letter-spacing:-1px; }
-.campuslife.certificate .issue .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:5px; display:inline-block; margin-right:5px; width:12px; height:12px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
-
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>

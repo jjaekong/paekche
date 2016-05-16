@@ -56,7 +56,7 @@
 						<ul class="nav nav-pills nav-justified">
 							<li role="presentation"><a href="/campuslife/statutes.php">학칙</a></li>
 							<li role="presentation" class="active"><a href="/campuslife/college_inner.php">학사내규</a></li>
-							<li role="presentation"><a href="#">휴복학/자퇴/재입학</a></li>
+							<li role="presentation"><a href="/campuslife/readmission.php">휴복학/자퇴/재입학</a></li>
 							<li role="presentation"><a href="/campuslife/certificate.php">증명서/학생증 발급안내</a></li>
 							<li role="presentation"><a href="#">학사 FAQ</a></li>
 						</ul>
@@ -875,7 +875,7 @@
 								<p>
 									<a href="http://www.paekche.ac.kr/webpage/life/collegeadmin_inner.pdf" target="_blank" class="btn btn-sm btn-important"><span class="glyphicon glyphicon-menu-right"></span>학사내규 전문보기</a>
 								</p>
-								<h6>자료제공 : 교무처 063)260-9103 </h6>
+								<strong>자료제공 : 교무처 063)260-9103 </strong>
 							</div>
 						</div>
 					</div>
