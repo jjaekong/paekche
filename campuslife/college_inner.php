@@ -55,9 +55,9 @@
 					<div class="college">
 						<ul class="nav nav-pills nav-justified">
 							<li role="presentation"><a href="/campuslife/statutes.php">학칙</a></li>
-							<li role="presentation" class="active"><a href="/campuslife/collge_inner.php">학사내규</a></li>
+							<li role="presentation" class="active"><a href="/campuslife/college_inner.php">학사내규</a></li>
 							<li role="presentation"><a href="#">휴복학/자퇴/재입학</a></li>
-							<li role="presentation"><a href="#">증명서/학생증 발급안내</a></li>
+							<li role="presentation"><a href="/campuslife/certificate.php">증명서/학생증 발급안내</a></li>
 							<li role="presentation"><a href="#">학사 FAQ</a></li>
 						</ul>
 						<div class="tab-content">
@@ -372,7 +372,7 @@
 									</div>
 									<div id="collapse-6" class="panel-collapse collapse">
 										<div class="panel-body">
-											<h4>시 험</h4>
+											<h3>시 험</h3>
 											<h5>성적평가</h5>
 											<ol class="circle-number">
 												<li>
@@ -430,6 +430,7 @@
 									</div>
 									<div id="collapse-7" class="panel-collapse collapse">
 										<div class="panel-body">
+											<h3>성적평가 기준</h3>
 											<h5>성적평가 기준</h5>
 											<p>
 												성적 평가는 학기당 2회 실시하며, 평가 기준은 필기 시험, 과제물, 출석점수등을 합한 100점 만점으로 한다.<br>
@@ -866,7 +867,6 @@
 													<li>기타 학업에 관계되는 증명</li>
 												</ul>
 											</ol>
-											<h6>자료제공 : 교무처 063)260-9103 </h6>
 										</div>
 									</div>
 								</div>
@@ -875,6 +875,7 @@
 								<p>
 									<a href="http://www.paekche.ac.kr/webpage/life/collegeadmin_inner.pdf" target="_blank" class="btn btn-sm btn-important"><span class="glyphicon glyphicon-menu-right"></span>학사내규 전문보기</a>
 								</p>
+								<h6>자료제공 : 교무처 063)260-9103 </h6>
 							</div>
 						</div>
 					</div>

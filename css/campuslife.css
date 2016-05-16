@@ -263,10 +263,10 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.program_faq .faq .tab-content .panel .panel-body:before {position:absolute; top:20px; left:20px; content:"A"; font-style:italic; font-weight:bold; color:#d22d36; display:inline-block; }
 
 
-/* administration */
+/* statutes */
 /* tab-content */
 .campuslife.statutes .administration {margin-top:32px; }
-.campuslife.statutes .administration .tab-content {margin:50px 0 1000px 0; }
+.campuslife.statutes .administration .tab-content {margin:40px 0 1000px 0; }
 .campuslife.statutes .administration .tab-content .panel .panel-body {margin-bottom:100px; }
 .campuslife.statutes .administration .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
 
@@ -278,7 +278,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* decimal-number */
 .campuslife.statutes .administration .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:17px; letter-spacing:-1px; font-size:14px; }
 
-.campuslife.statutes .administration .tab-content .panel .panel-body h5 {font-size:14px; letter-spacing:-1px; font-weight:bold; }
+.campuslife.statutes .administration .tab-content .panel .panel-body h5 {font-size:14px; font-weight:bold; margin:0; margin:15px 0 5px 0;}
 .campuslife.statutes .administration .tab-content .panel .panel-body p {font-size:14px; line-height:24px; letter-spacing:-1px; }
 .campuslife.statutes .administration .tab-content .panel .panel-body ol li {font-size:14px; line-height:24px;}
 .campuslife.statutes .administration .tab-content .panel .panel-body ol:nth-of-type(1) li .table-wrap {margin-top:40px; }
@@ -302,9 +302,9 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 
 /* college */
 .campuslife.college_inner .college {margin-top:32px; }
-.campuslife.college_inner .college .tab-content {margin:50px 0 150px 0; }
+.campuslife.college_inner .college .tab-content {margin:40px 0 150px 0; }
 .campuslife.college_inner .college .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 25px -17px; text-indent:17px; }
-.campuslife.college_inner .college .tab-content .panel .panel-body h5 {font-size:14px; font-weight:bold; }
+.campuslife.college_inner .college .tab-content .panel .panel-body h5 {font-size:14px; font-weight:bold; margin:0; margin:15px 0 5px 0;}
 .campuslife.college_inner .college .tab-content .panel .panel-body p {font-size:14px; letter-spacing:-1px; line-height:24px; }
 .campuslife.college_inner .college .tab-content .panel .panel-body ol li {font-size:14px; letter-spacing:-1px; line-height:24px; }
 .campuslife.college_inner .college .tab-content .panel .panel-body .table-wrap {margin:40px 0; text-align:center; }
@@ -312,16 +312,19 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* circle-number */
 .campuslife.college_inner .college .tab-content .panel .panel-body .circle-number {padding-left:0; }
 .campuslife.college_inner .college .tab-content .panel .panel-body .circle-number > li {position:relative; padding-left:15px; counter-increment:my-list-index; letter-spacing:-1px; }
-.campuslife.college_inner .college .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:7px; display:inline-block; margin-right:5px; width:12px; height:12px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
+.campuslife.college_inner .college .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:6px; display:inline-block; margin-right:5px; width:12px; height:12px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
 
 /* decimal-number */
 .campuslife.college_inner .college .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:15px; letter-spacing:-1px; }
 
 .campuslife.college_inner .college .tab-content .panel:nth-of-type(2) .panel-body p:nth-of-type(1) {margin-bottom:5px; }
 .campuslife.college_inner .college .tab-content .panel:nth-of-type(11) .panel-body p {margin-bottom:20px; }
-.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body ul {margin:40px 0 40px 28px;  ;list-style-type:disc; }
-.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body h6 {font-size:14px; font-weight:bold; }
-.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body h6:before {content:"※"; padding-right:3px;}
-.campuslife.college_inner .college .tab-content .btn-area {margin-bottom:150px; }
-.campuslife.college_inner .college .tab-content .btn-area p {width:358px; height:20px; margin-top:30px; }
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body ul {margin-left:2px; }
+.campuslife.college_inner .college .tab-content .panel:nth-of-type(12) .panel-body ul li:before {content:"ㆍ"; }
+
+.campuslife.college_inner .college .tab-content .btn-area {margin-bottom:150px; height:50px;  overflow:hidden; }
+.campuslife.college_inner .college .tab-content .btn-area p {margin-top:10px; width:358px; height:20px; float:left; }
+.campuslife.college_inner .college .tab-content h6 {margin-top:25px; font-size:14px; font-weight:bold; float:right; }
+.campuslife.college_inner .college .tab-content h6:before {content:"※"; padding-right:3px;}
+
 

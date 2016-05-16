@@ -55,9 +55,9 @@
 					<div class="administration">
 						<ul class="nav nav-pills nav-justified">
 							<li role="presentation" class="active"><a href="/campuslife/statutes.php">학칙</a></li>
-							<li role="presentation"><a href="#">학사내규</a></li>
+							<li role="presentation"><a href="/campuslife/college_inner.php">학사내규</a></li>
 							<li role="presentation"><a href="#">휴복학/자퇴/재입학</a></li>
-							<li role="presentation"><a href="#">증명서/학생증 발급안내</a></li>
+							<li role="presentation"><a href="/campuslife/certificate.php">증명서/학생증 발급안내</a></li>
 							<li role="presentation"><a href="#">학사 FAQ</a></li>
 						</ul>
 						<div class="tab-content">
@@ -1230,7 +1230,7 @@
 
 											<h5>부 칙</h5>
 											<ol class="decimal-number">
-												<li>(시행일) 이 학칙은 2003년 2월 10일부터 시행한다.<</li>
+												<li>(시행일) 이 학칙은 2003년 2월 10일부터 시행한다.</li>
 											</ol>
 
 											<h5>부 칙</h5>
