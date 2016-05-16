@@ -32,11 +32,19 @@
   content: 'ㄴ'; }
 .board-list .table tbody tr:last-child td {
   border-bottom: 1px solid #ccc; }
-.board-list .paging .pagination {
-  margin-top: -20px;
-  margin-bottom: 0; }
-.board-list .btn-area p {
-  text-align: right; }
+.board-list .paging {
+  position: relative; }
+  .board-list .paging .pagination {
+    margin-top: 10px;
+    margin-bottom: 100px; }
+  .board-list .paging .btn-area {
+    margin-top: 0 !important; }
+    .board-list .paging .btn-area p {
+      text-align: right; }
+      .board-list .paging .btn-area p .btn {
+        position: absolute;
+        top: 0;
+        right: 0; }
 
 .board-view {
   width: 870px;

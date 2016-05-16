@@ -131,11 +131,6 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="btn-area">
-                            <p>
-                                <a href="#" class="btn btn-important btn-sm">글쓰기</a>
-                            </p>
-                        </div>
                         <nav class="paging">
                             <ul class="pagination">
                                 <li>
@@ -154,6 +149,11 @@
                                     </a>
                                 </li>
                             </ul>
+                            <div class="btn-area">
+                                <p>
+                                    <a href="#" class="btn btn-important btn-sm">글쓰기</a>
+                                </p>
+                            </div>
                         </nav>
                     </div>
                 </main>

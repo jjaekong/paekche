@@ -53,14 +53,21 @@
         }
     }
     .paging {
+        position: relative;
         .pagination {
-            margin-top: -20px;
-            margin-bottom: 0;
+            margin-top: 10px;
+            margin-bottom: 100px;
         }
-    }
-    .btn-area {
-        p {
-            text-align: right;
+        .btn-area {
+            margin-top: 0 !important;
+            p {
+                text-align: right;
+                .btn {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
         }
     }
 }

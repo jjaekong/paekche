@@ -1,3 +1,403 @@
+// 게시판 목록
 .community.board.list {
-    
+    .search-area {
+        margin-bottom: 40px;
+    }
+}
+
+
+// 백제스타
+.community.star {
+    .search-area {
+        margin-bottom: 20px;
+    }
+    .star-wrap {
+        position: relative;
+        .star-view {
+            margin: 0 auto 35px;
+            width: 540px;
+            height: 620px;
+            ul {
+                > li {
+                    figure {
+                        img {
+                            width: 540px;
+                            height: 540px;
+                            border-radius: 50%;
+                        }
+                        figcaption {
+                            margin-top: 25px;
+                            dl {
+                                font-size: 16px;
+                                color: #333;
+                                line-height: 24px;
+                                text-align: center;
+                                dt, dd {
+                                    display: inline-block;
+                                }
+                                dt {
+                                    font-weight: normal;
+                                    &:after {
+                                        padding-left: 3px;
+                                        content: '/';
+                                    }
+                                }
+                                dd {
+                                    &.br {
+                                        display: block;
+                                    }
+                                    &:nth-of-type(3) {
+                                        &:after {
+                                            padding-left: 3px;
+                                            content: '/';
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .controls {
+                a {
+                    position: absolute;
+                    top: 255px;
+                    &.prev {
+                        left: 75px;
+                    }
+                    &.next {
+                        right: 75px;
+                    }
+                }
+            }
+        }
+        .star-list {
+            > ul {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    margin-right: 23px;
+                    margin-bottom: 55px;
+                    width: 200px;
+                    &:nth-of-type(4n) {
+                        margin-right: 0;
+                    }
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        &:hover,
+                        &:focus {
+                            opacity: .9;
+                        }
+                        figure {
+                            img {
+                                width: 200px;
+                                height: 200px;
+                                border-radius: 50%;
+                            }
+                            figcaption {
+                                margin-top: 15px;
+                                dl {
+                                    font-size: 16px;
+                                    color: #333;
+                                    text-align: center;
+                                    dt, dd {
+                                        display: inline-block;
+                                        font-weight: normal;
+                                    }
+                                    dt:after {
+                                        padding-left: 3px;
+                                        content: '/';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            position: relative;
+            .pagination {
+                margin-top: 10px;
+                margin-bottom: 100px;
+            }
+            .btn-area {
+                margin-top: 0 !important;
+                p {
+                    .btn {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 자취하숙안내
+.community.lodging-house {
+    .search-area {
+        margin-bottom: 40px;
+    }
+    .house-list {
+        > ul {
+            overflow: hidden;
+            > li {
+                float: left;
+                margin-right: 15px;
+                margin-bottom: 15px;
+                width: 280px;
+                height: 300px;
+                border: 1px solid #dfdfdf;
+                &:nth-of-type(3n) {
+                    margin-right: 0;
+                }
+                > a {
+                    display: block;
+                    text-decoration: none;
+                    &:focus,
+                    &:hover {
+                        opacity: .9;
+                    }
+                    .figure {
+                        margin-left: -1px;
+                        margin-right: -1px;
+                        margin-top: -1px;
+                        width: 280px;
+                        height: 150px;
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        background-size: cover;
+                    }
+                    .details {
+                        padding: 20px;
+                        width: 100%;
+                        height: 150px;
+                        dl {
+                            &:nth-of-type(1) {
+                                margin-top: 10px;
+                                margin-bottom: 15px;
+                                padding-bottom: 15px;
+                                border-bottom: 1px solid #dfdfdf;
+                                dt {
+                                    margin-bottom: 10px;
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: normal;
+                                }
+                                dd {
+                                    display: inline-block;
+                                    font-size: 13px;
+                                    color: #555;
+                                    &:nth-of-type(1):after {
+                                        padding-left: 3px;
+                                        content: '/';
+                                    }
+                                }
+                            }
+                            &:nth-of-type(2) {
+                                float: left;
+                                font-size: 13px;
+                                dd {
+                                    color: #555;
+                                }
+                            }
+                            &:nth-of-type(3) {
+                                float: right;
+                                font-size: 13px;
+                                dt, dd {
+                                    display: inline-block;
+                                }
+                                dd {
+                                    color: #555;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paging {
+        position: relative;
+        .pagination {
+            margin-top: 10px;
+            margin-bottom: 100px;
+        }
+        .btn-area {
+            margin-top: 0 !important;
+            p {
+                .btn {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+
+// 성희롱상담실
+.community.sexual-counsel {
+    .overview {
+        margin-bottom: 25px;
+        padding-top: 35px;
+        width: 870px;
+        height: 350px;
+        background-image: url(/images/community/bg_sexual.jpg);
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+        hr {
+            margin: 0 auto;
+            width: 40px;
+            border-color: #fff;
+            text-align: center;
+        }
+        h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: 100;
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            &:nth-of-type(2) {
+                margin-top: 25px;
+                a {
+                    display: inline-block;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+    .info {
+        margin-bottom: 150px;
+        dl {
+            font-size: 14px;
+            dt {
+                margin-top: 5px;
+                font-weight: 500;
+                background-image: url(/images/community/ico_arrow_red.png);
+                background-position: 0 50%;
+                background-repeat: no-repeat;
+            }
+            dt, dd {
+                padding-left: 15px;
+                line-height: 24px;
+                color: #555;
+            }
+        }
+        .help {
+            font-size: 13px;
+            color: #d22d36;
+            &:before {
+                padding-right: 5px;
+                content: '*';
+            }
+        }
+    }
+}
+
+// 학생상담실
+.community.student-counsel {
+    .overview {
+        margin-bottom: 25px;
+        padding-top: 40px;
+        width: 870px;
+        height: 210px;
+        background-image: url(/images/community/bg_counsel.jpg);
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+        hr {
+            margin: 0 auto;
+            width: 40px;
+            border-color: #fff;
+            text-align: center;
+        }
+        h3 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-style: italic;
+            font-weight: 100;
+        }
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 1px;
+        }
+    }
+    .info {
+        margin-bottom: 25px;
+        h4 {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 15px;
+            font-size: 14px;
+            line-height: 24px;
+            background-image: url(/images/community/ico_arrow_red.png);
+            background-position: 0 50%;
+            background-repeat: no-repeat;
+            color: #555;
+        }
+        dl {
+            font-size: 14px;
+            dt {
+                padding-left: 15px;
+                background-image: url(/images/community/ico_list_dot.gif);
+                background-position: 0 50%;
+                background-repeat: no-repeat;
+                font-weight: normal;
+                &:after {
+                    padding-left: 3px;
+                    padding-right: 3px;
+                    content: ':';
+                }
+            }
+            dt, dd {
+                line-height: 24px;
+                color: #555;
+            }
+            p {
+                padding-left: 15px;
+                color: #999;
+            }
+        }
+        .help {
+            margin-left: 10px;
+            font-size: 13px;
+            line-height: 24px;
+            color: #d22d36;
+            &:before {
+                padding-right: 5px;
+                content: '*';
+            }
+        }
+        &.service {
+            h4 {
+                margin-bottom: 5px;
+            }
+            dt {
+                float: left;
+            }
+            dd {
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+        &.use {
+            dt {
+                float: left;
+                margin-top: 0;
+            }
+            dt, dd {
+                display: block !important;
+            }
+        }
+    }
 }
