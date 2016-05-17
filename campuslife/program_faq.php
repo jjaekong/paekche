@@ -27,7 +27,7 @@
 							<li class="active"><a href="/campuslife/repair.php">인터넷 / IT 서비스</a></li>
 							<li><a href="#">도서관안내</a></li>
 							<li><a href="#">방송국</a></li>
-							<li><a href="#">시설안내</a></li>
+							<li><a href="/campuslife/performance.php">시설안내</a></li>
 						</ul>
 					</nav>
 					<nav class="quick">
@@ -137,6 +137,7 @@
 									</div>
 								</div>
 							</div>
+							<p>자료출처 : 프로그램 조정 심의위원회, 정보통신부</p>
 						</div>
 					</div>
 				</main>

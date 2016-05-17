@@ -875,8 +875,8 @@
 								<p>
 									<a href="http://www.paekche.ac.kr/webpage/life/collegeadmin_inner.pdf" target="_blank" class="btn btn-sm btn-important"><span class="glyphicon glyphicon-menu-right"></span>학사내규 전문보기</a>
 								</p>
-								<strong>자료제공 : 교무처 063)260-9103 </strong>
 							</div>
+							<p>자료제공 : 교무처 063)260-9103 </p>
 						</div>
 					</div>
 				</main>

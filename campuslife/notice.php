@@ -52,7 +52,8 @@
 						<h2>장학공지</h2>
 						<hr>
 					</div>
-					<div>
+
+					<div class="notice-info">
 						<ul class="nav nav-pills nav-justified" role="tablist">
 							<li class="active"><a href="/campuslife/notice.php">장학공지</a></li>
 							<li><a href="#">국가장학금</a></li>
