@@ -5,12 +5,6 @@ $(document).on('mouseenter focus', '#gnb > .container > ul > li > a', function()
     }
 });
 
-$(document).on('click', '#gnb > .container > ul > li > a', function(e) {
-    if ($(this).siblings('div').length > 0) {
-        e.preventDefault();
-    }
-});
-
 $(document).on('mouseleave', '#gnb', function() {
     $('#gnb > .container > ul > li').removeClass('active');
 });

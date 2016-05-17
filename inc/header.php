@@ -63,7 +63,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#">학과안내</a>
+                    <a href="/departments/main.php">학과안내</a>
                 </li>
                 <li>
                     <a href="#">입학안내</a>
@@ -93,7 +93,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="#">백제광장</a>
+                    <a href="/community/board_list.php">백제광장</a>
                     <div>
                         <div class="container">
                             <div class="summary">
