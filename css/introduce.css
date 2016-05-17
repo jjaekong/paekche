@@ -1,0 +1,245 @@
+/* vision*/
+/* ideology */
+.introduce.vision .ideology .section-header {font-size:24px; margin-top:50px; }
+.introduce.vision .ideology .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.vision .ideology .section-content {text-align:center; }
+.introduce.vision .ideology .section-content p {font-size:18px; margin-top:50px; line-height:50px; }
+.introduce.vision .ideology .section-content strong {font-size:36px; color:#d22d36; }
+.introduce.vision .ideology .section-content img {margin-top:60px; }
+
+/* purpose */
+.introduce.vision .purpose .section-header {margin-top:100px; }
+.introduce.vision .purpose .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.vision .purpose .section-content strong {font-size:22px; color:#d22d36; line-height:80px; }
+.introduce.vision .purpose .section-content p {font-size:15px; color:#555; line-height:28px; letter-spacing:-1px; }
+
+/* target */
+.introduce.vision .target {padding-bottom:150px; }
+.introduce.vision .target .section-header {margin-top:80px; }
+.introduce.vision .target .section-header h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.vision .target p {font-size:22px; color:#333; margin-top:32px; }
+.introduce.vision .target .section-content { }
+.introduce.vision .target .section-content ul {overflow:hidden; margin-left:20px; }
+.introduce.vision .target .section-content ul li {background:url("/images/introduce/arrow.png") 177px 70px no-repeat; float:left; text-align:center; margin-top:80px; width:205px; padding-right:45px; }
+.introduce.vision .target .section-content ul li:nth-of-type(4) {background:none; width:160px; padding-right:0px; }
+.introduce.vision .target .section-content ul li p {font-size:16px; line-height:20px; color:#8b8b8b; letter-spacing:-1px; }
+ 
+
+/* greeting */
+/* chairman */
+.introduce.greeting .chairman .section-header .section-title {font-size:30px; margin-top:34px; }
+.introduce.greeting .chairman .section-header .section-title span {color:#f5b324; }
+
+/* introduce */
+.introduce.greeting .chairman .section-content {width:916px; margin-top:64px; }
+.introduce.greeting .chairman .section-content .introduce {position:relative; height:192px; border-bottom:2px solid #ccc;  }
+.introduce.greeting .chairman .section-content .introduce img {position:absolute; bottom:0px; right:46px; }
+.introduce.greeting .chairman .section-content .introduce ul {float:left; text-align:left; }
+.introduce.greeting .chairman .section-content .introduce ul:nth-of-type(1) {margin-right:60px; }
+.introduce.greeting .chairman .section-content .introduce ul li {font-size:15px; color:#555555; line-height:28px; text-indent:10px; }
+.introduce.greeting .chairman .section-content .introduce ul li:nth-of-type(1) {background:url("/images/introduce/m_img.png") center left no-repeat; }
+
+/* intro */
+.introduce.greeting .chairman .section-content .intro {position:relative; margin-top:40px; height:190px; }
+.introduce.greeting .chairman .section-content .intro p {font-size:15px; line-height:28px; color:#555; float:left; text-align:left; letter-spacing:-1px; }
+.introduce.greeting .chairman .section-content .intro p:nth-of-type(2) {margin-left:30px; }
+.introduce.greeting .chairman .section-content .intro img {position:absolute; bottom:0; right:0; }
+
+
+/* president */
+/* chancellor */
+.introduce.president .chancellor .section-header .section-title {font-size:30px; margin-top:34px; }
+.introduce.president .chancellor .section-header .section-title span {color:#f5b324; }
+
+/* introduce */
+.introduce.president .chancellor .section-content {width:916px; margin-top:64px; }
+.introduce.president .chancellor .section-content .introduce {position:relative; height:123px; border-bottom:2px solid #ccc;  }
+.introduce.president .chancellor .section-content .introduce img {position:absolute; bottom:0px; right:46px; }
+.introduce.president .chancellor .section-content .introduce ul {float:left; text-align:left; }
+.introduce.president .chancellor .section-content .introduce ul:nth-of-type(1) {margin-right:60px; }
+.introduce.president .chancellor .section-content .introduce ul li {font-size:15px; color:#555555; line-height:28px; text-indent:10px; }
+.introduce.president .chancellor .section-content .introduce ul li:nth-of-type(1) {background:url("/images/introduce/m_img.png") center left no-repeat; }
+
+/* intro */
+.introduce.president .chancellor .section-content .intro {position:relative; margin-top:40px; height:296px; }
+.introduce.president .chancellor .section-content .intro p {font-size:15px; line-height:28px; color:#555; float:left; text-align:left; letter-spacing:-1px; }
+.introduce.president .chancellor .section-content .intro p:nth-of-type(2) {margin-left:30px; }
+.introduce.president .chancellor .section-content .intro img {position:absolute; bottom:0; right:0; }
+
+
+/* history */
+/* section-header */
+.introduce.history .paekche-history {overflow:hidden; padding-bottom:154px; }
+.introduce.history .paekche-history .section-header {position:relative; background:url("/images/introduce/bg_year.png") center no-repeat; float:left; width:284px; height:180px; margin:20px 130px 0 0; }
+.introduce.history .paekche-history .section-header h3 {margin-top:45px; font-weight:bold; font-size:30px; color:#fff; line-height:30px; text-align:center; }
+.introduce.history .paekche-history .section-header a {position:absolute; top:70px; left:0; }
+.introduce.history .paekche-history .section-header a:nth-of-type(2) {position:absolute; top:70px; left:262px; }
+
+/* section-content */
+.introduce.history .paekche-history .section-content {float:left; overflow:hidden; width:456px; margin-top:40px; }
+.introduce.history .paekche-history .section-content ol li h4 {float:left; margin:0; font-size:30px; }
+.introduce.history .paekche-history .section-content ol li:nth-of-type(1) {margin-top:0; }
+.introduce.history .paekche-history .section-content ol li {margin-top:58px; }
+.introduce.history .paekche-history .section-content ol li ol dl {float:left; width:340px; margin-left:44px; }
+.introduce.history .paekche-history .section-content ol li ol dt {float:left; color:#d22d36; font-size:16px; font-weight:bold; line-height:28px; }
+.introduce.history .paekche-history .section-content ol li ol dd {font-size:14px; margin-left:60px; letter-spacing:-1px; line-height:28px; color:#555; }
+.introduce.history .paekche-history .section-content ol li ol:after {content:""; display:block; clear:both; }
+
+
+/* strategic */
+/* vision */
+.introduce.strategic .strategy .vision {background:url("/images/introduce/u_arrow.png") center bottom no-repeat; text-align:center; height:150px; margin-top:54px; }
+.introduce.strategic .strategy .vision h3 {font-size:30px;}
+.introduce.strategic .strategy .vision p {font-size:20px; color:#555; margin-top:22px;}
+
+/* mission */
+.introduce.strategic .strategy .mission {background:url("/images/introduce/u_arrow.png") center bottom no-repeat; text-align:center; height:150px; }
+.introduce.strategic .strategy .mission h3 {font-size:30px; margin-top:50px;}
+.introduce.strategic .strategy .mission p {font-size:20px; color:#555; margin-top:22px;}
+
+/* target */
+.introduce.strategic .strategy .target {background:url("/images/introduce/u_arrow.png") center bottom no-repeat; height:300px; margin-top:52px; }
+.introduce.strategic .strategy .target h3 {font-size:30px; margin-top:50px; text-align:center; }
+.introduce.strategic .strategy .target ul {background:url("/images/introduce/target_bg.png") center center no-repeat; width:872px; height:180px; margin-top:33px; text-align:center; padding:0 40px;}
+.introduce.strategic .strategy .target ul li {background:url("/images/introduce/bg_year.png") top center no-repeat; float:left; margin-right:24px; text-align:center; width:180px; height:180px; }
+.introduce.strategic .strategy .target ul li p {font-size:18px; font-weight:bold; line-height:24px; color:#fff; margin-top:65px; }
+.introduce.strategic .strategy .target ul li:nth-of-type(3) p {margin-top:75px; }
+.introduce.strategic .strategy .target ul li:nth-of-type(4) {margin-right:0; }
+
+/* core */
+.introduce.strategic .strategy .core {padding-bottom:100px; }
+.introduce.strategic .strategy .core h3 {font-size:30px; text-align:center; margin-top:50px; }
+.introduce.strategic .strategy .core ol {margin-top:42px; text-align:center; width:100%; }
+.introduce.strategic .strategy .core ol li {background:url("/images/introduce/edu.png") top center no-repeat; width:30%; display:inline-block; vertical-align:top; }
+.introduce.strategic .strategy .core ol li dt h4 {font-size:15px; color:#d22d36; margin-top:108px; font-weight:bold; }
+.introduce.strategic .strategy .core ol li dd {font-size:15px; color:#555; line-height:28px; letter-spacing:-1px; }
+.introduce.strategic .strategy .core ol li dd:before {content:"ㆍ"; display:inline; clear:both; }
+.introduce.strategic .strategy .core ol li:nth-of-type(2) {background:url("/images/introduce/research.png") top center no-repeat; }
+.introduce.strategic .strategy .core ol li:nth-of-type(3) {background:url("/images/introduce/cooperation.png") top center no-repeat; }
+.introduce.strategic .strategy .core ol li:nth-of-type(4) {background:url("/images/introduce/characteristic.png") top center no-repeat; width:30%; margin-top:30px; }
+.introduce.strategic .strategy .core ol li:nth-of-type(5) {background:url("/images/introduce/management.png") top center no-repeat; width:30%; margin-top:30px; }
+
+/* task */
+.introduce.strategic .strategy .task {background:url("/images/introduce/task.png") center no-repeat; height:119px; margin:100px 0 150px 0; }
+.introduce.strategic .strategy .task p {font-size:22px; color:#f37021; text-align:center; line-height:135px; }
+
+/* character */
+/* future */
+.introduce.character .artist .future {margin:50px 0 80px 0; }
+.introduce.character .artist .future h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.character .artist .future p {margin-top:60px; font-size:26px; color:#555; letter-spacing:-1px; text-align:center; }
+.introduce.character .artist .future p span {color:#d22d36; }
+.introduce.character .artist .future img {text-align:center; }
+
+/* core */
+.introduce.character .artist .core h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; }
+.introduce.character .artist .core div {background:url("/images/introduce/core_bg.png") center bottom no-repeat; height:114px; margin-top:42px;}
+.introduce.character .artist .core div ul {width:870px;  }
+.introduce.character .artist .core div ul li {background:url("/images/introduce/plus_bg.png") center right no-repeat; height:114px; display:inline-block; width:296px; }
+.introduce.character .artist .core div ul li p {font-size:20px; line-height:28px; margin-top:30px; width:260px;  text-align:center; }
+.introduce.character .artist .core div ul li:nth-of-type(2) p {}
+.introduce.character .artist .core div ul li:nth-of-type(3) p {width:230px; }
+.introduce.character .artist .core div ul li p span {color:#f37021; }
+.introduce.character .artist .core div ul li:nth-of-type(3) {background:none; width:230px; }
+
+/* propel */
+.introduce.character .artist .propel {margin-top:80px; }
+.introduce.character .artist .propel h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; margin-bottom:60px; }
+.introduce.character .artist .propel ol li {background:url("/images/introduce/comma.png") center center no-repeat; background-color:#685b55; width:270px; height:330px; float:left; margin:0 20px 150px 0; text-align:center; }
+.introduce.character .artist .propel ol li h4 {background-color:#fff; border-radius:60px; width:60px; height:60px; margin-top:-35px; text-align:center; line-height:60px; display:inline-block; font-size:24px; color:#555; }
+.introduce.character .artist .propel ol li p {font-size:17px; line-height:24px; color:#fff; letter-spacing:-1px; }
+.introduce.character .artist .propel ol li p:nth-of-type(1) {margin-top:40px; }
+.introduce.character .artist .propel ol li p:nth-of-type(2) {margin-top:65px; }
+.introduce.character .artist .propel ol li:nth-of-type(2) {background-color:#d22d36; }
+.introduce.character .artist .propel ol li:nth-of-type(3) {margin-right:0; }
+
+/* emblem */
+/* lesson */
+.introduce.emblem .lesson {overflow:hidden; margin-top:-10px; }
+.introduce.emblem .lesson h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; margin-top:60px; }
+.introduce.emblem .lesson strong {font-size:40px; color:#ffcb05; line-height:40px; letter-spacing:-1px; float:left; margin-top:86px; }
+.introduce.emblem .lesson strong i {font-style:normal; font-weight:normal; font-size:30px; color:#555;  }
+.introduce.emblem .lesson p {position:relative; background:url("/images/introduce/lesson_bg.png") top right no-repeat ; float:right; width:550px; height:265px; margin-top:-30px; }
+.introduce.emblem .lesson p img {position:absolute; top:70px; left:120px; }
+.introduce.emblem .lesson div img {margin-top:58px; height:267px; }
+
+/* symbol */
+.introduce.emblem .insignia {overflow:hidden; margin-top:60px; }
+.introduce.emblem .insignia h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; margin:0; }
+
+.introduce.emblem .insignia h5 {font-size:22px; font-style:normal; }
+.introduce.emblem .insignia p {line-height:28px; margin-top:25px; font-size:15px; letter-spacing:-1px; }
+.introduce.emblem .insignia p i {font-style:normal; color:#d22d36; }
+
+.introduce.emblem .insignia h4 {background:url("/images/introduce/red_arrow.png") center left no-repeat; text-indent:15px; margin-top:0; font-size:16px; color:#555; font-weight:bold; letter-spacing:0.1px; }
+.introduce.emblem .insignia .logo {float:left; margin:50px 10px 0 0; margin-bottom:29px; }
+.introduce.emblem .insignia .symbol {float:left; margin-top:50px; margin-bottom:29px; }
+
+/* symbol */
+.introduce.emblem .inside {overflow:hidden; margin:100px 0 150px 0; }
+.introduce.emblem .inside h4 {background:url("/images/introduce/m_img.png") center left no-repeat; font-size:24px; text-indent:10px; margin:0; text-align:left; }
+.introduce.emblem .inside h4 small {font-size:16px; }
+.introduce.emblem .inside h4 i {font-style:normal; color:#f5b324; }
+.introduce.emblem .inside .flag {float:left; margin-right:116px; text-align:center; }
+.introduce.emblem .inside .flag img {margin:36px 0 0 10px; }
+.introduce.emblem .inside .flag p {font-size:15px; color:#555; margin:18px 0 0 10px; }
+.introduce.emblem .inside .song {float:left; }
+
+.introduce.emblem .inside .song p {width:320px; height:70px; margin:58px 0 0 12px; text-align:center; font-size:15px; line-height:70px; color:#000; letter-spacing:-1px; }
+.introduce.emblem .inside .song p:nth-of-type(2) {margin:20px 0 0 12px; }
+
+.introduce.emblem .inside .song a {background:url("/images/introduce/sound_bg.png") 40px 20px no-repeat; border-radius:10px; border:1px solid #ccc; color:#000; width:320px; height:70px; display:inline-block; }
+.introduce.emblem .inside .song p:nth-of-type(2) a {background:url("/images/introduce/text_bg.png") 44px 17px no-repeat; }
+.introduce.emblem .inside .song p a:hover {text-decoration:none; background-color:#ffcb05; border:1px solid #ffcb05; }
+
+/* group */
+/* in-group */
+.introduce.group .in-group {padding:60px 0 150px 0; }
+
+
+/* location */
+/* direction */
+.introduce.location .direction {overflow:hidden; }
+.introduce.location .direction div img {margin-top:40px; }
+.introduce.location .direction .btn-area p {float:right; }
+
+/* traffic */
+.introduce.location .traffic {margin:60px 0 80px 0; }
+.introduce.location .traffic h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; margin:0; }
+.introduce.location .traffic .table-wrap {margin-top:32px; text-align:center; }
+.introduce.location .traffic .table-wrap .table-bordered {border-left:0; border-right:0; }
+.introduce.location .traffic .table-wrap .table-bordered tbody td {border-left:0; }
+.introduce.location .traffic .table-wrap .table-bordered tbody td ul li {background:url("/images/introduce/red_arrow.png") center left no-repeat; padding-left:15px; letter-spacing:-1px; text-align:left; margin-left:18px; line-height:24px; }
+.introduce.location .traffic .table-wrap .table-bordered tbody td ul li:nth-of-type(1) {margin-top:10px; }
+.introduce.location .traffic .table-wrap .table-bordered tbody td ul li:last-child {margin-bottom:10px; }
+.introduce.location .traffic .table-wrap .table-bordered tbody tr:nth-of-type(1) ul li:nth-of-type(3) {background:url("/images/introduce/red_arrow.png") 0 6px no-repeat; }
+.introduce.location .traffic .table-wrap .table-bordered tbody td:last-child {border-right:0; }
+.introduce.location .traffic .table-wrap thead th {border:0; }
+.introduce.location .traffic .table-wrap .table-bordered tbody tr:nth-of-type(3) ul li:nth-of-type(3) {background:url("/images/introduce/red_arrow.png") 0 6px no-repeat; }
+.introduce.location .traffic .table-wrap .table-bordered tbody tr:nth-of-type(4) ul li:nth-of-type(3) {background:url("/images/introduce/red_arrow.png") 0 6px no-repeat; }
+
+/* bus-route */
+.introduce.location .bus-route { }
+body.sub #content .bus-route ul.nav li a {border:0; border-bottom:1px solid #dfdfdf; }
+body.sub #content .bus-route ul.nav li:first-child a {border-left:0; }
+.introduce.location .bus-route h3 {background:url("/images/introduce/m_img.png") center left no-repeat; text-indent:10px; margin:0; }
+.introduce.location .bus-route ul {margin-top:30px; }
+.introduce.location .bus-route .tab-content .tab-pane {padding:2px 0 0 10px; }
+.introduce.location .bus-route .tab-content .tab-pane ul {overflow:hidden; }
+.introduce.location .bus-route .tab-content .tab-pane ul li {text-align:left; font-size:13px; line-height:26px; float:left; }
+.introduce.location .bus-route .tab-content .tab-pane:nth-of-type(1) ul li:nth-of-type(60) {color:#d22d36; }
+.introduce.location .bus-route .tab-content .tab-pane ul li:after {content:""; background:url("/images/introduce/sr_arrow.png") center center no-repeat; width:10px; height:10px; padding:0 10px;}
+.introduce.location .bus-route .tab-content .tab-pane:nth-of-type(2) ul li:last-child {color:#d22d36; }
+.introduce.location .bus-route .tab-content .tab-pane ul li:last-child:after {content:""; background:none;}
+
+/* bus-schedule */
+.introduce.location .bus-schedule {margin:81px 0 150px 0; }
+body.sub #content .bus-schedule .table-wrap {border-top:0; }
+.introduce.location .bus-schedule .table-wrap {margin-top:32px; text-align:center; overflow:hidden; }
+.introduce.location .bus-schedule .table-wrap .table-bordered {border-left:0; border-right:0; float:left; width:410px; }
+.introduce.location .bus-schedule .table-wrap .table-bordered:nth-of-type(2) {margin-left:50px; }
+.introduce.location .bus-schedule .table-wrap .table-bordered tbody td {border-left:0; }
+.introduce.location .bus-schedule .table-wrap .table-bordered tbody td:last-child {border-right:0; }
+.introduce.location .bus-schedule .table-wrap thead {border-top:2px solid #555; }
+.introduce.location .bus-schedule .table-wrap thead th {border:0; }
+

@@ -39,7 +39,7 @@
         <div class="container">
             <ul>
                 <li>
-                    <a href="#">대학소개</a>
+                    <a href="/introduce/vision.php">대학소개</a>
                     <div>
                         <div class="container">
                             <div class="summary">
@@ -48,16 +48,16 @@
                                 <p>백제예술대학교는 최상의 미적 가치로서의 예술 창작과 표현을 추구합니다.</p>
                             </div>
                             <ul class="sub">
-                                <li><a href="#">설립이념</a></li>
-                                <li><a href="#">대학연혁</a></li>
-                                <li><a href="#">상징소개</a></li>
-                                <li><a href="#">찾아오시는 길</a></li>
-                                <li><a href="#">이사장인사말</a></li>
-                                <li><a href="#">비전 및 발전전략</a></li>
-                                <li><a href="#">학교조직</a></li>
+                                <li><a href="/introduce/vision.php">설립이념</a></li>
+                                <li><a href="/introduce/history.php">대학연혁</a></li>
+                                <li><a href="/introduce/emblem.php">상징소개</a></li>
+                                <li><a href="/introduce/location.php">찾아오시는 길</a></li>
+                                <li><a href="/introduce/greeting.php">이사장인사말</a></li>
+                                <li><a href="/introduce/strategic.php">비전 및 발전전략</a></li>
+                                <li><a href="/introduce/group.php">학교조직</a></li>
                                 <li><a href="#">캠퍼스 안내</a></li>
-                                <li><a href="#">총장인사말</a></li>
-                                <li><a href="#">특성화전략</a></li>
+                                <li><a href="/introduce/president.php">총장인사말</a></li>
+                                <li><a href="/introduce/character.php">특성화전략</a></li>
                             </ul>
                         </div>
                     </div>
@@ -80,14 +80,14 @@
                             <ul class="sub">
                                 <li><a href="#">학사일정</a></li>
                                 <li><a href="#">학사 Q&amp;A</a></li>
-                                <li><a href="#">인터넷, IT서비스</a></li>
-                                <li><a href="#">시설 안내</a></li>
-                                <li><a href="#">재학성 서비스</a></li>
-                                <li><a href="#">장학제도</a></li>
+                                <li><a href="/campuslife/repair.php">인터넷, IT서비스</a></li>
+                                <li><a href="/campuslife/performance.php">시설 안내</a></li>
+                                <li><a href="/campuslife/service.php">재학성 서비스</a></li>
+                                <li><a href="/campuslife/notice.php">장학제도</a></li>
                                 <li><a href="#">도서관 안내</a></li>
-                                <li><a href="#">학사행정</a></li>
-                                <li><a href="#">통학버스 운행 안내</a></li>
-                                <li><a href="#">방송국</a></li>
+                                <li><a href="/campuslife/statutes.php">학사행정</a></li>
+                                <li><a href="/campuslife/school_bus.php">통학버스 운행 안내</a></li>
+                                <li><a href="/campuslife/broadcasting.php">방송국</a></li>
                             </ul>
                         </div>
                     </div>
