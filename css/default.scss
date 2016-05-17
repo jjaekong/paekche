@@ -88,6 +88,10 @@ label {
                     line-height: 26px;
                     border-left: 1px solid #ccc;
                 }
+                &:focus,
+                &:active {
+                    background-color: #E6E6E6;
+                }
             }
             .dropdown-menu {
                 left: 0;
@@ -108,12 +112,6 @@ label {
             }
             &.campus {
                 right: 165px;
-            }
-            &.open {
-                .btn:focus,
-                .btn:active {
-                    background-color: #E6E6E6;
-                }
             }
         }
     }
