@@ -77,6 +77,8 @@ label {
         text-align: center;
         line-height: 26px;
         border-left: 1px solid #ccc; }
+      #header .util .dropdown .btn:focus, #header .util .dropdown .btn:active {
+        background-color: #E6E6E6; }
     #header .util .dropdown .dropdown-menu {
       left: 0;
       right: 0;
@@ -92,9 +94,6 @@ label {
       right: 0; }
     #header .util .dropdown.campus {
       right: 165px; }
-    #header .util .dropdown.open .btn:focus,
-    #header .util .dropdown.open .btn:active {
-      background-color: #E6E6E6; }
   #header #gnb {
     position: relative;
     margin-top: -48px;
