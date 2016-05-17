@@ -102,15 +102,15 @@
                                 <p>백제예술대학교는 최상의 미적 가치로서의 예술 창작과 표현을 추구합니다.</p>
                             </div>
                             <ul class="sub">
-                                <li><a href="#">뉴스&amp;공지사항</a></li>
-                                <li><a href="#">백제스타</a></li>
-                                <li><a href="#">자취, 하숙안내</a></li>
+                                <li><a href="/community/board_list.php">뉴스&amp;공지사항</a></li>
+                                <li><a href="/community/star_list.php">백제스타</a></li>
+                                <li><a href="/community/lodging_house.php">자취, 하숙안내</a></li>
                                 <li><a href="#">학사공지</a></li>
                                 <li><a href="#">보도자료</a></li>
-                                <li><a href="#">성희롱 상담실</a></li>
+                                <li><a href="/community/sexual_counsel.php">성희롱 상담실</a></li>
                                 <li><a href="#">백제뉴스</a></li>
                                 <li><a href="#">벼룩시장, 분실물신고</a></li>
-                                <li><a href="#">학생 상담실</a></li>
+                                <li><a href="/community/student_counsel.php">학생 상담실</a></li>
                             </ul>
                         </div>
                     </div>
