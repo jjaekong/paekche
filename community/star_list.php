@@ -4,7 +4,7 @@
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <div class="wrapper">
-        <div class="visual visual-1">
+        <div class="visual visual-5">
             <div class="container">
                 <p>
                     CREATE THE UNCREATED<br>

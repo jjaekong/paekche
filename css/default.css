@@ -59,10 +59,6 @@ label {
     top: 40px;
     margin-right: 0;
     width: 155px; }
-    #header .util .dropdown.depart {
-      right: 0; }
-    #header .util .dropdown.campus {
-      right: 165px; }
     #header .util .dropdown .btn {
       padding-top: 0;
       padding-bottom: 0;
@@ -92,6 +88,13 @@ label {
         margin-left: 0; }
         #header .util .dropdown .dropdown-menu li a {
           font-size: 12px; }
+    #header .util .dropdown.depart {
+      right: 0; }
+    #header .util .dropdown.campus {
+      right: 165px; }
+    #header .util .dropdown.open .btn:focus,
+    #header .util .dropdown.open .btn:active {
+      background-color: #E6E6E6; }
   #header #gnb {
     position: relative;
     margin-top: -48px;
@@ -234,7 +237,13 @@ body.sub > .wrapper {
       font-size: 30px;
       font-weight: bold; }
     body.sub > .wrapper > .visual.visual-1 {
-      background-image: url(/images/bg_sub_visual.gif); }
+      background-image: url(/images/bg_sub_visual_1.jpg); }
+    body.sub > .wrapper > .visual.visual-2 {
+      background-image: url(/images/bg_sub_visual_2.jpg); }
+    body.sub > .wrapper > .visual.visual-4 {
+      background-image: url(/images/bg_sub_visual_4.jpg); }
+    body.sub > .wrapper > .visual.visual-5 {
+      background-image: url(/images/bg_sub_visual_5.jpg); }
   body.sub > .wrapper > .container {
     display: table;
     width: 100%; }
@@ -452,7 +461,8 @@ body.sub #content .accordion-list .panel {
   margin-top: 0;
   border: 0;
   border-radius: 0;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+  box-shadow: none; }
   body.sub #content .accordion-list .panel .panel-heading {
     padding: 0;
     background-color: #f9f9f9; }
@@ -475,6 +485,16 @@ body.sub #content .accordion-list .panel {
     border-top: 1px solid #ccc; }
   body.sub #content .accordion-list .panel:first-child {
     border-top: 2px solid #555; }
+body.sub.departs > .wrapper {
+  background-image: url(/images/bg_departments.gif);
+  background-position: 0 0;
+  background-repeat: repeat; }
+  body.sub.departs > .wrapper > .container {
+    display: block;
+    width: 1170px;
+    min-width: 1200px; }
+    body.sub.departs > .wrapper > .container .content {
+      display: block; }
 
 #footer {
   height: 200px;
