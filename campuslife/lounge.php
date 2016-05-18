@@ -45,55 +45,63 @@
 					<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 					<li><a href="#">대학생활</a></li>
 					<li><a href="#">시설안내</a></li>
-					<li class="active">컴퓨터 / 인터넷</li>
+					<li><a href="#">편의시설</a></li>
+					<li class="active">휴게실</li>
 				</ol>
-				<main id="content" class="campuslife facility_computer">
+				<main id="content" class="campuslife lounge">
 					<div class="page-header">
-						<h2>컴퓨터 / 인터넷</h2>
+						<h2>휴게실</h2>
 						<hr>
 					</div>
-					<div class="facility">
+					<div class="common-lounge">
 						<ul class="nav nav-pills nav-justified">
 							<li role="presentation"><a href="/campuslife/performance.php">공연 / 전시 / 교육시설</a></li>
-							<li role="presentation" class="active"><a href="/campuslife/facility_computer.php">컴퓨터 / 인터넷</a></li>
-							<li role="presentation"><a href="/campuslife/podmall_atm.php">편의시설</a></li>
+							<li role="presentation"><a href="/campuslife/facility_computer.php">컴퓨터 / 인터넷</a></li>
+							<li role="presentation" class="active"><a href="/campuslife/podmall_atm.php">편의시설</a></li>
 						</ul>
-
-						<section class="practice">
+						<ul>
+							<li><a href="/campuslife/podmall_atm.php">편의점<br>현금인출기</a></li>
+							<li><a href="/campuslife/lounge.php">휴게실</a></li>
+							<li><a href="/campuslife/restaurant.php">식당</a></li>
+							<li><a href="/campuslife/locker.php">락카</a></li>
+						</ul>
+						<section class="billiard">
 							<div class="section-header">
-								<h3>컴퓨터 실습실</h3>
+								<h3>휴게실(당구장)</h3>
+								<p>학생들의 대학생활 중 건전한 여가 활동을 위하여 식당동 3층에 설치되어 있습니다.</p>
 							</div>
 							<div class="section-content">
 								<dl>
-									<dt>위 치</dt>
-									<dd>1C동 3층</dd>
-									<dt>담 당</dt>
-									<dd>교무처 실습담당 (260-9205)</dd>
-									<dt>시설개요</dt>
-									<dd>
-										소프트웨어 배정 및 변경은 강의계획서와 시간표를 <br>참고하여 결정하므로 학기 시작전 교무처 수업 및<br>실습담당자와 협의하여야 합니다. 
-									</dd>
+									<dt>운영기간</dt>
+									<dd>3월 개강일 ~ 12월 종강일 까지 (방학기간은 폐쇄)</dd>
+									<dt>운영시간</dt>
+									<dd>09:30 ~ 18:00 (월~금요일)</dd>
 								</dl>
-							</div>
+							<div>
 						</section>
-						<section class="search-info">
+						<section class="movie">
 							<div class="section-header">
-								<h3>인터넷 정보검색실</h3>
+								<h3>DVD 영화상영</h3>
+							</div>
+							<div class="section-content">
+								<p>매일 DVD영화 상영</p>
+								<p>37" 대형TV</p>
+							<div>
+						</section>
+						<section class="pocketball">
+							<div class="section-header">
+								<h3>당구대</h3>
 							</div>
 							<div class="section-content">
 								<dl>
-									<dt>위 치</dt>
-									<dd>도서관 1층</dd>
-									<dt>담 당</dt>
-									<dd>도서관 (260-9108)</dd>
-									<dt>서비스종류</dt>
-									<dd>
-										<ul>
-											<li>인터넷 정보검색, E-mail, OA</li>
-											<li>프린트와 복사 (카드식 유료 서비스 : 카드구입은 도서관 2층)</li>
-											<li>각종 증명서 무인발급 이용시간(24시간 개방) <p>도서관 부대시설이므로 이용시 정숙하시기 바랍니다.</p></li>
-										</ul>
-									</dd>
+									<dt>시 설</dt>
+									<dd>포켓대 3개, 4구대 1대</dd>
+									<dt>요 금</dt>
+									<dd>무 료</dd>
+									<dt>당구공</dt>
+									<dd>학생처에서 학생증 제출 후 대여</dd>
+									<dt>문 의</dt>
+									<dd>학생처 (Tel : 260-9107)</dd>
 								</dl>
 							</div>
 						</section>

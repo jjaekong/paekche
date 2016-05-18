@@ -57,7 +57,7 @@
 						<ul class="nav nav-pills nav-justified">
 							<li role="presentation" class="active"><a href="/campuslife/performance.php">공연 / 전시 / 교육시설</a></li>
 							<li role="presentation"><a href="/campuslife/facility_computer.php">컴퓨터 / 인터넷</a></li>
-							<li role="presentation"><a href="#">편의시설</a></li>
+							<li role="presentation"><a href="/campuslife/podmall_atm.php">편의시설</a></li>
 						</ul>
 						<ul>
 							<li><a href="/campuslife/performance.php">공연/전시<br>교육시설</a></li>
