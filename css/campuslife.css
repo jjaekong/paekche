@@ -620,8 +620,8 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* convenient */
 .campuslife.podmall_atm .convenient {margin:50px 0 150px 0; overflow:hidden; }
 .campuslife.podmall_atm .convenient ul:nth-of-type(2) {white-space:nowrap; }
-.campuslife.podmall_atm .convenient ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 203px; overflow:hidden;}
-.campuslife.podmall_atm .convenient ul:nth-of-type(2) li {float:left; background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
 .campuslife.podmall_atm .convenient ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
 .campuslife.podmall_atm .convenient ul:nth-of-type(2) li a:hover {text-decoration:underline; }
 .campuslife.podmall_atm .convenient ul:nth-of-type(2) li:first-child a {padding-top:33px; }
@@ -658,15 +658,16 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.podmall_atm .convenient .bank .section-header h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; text-indent:15px; margin-top:40px; color:#333; }
 .campuslife.podmall_atm .convenient .bank .section-header p {font-size:14px; color:#555; margin:15px 0 0 20px;  }
 .campuslife.podmall_atm .convenient .bank .section-content {margin-top:30px; }
-.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table {text-align:center; color:#666; }
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table {text-align:center; color:#666; table-layout:fixed; }
 .campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table tr:first-child {color:#333; }
-
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table tbody th:nth-of-type(1) {border-top:1px solid #ddd !important; }
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table tbody th:nth-of-type(2) {border-top:1px solid #ddd !important; }
 
 /* lounge */
 .campuslife.lounge .common-lounge {margin:50px 0 150px 0; overflow:hidden; }
 .campuslife.lounge .common-lounge ul:nth-of-type(2) {white-space:nowrap; }
-.campuslife.lounge .common-lounge ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 203px; overflow:hidden;}
-.campuslife.lounge .common-lounge ul:nth-of-type(2) li {float:left; background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.lounge .common-lounge ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
 .campuslife.lounge .common-lounge ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
 .campuslife.lounge .common-lounge ul:nth-of-type(2) li a:hover {text-decoration:underline; }
 .campuslife.lounge .common-lounge ul:nth-of-type(2) li:first-child a {padding-top:33px; }
@@ -705,8 +706,8 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* restaurant-info */
 .campuslife.restaurant .restaurant-info {margin:50px 0 150px 0; overflow:hidden; }
 .campuslife.restaurant .restaurant-info ul:nth-of-type(2) {white-space:nowrap; }
-.campuslife.restaurant .restaurant-info ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 203px; overflow:hidden;}
-.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li {float:left; background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
 .campuslife.restaurant .restaurant-info ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
 .campuslife.restaurant .restaurant-info ul:nth-of-type(2) li a:hover {text-decoration:underline; }
 .campuslife.restaurant .restaurant-info ul:nth-of-type(2) li:first-child a {padding-top:33px; }
@@ -742,8 +743,8 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* locker-info */
 .campuslife.locker .locker-info {margin:50px 0 150px 0; overflow:hidden; }
 .campuslife.locker .locker-info ul:nth-of-type(2) {white-space:nowrap; }
-.campuslife.locker .locker-info ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 203px; overflow:hidden;}
-.campuslife.locker .locker-info ul:nth-of-type(2) li {float:left; background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.locker .locker-info ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.locker .locker-info ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
 .campuslife.locker .locker-info ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
 .campuslife.locker .locker-info ul:nth-of-type(2) li a:hover {text-decoration:underline; }
 .campuslife.locker .locker-info ul:nth-of-type(2) li:first-child a {padding-top:33px; }

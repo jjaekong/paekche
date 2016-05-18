@@ -145,7 +145,7 @@
 										<img src="/images/campuslife/locker_corrido_img.jpg" alt="3강의동 3층 4층 복도 락카 안내도 ">
 									</p>
 								</div>
-							<div>
+							</div>
 						</section>
 					</div>
 				</main>

@@ -104,20 +104,22 @@
 							</div>
 							<div class="section-content">
 								<div class="table-wrap">
-									<table class="table table-bordered non-thead">
+									<table class="table table-bordered">
 										<colgroup>
-											<col style="width: 220px">
-											<col style="width: 220px">
-											<col style="width: 220px">
-											<col style="width: 220px">
+											<col>
+											<col>
+											<col>
+											<col>
 										</colgroup>
-										<tbody class="non-thead">
+										<thead>
 											<tr>
 												<th>기 관 명</th>
 												<th>전화번호</th>
 												<th>기 관 명</th>
 												<th>전화번호</th>
 											</tr>
+										</thead>
+										<tbody>
 											<tr>
 												<th>파출소</th>
 												<td>063) 263-6112</td>
