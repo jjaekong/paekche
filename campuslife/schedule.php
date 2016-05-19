@@ -282,23 +282,19 @@
 <style type="text/css">
 .campuslife.schedule .month:nth-of-type(1) {border-top:2px solid #555;  }
 .campuslife.schedule .month:last-child {border-bottom:0;  }
-.campuslife.schedule .month {overflow:hidden; border-bottom:1px solid #ccc; height:224px; padding:30px 0 30px 30px;  }
-.campuslife.schedule .month h3 {/*position:relative;*/ width:160px; font-size:48px; float:left; margin-right:85px; border:1px solid red; }
-.campuslife.schedule .month h3 small {/*position:absolute; bottom:-25px; left:-5px;*/ font-size:15px; margin:0; color:#777; }
-.campuslife.schedule .month dl {overflow:hidden; float:left; font-size:13px;  margin-top:23px; }
-.campuslife.schedule .month dl dt {float:left; background:url("/images/campuslife/dott_small.png") center left no-repeat; padding-left:10px; width:130px; color:#555; font-weight:normal; }
-.campuslife.schedule .month dl dd {border:1xp solid green; margin-bottom:10px; padding-left:130px; color:#999; width:500px; }
+.campuslife.schedule .month {overflow:hidden; border-bottom:1px solid #ccc;  padding:30px 20px; 50px 35px;  }
+.campuslife.schedule .month h3 {width:72px; font-size:48px; float:left; margin-bottom:0; text-align:center; }
+.campuslife.schedule .month h3 small {font-size:15px; color:#777; margin-top:10px; display:block; }
+.campuslife.schedule .month dl {overflow:hidden; float:left; font-size:13px;  margin-top:23px; padding-left:80px; }
+.campuslife.schedule .month dl dt {float:left; background:url("/images/campuslife/dott_small.png") center left no-repeat; padding-left:10px;  width:130px; color:#555; font-weight:normal;  }
+.campuslife.schedule .month dl dd {margin-bottom:7px; padding-left:130px; color:#999; width:470px; }
 .campuslife.schedule .month dl dd:last-child {margin-bottom:0px; }
 
-.campuslife.schedule .month .month-table {width:200px; border:1px solid red; float:right; margin-top:23px; }
+.campuslife.schedule .month .month-table {width:196px; float:right; margin-top:23px; }
 .campuslife.schedule .month .month-table .day-table {text-align:center; table-layout:fixed; }
-.campuslife.schedule .month .month-table .day-table tr td {line-height:20px; font-size:1px; width:28px; height:23px; }
-.campuslife.schedule .month .month-table .day-table tr th {text-align:center; font-size:1px; font-weight:normal; line-height:20px; color:#d22d36; }
-
-.campuslife.schedule .month .month-table .day-table tr td i {display:inline-block; font-size:1px; width:20px; height:20px; border-radius:50%; font-style:normal; background:#d22d36; color:#fff; }
-
-
-
+.campuslife.schedule .month .month-table .day-table tr td {line-height:18px; font-size:9px; width:28px; height:23px; color:#555; }
+.campuslife.schedule .month .month-table .day-table tr th {text-align:center; font-size:9px; font-weight:normal; line-height:18px; color:#d22d36; }
+.campuslife.schedule .month .month-table .day-table tr td i {display:inline-block; font-size:9px; width:18px; height:18px; border-radius:50%; font-style:normal; background:#d22d36; color:#fff; }
 
 
 
