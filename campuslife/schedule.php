@@ -13,7 +13,7 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="aside">
+			<div class="aside"> 
 				<aside id="aside">
 					<h3>대학생활</h3>
 					<nav id="lnb">
@@ -72,7 +72,7 @@
 								</colgroup>
 								<tbody>
 									<tr>
-										<th></th>
+										<td></td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -81,7 +81,7 @@
 										<td>2</td>
 									</tr>
 									<tr>
-										<th>3</th>
+										<td>3</td>
 										<td>4</td>
 										<td>5</td>
 										<td>6</td>
@@ -90,7 +90,7 @@
 										<td>9</td>
 									</tr>
 									<tr>
-										<th>10</th>
+										<td>10</td>
 										<td>11</td>
 										<td>12</td>
 										<td>13</td>
@@ -99,7 +99,7 @@
 										<td>16</td>
 									</tr>
 									<tr>
-										<th>17</th>
+										<td>17</td>
 										<td>18</td>
 										<td>19</td>
 										<td>20</td>
@@ -108,7 +108,7 @@
 										<td>23</td>
 									</tr>
 									<tr>
-										<th>24</th>
+										<td>24</td>
 										<td>25</td>
 										<td>26</td>
 										<td>27</td>
@@ -117,7 +117,7 @@
 										<td>30</td>
 									</tr>
 									<tr>
-										<th>31</th>
+										<td>31</td>
 										<td></td>
 										<td></td>
 										<td></td>
@@ -156,7 +156,7 @@
 								</colgroup>
 								<tbody>
 									<tr>
-										<th></th>
+										<td></td>
 										<td><i>1</i></td>
 										<td><i>2</i></td>
 										<td><i>3</i></td>
@@ -165,16 +165,16 @@
 										<td>6</td>
 									</tr>
 									<tr>
-										<th>7</th>
+										<td>7</td>
 										<td><i>8</i></td>
-										<td>9</td>
-										<td>10</td>
+										<td class="holiday">9</td>
+										<td class="holiday">10</td>
 										<td>11</td>
 										<td>12</td>
 										<td>13</td>
 									</tr>
 									<tr>
-										<th>14</th>
+										<td>14</td>
 										<td>15</td>
 										<td>16</td>
 										<td>17</td>
@@ -183,7 +183,7 @@
 										<td>20</td>
 									</tr>
 									<tr>
-										<th>21</th>
+										<td>21</td>
 										<td><i>22</i></td>
 										<td><i>23</i></td>
 										<td><i>24</i></td>
@@ -192,7 +192,7 @@
 										<td>27</td>
 									</tr>
 									<tr>
-										<th>28</th>
+										<td>28</td>
 										<td><i>29</i></td>
 										<td></td>
 										<td></td>
@@ -212,7 +212,7 @@
 							<dt>01일</dt>
 							<dd>삼일절</dd>
 							<dt>24일</dt>
-							<dd>수업일수 1/4 복학 및 재입학 마감</dd>
+							<dd>수업일수 1/4 복학 및 재입학 마감  수업일수 1/4 복학 및 재입학 마감수업일수 1/4 복학 및 재입학 마감수업일수 1/4 복학 및 재입학 마감수업일수 1/4 복학 및 재입학 마감수업일수 1/4 복학 및 재입학 마감</dd>
 						</dl>
 						<div class="month-table">
 							<table class="day-table">
@@ -227,7 +227,7 @@
 								</colgroup>
 								<tbody>
 									<tr>
-										<th></th>
+										<td></td>
 										<td></td>
 										<td><i>1</i></td>
 										<td><i>2</i></td>
@@ -236,7 +236,7 @@
 										<td>5</td>
 									</tr>
 									<tr>
-										<th>6</th>
+										<td>6</td>
 										<td>7</td>
 										<td>8</td>
 										<td>9</td>
@@ -245,7 +245,7 @@
 										<td>12</td>
 									</tr>
 									<tr>
-										<th>13</th>
+										<td>13</td>
 										<td>14</td>
 										<td>15</td>
 										<td>16</td>
@@ -254,7 +254,7 @@
 										<td>19</td>
 									</tr>
 									<tr>
-										<th>20</th>
+										<td>20</td>
 										<td>21</td>
 										<td>22</td>
 										<td>23</td>
@@ -263,7 +263,7 @@
 										<td>26</td>
 									</tr>
 									<tr>
-										<th>27</th>
+										<td>27</td>
 										<td>28</td>
 										<td>29</td>
 										<td>30</td>
@@ -281,21 +281,20 @@
 	</div>
 <style type="text/css">
 .campuslife.schedule .month:nth-of-type(1) {border-top:2px solid #555;  }
-.campuslife.schedule .month:last-child {border-bottom:0;  }
-.campuslife.schedule .month {overflow:hidden; border-bottom:1px solid #ccc;  padding:30px 20px; 50px 35px;  }
-.campuslife.schedule .month h3 {width:72px; font-size:48px; float:left; margin-bottom:0; text-align:center; }
+.campuslife.schedule .month:last-child {border-bottom:0; margin-bottom:150px; }
+.campuslife.schedule .month {overflow:hidden; border-bottom:1px solid #ccc; padding:30px 20px 50px 15px;  }
+.campuslife.schedule .month h3 {width:100px; font-size:48px; float:left; margin-bottom:0; text-align:center; }
 .campuslife.schedule .month h3 small {font-size:15px; color:#777; margin-top:10px; display:block; }
-.campuslife.schedule .month dl {overflow:hidden; float:left; font-size:13px;  margin-top:23px; padding-left:80px; }
-.campuslife.schedule .month dl dt {float:left; background:url("/images/campuslife/dott_small.png") center left no-repeat; padding-left:10px;  width:130px; color:#555; font-weight:normal;  }
-.campuslife.schedule .month dl dd {margin-bottom:7px; padding-left:130px; color:#999; width:470px; }
+.campuslife.schedule .month dl {overflow:hidden; float:left; font-size:13px;  margin-top:23px; padding-left:70px; }
+.campuslife.schedule .month dl dt {float:left; background:url("/images/campuslife/dott_small.png") center left no-repeat; padding-left:10px;  width:130px; color:#555; font-weight:normal; }
+.campuslife.schedule .month dl dd {margin-bottom:7px; padding-left:130px; color:#999; width:400px; }
 .campuslife.schedule .month dl dd:last-child {margin-bottom:0px; }
-
 .campuslife.schedule .month .month-table {width:196px; float:right; margin-top:23px; }
-.campuslife.schedule .month .month-table .day-table {text-align:center; table-layout:fixed; }
-.campuslife.schedule .month .month-table .day-table tr td {line-height:18px; font-size:9px; width:28px; height:23px; color:#555; }
-.campuslife.schedule .month .month-table .day-table tr th {text-align:center; font-size:9px; font-weight:normal; line-height:18px; color:#d22d36; }
-.campuslife.schedule .month .month-table .day-table tr td i {display:inline-block; font-size:9px; width:18px; height:18px; border-radius:50%; font-style:normal; background:#d22d36; color:#fff; }
-
+.campuslife.schedule .month .month-table .day-table {text-align:center; table-layout:fixed; font-family:roboto; font-size:10px; font-weight:bold; }
+.campuslife.schedule .month .month-table .day-table tr td {line-height:18px; font-size:10px; width:28px; height:23px; color:#555; }
+.campuslife.schedule .month .month-table .day-table tr td:first-child {color:#d22d36; }
+.campuslife.schedule .month .month-table .day-table tr td i {display:inline-block; width:18px; height:18px; border-radius:50%;  background:#d22d36; color:#fff; font-style:normal; }
+.campuslife.schedule .month .month-table .day-table tr .holiday {color:#d22d36; }
 
 
 
