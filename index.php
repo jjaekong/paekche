@@ -3,7 +3,7 @@
 </head>
 <body class="main">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <main id="content">
+    <main id="content" tabindex="-1">
         <div id="container-slider">
             
             <!-- 첫번째 슬라이드 -->
