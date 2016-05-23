@@ -1,4 +1,7 @@
-<header id="header" class="gnb-opened">
+
+<a href="#gnb" class="skip-nav-item sr-only sr-only-focusable">주메뉴로 건너뛰기</a>
+<a href="#content" class="skip-nav-item sr-only sr-only-focusable">컨텐츠로 건너뛰기</a>
+<header id="header">
     <div class="container">
         <h1><a href="/"><img src="/images/logo.png" alt="백제예술대학교"></a></h1>
         <nav class="util">
@@ -35,7 +38,7 @@
             </div>
         </nav>
     </div>
-    <nav id="gnb">
+    <nav id="gnb" tabindex="-1">
         <div class="container">
             <ul>
                 <li>
