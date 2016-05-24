@@ -145,9 +145,9 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(1) {text-align:center; }
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(4) {text-align:center; }
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(4):before {content:"*"; }
-.campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(2) ul {overflow:hidden; }
+.campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(2) ul {overflow:hidden; white-space:nowrap; }
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(3) {height:80px; }
-.campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(3) ul {overflow:hidden; }
+.campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(2) td:nth-of-type(3) ul {overflow:hidden; white-space:nowrap; }
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(3) td ul {overflow:hidden; }
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(3) td:nth-of-type(1) {text-align:center; }
 .campuslife.school_bus .jeonju-iksan .table-wrap .table tbody tr:nth-of-type(3) td:nth-of-type(2) p {margin-left:10px; }
@@ -157,8 +157,9 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.school_bus .major ul li h4 {background:url("/images/campuslife/red_arrow.png") center left no-repeat; font-size:14px; padding-left:15px; margin-bottom:5px; font-weight:bold; } 
 .campuslife.school_bus .major ul li {letter-spacing:-0.5px; }
 
-.campuslife.school_bus .major ul li dl {margin: -22px 0 0 12px; }
-.campuslife.school_bus .major ul li dl dt {float:left; margin-right:3px; font-weight:normal; }
+.campuslife.school_bus .major ul li dl {margin:-22px 0 0 12px; overflow:hidden; white-space:nowrap; }
+.campuslife.school_bus .major ul li dl dt {position:relative; float:left; margin-right:8px; font-weight:normal; }
+.campuslife.school_bus .major ul li dl dt:after {position:absolute; top:-1px; right:-6px; content:":"; }
 .campuslife.school_bus .major ul li dl dt dd {float:left; margin-left:5px; font-weight:normal; }
 
 .campuslife.school_bus .major ul li ul li {padding-left:16px; font-size:14px; line-height:24px; }
@@ -177,11 +178,10 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.repair .pc-repair {margin:53px 0 150px 0; }
 .campuslife.repair .pc-repair .tab-content {margin-left:10px; }
 .campuslife.repair .pc-repair .tab-content ul li h4 {background:url("/images/campuslife/red_arrow.png") center left no-repeat; font-size:14px; margin-top:40px; padding-left:15px; font-weight:bold; } 
-
-.campuslife.repair .pc-repair .tab-content dl {overflow:hidden; margin-left:20px; font-size:14px; }
-.campuslife.repair .pc-repair .tab-content dl dt {float:left; font-weight:normal; margin-right:3px; }
-.campuslife.repair .pc-repair .tab-content dl dt dd {float:left; font-weight:normal; }
-
+.campuslife.repair .pc-repair .tab-content dl {overflow:hidden; margin-left:20px; font-size:14px; white-space:nowrap; }
+.campuslife.repair .pc-repair .tab-content dl dt {position:relative; float:left; font-weight:normal; margin-right:12px; }
+.campuslife.repair .pc-repair .tab-content dl dt:after {position:absolute; top:-1px; right:-9px; content:":"; }
+.campuslife.repair .pc-repair .tab-content dl dd {float:left; font-weight:normal; }
 
 /* personal-computer */
 .campuslife.repair .pc-repair .tab-content .personal-computer ul li ol li {margin-bottom:5px; letter-spacing:-1px; }
@@ -198,7 +198,6 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 /* table-wrap */
 .campuslife.repair .pc-repair .tab-content .table-wrap {margin:40px 0 0 20px; }
 .campuslife.repair .pc-repair .tab-content .table-wrap .table {text-align:center; }
-
 
 /* paekche_network */
 .campuslife.network .paekche_network {margin:53px 0 177px 0; }
@@ -286,7 +285,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.statutes .administration .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:6px; display:inline-block; margin-right:5px; width:13px; height:13px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
 
 /* decimal-number */
-.campuslife.statutes .administration .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:17px; letter-spacing:-1px; font-size:14px; }
+.campuslife.statutes .administration .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:12px; letter-spacing:-1px; font-size:14px; }
 
 .campuslife.statutes .administration .tab-content .panel .panel-body h5 {font-size:14px; font-weight:bold; margin:0; margin:15px 0 5px 0;}
 .campuslife.statutes .administration .tab-content .panel .panel-body p {font-size:14px; line-height:24px; letter-spacing:-1px; }
@@ -327,7 +326,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.college_inner .college .tab-content .panel .panel-body .circle-number > li:before {position:absolute; left:0; top:6px; display:inline-block; margin-right:5px; width:12px; height:12px; border-radius:50%; border:1px solid #333; line-height:10px; content:counter(my-list-index); font-size:11px; text-align:center; line-height:10px; }
 
 /* decimal-number */
-.campuslife.college_inner .college .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:15px; letter-spacing:-1px; }
+.campuslife.college_inner .college .tab-content .panel .panel-body .decimal-number {list-style:decimal; margin-left:12px; letter-spacing:-1px; }
 
 .campuslife.college_inner .college .tab-content .panel:nth-of-type(2) .panel-body p:nth-of-type(1) {margin-bottom:5px; }
 .campuslife.college_inner .college .tab-content .panel:nth-of-type(11) .panel-body p {margin-bottom:20px; }
@@ -402,6 +401,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body {padding-right:0 !important; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; margin:10px 0 20px -17px; text-indent:17px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body p {line-height:24px; letter-spacing:-1px; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .table p:nth-of-type(1) { }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body p:before {content:"※"; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body {font-size:14px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .table-wrap {margin:40px 0 0 10px; letter-spacing:-1px; }
@@ -418,7 +418,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td i:after {content:"⇒"; padding:0 10px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr {height:80px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr:nth-of-type(1) {height:165px; }
-.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul {overflow:hidden; white-space:nowrap; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul li {position:relative; float:left; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul li:after {content:">"; padding:0 10px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .absence .table-wrap .table tr td ul li:last-child:after {content:""; }
@@ -429,7 +429,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning ol {list-style:decimal; margin-left:25px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning ol li {line-height:24px; letter-spacing:-1px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .btn-area {position:absolute; top:65px; right:0; }
-.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul {overflow:hidden; white-space:nowrap; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul li {float:left; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul li:after {content:"→"; padding:0 10px; }
 .campuslife.readmission .readmission-info .tab-content .panel .panel-body .returning .table-wrap tr td ul li:last-child:after {content:""; }
@@ -440,7 +440,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .btn-area {position:absolute; top:45px; right:0; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body p {margin-left:10px; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body p:before {content:""; }
-.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul {overflow:hidden;  }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul {overflow:hidden; white-space:nowrap; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li {position:relative; float:left; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li:after {content:">"; padding:0 10px; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(2) .panel-body .table-wrap .table tr td ul li:last-child:after {content:""; }
@@ -454,7 +454,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body ol {list-style:decimal; margin-left:13px; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(2) {height:120px; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(5) {height:162px; }
-.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul {overflow:hidden; white-space:nowrap; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul li {float:left; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul li:after {content:"→"; padding:0 10px; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(3) .panel-body .table-wrap .table tr:nth-of-type(4) ul li:last-child:after {content:"";}
@@ -467,7 +467,7 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body p {margin-left:10px; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body p:before {content:""; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body > .table-wrap {margin-top:16px; }
-.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul {overflow:hidden; }
+.campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul {overflow:hidden; white-space:nowrap; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul li {float:left; }
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul li:after {content:">"; padding:0 10px;}
 .campuslife.readmission .readmission-info .tab-content .panel:nth-of-type(4) .panel-body .table-wrap tr td ul li:last-child:after {content:""; }
@@ -613,3 +613,161 @@ body.sub #content .benefit .btn-area .btn.btn-primary {background-color:#333;}
 .campuslife.facility_computer .facility .search-info .section-header {background:url("/images/campuslife/search_img.jpg") center top no-repeat; margin-right:0; float:left; }
 .campuslife.facility_computer .facility .search-info .section-content dl dt {width:90px; }
 .campuslife.facility_computer .facility .search-info .section-content dl dd {padding-left:90px; }
+
+
+
+/* podmall_atm */
+/* convenient */
+.campuslife.podmall_atm .convenient {margin:50px 0 150px 0; overflow:hidden; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) {white-space:nowrap; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) li a:hover {text-decoration:underline; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) li:first-child a {padding-top:33px; }
+.campuslife.podmall_atm .convenient ul:nth-of-type(2) li:last-child {margin-right:0; }
+
+/* podmall */
+.campuslife.podmall_atm .convenient .podmall {width:425px; height:420px; float:left; overflow:hidden; margin-right:20px; }
+.campuslife.podmall_atm .convenient .podmall .section-header {background:url("/images/campuslife/podmall_img.jpg") center top no-repeat;  width:425px; height:270px; float:left; text-align:center; color:#fff; }
+.campuslife.podmall_atm .convenient .podmall h3 {font-size:24px; padding-top:132px; }
+.campuslife.podmall_atm .convenient .podmall p {font-size:16px; margin-top:16px; }
+.campuslife.podmall_atm .convenient .podmall .section-content {border:1px solid #ccc; border-top:0; width:425px; height:150px; float:left; padding:25px 20px 0 20px; }
+.campuslife.podmall_atm .convenient .podmall .section-content dl {overflow:hidden; font-size:14px; color:#333; }
+.campuslife.podmall_atm .convenient .podmall .section-content dl dt {float:left; font-weight:bold; width:67px; }
+.campuslife.podmall_atm .convenient .podmall .section-content dl dd {margin-bottom:10px; letter-spacing:-1px; padding-left:67px; }
+.campuslife.podmall_atm .convenient .podmall .section-content dl dd:last-child {margin-bottom:0; }
+.campuslife.podmall_atm .convenient .podmall .section-content dl dd ul li {position:relative; padding-left:10px; }
+.campuslife.podmall_atm .convenient .podmall .section-content dl dd ul li:before {position:absolute; top:0; left:0; content:"-"; padding-right:5px; }
+
+/* atm */
+.campuslife.podmall_atm .convenient .atm {width:425px; height:420px; float:left; overflow:hidden; }
+.campuslife.podmall_atm .convenient .atm .section-header {background:url("/images/campuslife/atm_img.jpg") center top no-repeat; width:425px; height:270px; float:left; text-align:center; color:#fff; }
+.campuslife.podmall_atm .convenient .atm h3 {font-size:24px; padding-top:132px; }
+.campuslife.podmall_atm .convenient .atm p {font-size:16px; margin-top:16px; }
+.campuslife.podmall_atm .convenient .atm .section-content {border:1px solid #ccc; border-top:0; width:425px; height:150px; float:left; padding:25px 20px 0 20px; }
+.campuslife.podmall_atm .convenient .atm .section-content dl {overflow:hidden; font-size:14px; color:#333; }
+.campuslife.podmall_atm .convenient .atm .section-content dl dt {float:left; font-weight:bold; width:67px; }
+.campuslife.podmall_atm .convenient .atm .section-content dl dd {margin-bottom:10px; letter-spacing:-1px; padding-left:67px; }
+.campuslife.podmall_atm .convenient .atm .section-content dl dd:last-child {margin-bottom:0; }
+.campuslife.podmall_atm .convenient .atm .section-content dl dd ul li {position:relative; padding-left:10px; }
+.campuslife.podmall_atm .convenient .atm .section-content dl dd ul li:before {position:absolute; top:0; left:0; content:"-"; padding-right:5px; }
+
+/* bank */
+.campuslife.podmall_atm .convenient .bank {float:left; }
+.campuslife.podmall_atm .convenient .bank .section-header h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; text-indent:15px; margin-top:40px; color:#333; }
+.campuslife.podmall_atm .convenient .bank .section-header p {font-size:14px; color:#555; margin:15px 0 0 20px;  }
+.campuslife.podmall_atm .convenient .bank .section-content {margin-top:30px; }
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table {text-align:center; color:#666; table-layout:fixed; }
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table tr:first-child {color:#333; }
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table tbody th:nth-of-type(1) {border-top:1px solid #ddd !important; }
+.campuslife.podmall_atm .convenient .bank .section-content .table-wrap .table tbody th:nth-of-type(2) {border-top:1px solid #ddd !important; }
+
+/* lounge */
+.campuslife.lounge .common-lounge {margin:50px 0 150px 0; overflow:hidden; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) {white-space:nowrap; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.lounge .common-lounge ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) li a:hover {text-decoration:underline; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) li:first-child a {padding-top:33px; }
+.campuslife.lounge .common-lounge ul:nth-of-type(2) li:last-child {margin-right:0; }
+
+/* billiard */
+.campuslife.lounge .common-lounge .billiard {width:870px; height:370px; overflow:hidden; }
+.campuslife.lounge .common-lounge .billiard .section-header {background:url("/images/campuslife/billiard_img.jpg") center top no-repeat; float:left; width:870px; height:270px; color:#fff; text-align:center; }
+.campuslife.lounge .common-lounge .billiard .section-header h3 {font-size:24px; padding-top:130px;  }
+.campuslife.lounge .common-lounge .billiard .section-header p {font-size:16px; margin-top:20px; }
+.campuslife.lounge .common-lounge .billiard .section-content {float:left; width:870px; height:100px; border:1px solid #ccc; border-top:0; padding:25px 25px;}
+.campuslife.lounge .common-lounge .billiard .section-content dl {overflow:hidden; font-size:14px; }
+.campuslife.lounge .common-lounge .billiard .section-content dl dt {float:left; width:70px; }
+.campuslife.lounge .common-lounge .billiard .section-content dl dd {margin-bottom:10px; padding-left:70px; }
+.campuslife.lounge .common-lounge .billiard .section-content dl dd:last-child {margin-bottom:0px; }
+
+/* movie */
+.campuslife.lounge .common-lounge .movie {float:left; margin:40px 20px 0 0; width:425px; height:430px; overflow:hidden; }
+.campuslife.lounge .common-lounge .movie p {font-size:14px; font-weight:bold; }
+.campuslife.lounge .common-lounge .movie p:nth-of-type(2) {margin-top:10px; }
+.campuslife.lounge .common-lounge .movie .section-header {background:url("/images/campuslife/movie_img.jpg") center top no-repeat; float:left; width:425px; height:270px; color:#fff; text-align:center; }
+.campuslife.lounge .common-lounge .movie .section-header h3 {font-size:24px; padding-top:140px;  }
+.campuslife.lounge .common-lounge .movie .section-content {float:left; width:425px; height:160px; border:1px solid #ccc; border-top:0; padding:20px 20px;}
+
+/* pocketball */
+.campuslife.lounge .common-lounge .pocketball {float:left; margin-top:40px; width:425px; height:430px; overflow:hidden; }
+.campuslife.lounge .common-lounge .pocketball .section-header {background:url("/images/campuslife/pocketball_img.jpg") center top no-repeat; float:left; width:425px; height:270px; color:#fff; text-align:center; }
+.campuslife.lounge .common-lounge .pocketball .section-header h3 {font-size:24px; padding-top:140px;  }
+.campuslife.lounge .common-lounge .pocketball .section-content {float:left; width:425px; height:160px; border:1px solid #ccc; border-top:0; padding:20px 20px;}
+.campuslife.lounge .common-lounge .pocketball .section-content dl {overflow:hidden; font-size:14px; }
+.campuslife.lounge .common-lounge .pocketball .section-content dl dt {float:left; width:75px; }
+.campuslife.lounge .common-lounge .pocketball .section-content dl dd {margin-bottom:10px; padding-left:75px;  }
+.campuslife.lounge .common-lounge .pocketball .section-content dl dd:last-child {margin-bottom:0px; }
+
+
+/* restaurant-info */
+.campuslife.restaurant .restaurant-info {margin:50px 0 150px 0; overflow:hidden; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) {white-space:nowrap; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li a:hover {text-decoration:underline; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li:first-child a {padding-top:33px; }
+.campuslife.restaurant .restaurant-info ul:nth-of-type(2) li:last-child {margin-right:0; }
+
+/* nh-restaurant */
+.campuslife.restaurant .restaurant-info .nh-restaurant {width:870px; height:420px; overflow:hidden; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-header {background:url("/images/campuslife/restaurant_img.jpg") center top no-repeat; float:left; width:870px; height:270px; color:#fff; text-align:center; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-header h3 {font-size:24px; padding-top:130px;  }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-header p {font-size:16px; margin-top:20px; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-content {float:left; width:870px; height:150px; border:1px solid #ccc; border-top:0; padding:25px 25px;}
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-content dl {overflow:hidden; font-size:14px; color:#555; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-content dl dt {float:left; width:50px; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-content dl dd:nth-of-type(1) {line-height:24px; margin-top:-2px; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-content dl dd {margin-bottom:10px; padding-left:50px; }
+.campuslife.restaurant .restaurant-info .nh-restaurant .section-content dl dd:last-child {margin-bottom:0px; }
+
+/* korean-food */
+.campuslife.restaurant .restaurant-info .korean-food {margin-top:60px; }
+.campuslife.restaurant .restaurant-info .korean-food .section-header h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; text-indent:15px; margin-top:40px; color:#333; }
+.campuslife.restaurant .restaurant-info .korean-food .section-header p {font-size:14px; margin-top:20px; color:#555; margin-left:20px; }
+.campuslife.restaurant .restaurant-info .korean-food .section-content {margin-top:15px; }
+.campuslife.restaurant .restaurant-info .korean-food .section-content .table {text-align:center; }
+
+/* western-food */
+.campuslife.restaurant .restaurant-info .western-food {margin-top:60px; }
+.campuslife.restaurant .restaurant-info .western-food .section-header h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; text-indent:15px; margin-top:40px; color:#333; }
+.campuslife.restaurant .restaurant-info .western-food .section-header p {font-size:14px; margin-top:20px; color:#555; margin-left:20px; }
+.campuslife.restaurant .restaurant-info .western-food .section-content {margin-top:15px; }
+.campuslife.restaurant .restaurant-info .western-food .section-content .table {text-align:center; }
+
+
+/* locker-info */
+.campuslife.locker .locker-info {margin:50px 0 150px 0; overflow:hidden; }
+.campuslife.locker .locker-info ul:nth-of-type(2) {white-space:nowrap; }
+.campuslife.locker .locker-info ul:nth-of-type(2) {text-align:center; margin:40px 0px 50px 0px; overflow:hidden;}
+.campuslife.locker .locker-info ul:nth-of-type(2) li {background:url("/images/campuslife/faq_bg.png") no-repeat; width:102px; height:114px; display:inline-block; vertical-align:top; margin-right:20px; }
+.campuslife.locker .locker-info ul:nth-of-type(2) li a {display:inline-block; width:102px; height:114px; display:inline-block; padding-top:45px; font-size:16px; color:#fff; }
+.campuslife.locker .locker-info ul:nth-of-type(2) li a:hover {text-decoration:underline; }
+.campuslife.locker .locker-info ul:nth-of-type(2) li:first-child a {padding-top:33px; }
+.campuslife.locker .locker-info ul:nth-of-type(2) li:last-child {margin-right:0; }
+
+
+.campuslife.locker .locker-info .locker-utilization .section-header h3 {background:url("/images/campuslife/m_img.png") center left no-repeat; text-indent:15px; margin-top:40px; color:#333; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap {margin-top:20px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table {font-size:14px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(1) {height:84px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(2) {height:84px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(3) {height:40px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(4) {height:40px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(5) {height:84px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(6) {height:84px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(7) {height:84px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr:nth-of-type(8) {height:40px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr th {color:#333; }
+.campuslife.locker .locker-info .locker-utilization .section-content .table-wrap .table tr td {text-align:left; padding:0 20px; line-height:20px; color:#666; font-weight:normal; }
+
+.campuslife.locker .locker-info .locker-utilization .section-content ul {margin:30px 0 0 10px; }
+.campuslife.locker .locker-info .locker-utilization .section-content ul li {background:url("/images/campuslife/dott.png") 0px 8px no-repeat; padding-left:15px; margin-bottom:5px; font-size:14px; color:#555; }
+.campuslife.locker .locker-info .locker-utilization .section-content h4 {background:url("/images/campuslife/red_arrow.png") center left no-repeat; padding-left:15px; font-size:14px; font-weight:bold; color:#555; margin-bottom:20px; }
+
+.campuslife.locker .locker-info .locker-utilization .section-content .locker-position {margin-top:60px; }
+.campuslife.locker .locker-info .locker-utilization .section-content .locker-corrido {margin-top:60px; }

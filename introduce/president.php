@@ -89,6 +89,27 @@
             </div>
         </div>
     </div>
+<style type="text/css">
+/* president */
+/* chancellor */
+.introduce.president .chancellor .section-header .section-title {font-size:30px; margin-top:34px; }
+.introduce.president .chancellor .section-header .section-title span {color:#f5b324; }
+
+/* introduce */
+.introduce.president .chancellor .section-content {width:916px; margin-top:64px; }
+.introduce.president .chancellor .section-content .introduce {position:relative; height:123px; border-bottom:2px solid #ccc;  }
+.introduce.president .chancellor .section-content .introduce img {position:absolute; bottom:0px; right:46px; }
+.introduce.president .chancellor .section-content .introduce ul {float:left; text-align:left; }
+.introduce.president .chancellor .section-content .introduce ul:nth-of-type(1) {margin-right:60px; }
+.introduce.president .chancellor .section-content .introduce ul li {font-size:15px; color:#555555; line-height:28px; text-indent:10px; }
+.introduce.president .chancellor .section-content .introduce ul li:nth-of-type(1) {background:url("/images/introduce/m_img.png") center left no-repeat; }
+
+/* intro */
+.introduce.president .chancellor .section-content .intro {position:relative; margin-top:40px; height:296px; overflow:hidden; }
+.introduce.president .chancellor .section-content .intro p {font-size:15px; width:415px; line-height:28px; color:#555; text-align:left; letter-spacing:-1px; float:left; }
+.introduce.president .chancellor .section-content .intro p:nth-of-type(2) {margin-left:30px; }
+.introduce.president .chancellor .section-content .intro img {position:absolute; bottom:0; right:0; }
+</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
