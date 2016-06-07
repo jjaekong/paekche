@@ -66,7 +66,7 @@
                     </div>
                 </li>
                 <li>
-                    <a href="/departments/main.php">학과안내</a>
+                    <a href="/departments/index.php">학과안내</a>
                 </li>
                 <li>
                     <a href="#">입학안내</a>

@@ -1,57 +1,18 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/css/departs.css" rel="stylesheet">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/dochead.php'); ?>
 </head>
-<body class="sub departs">
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <div class="wrapper">
-        <div class="visual visual-2">
-            <div class="container">
-                <p>
-                    CREATE THE UNCREATED<br>
-                    PAEKCHE INSTITUTE OF THE ARTS
-                </p>
-            </div>
-        </div>
+<body>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/header.php'); ?>
+    <main id="content" tabindex="-1">
         <div class="container">
-            <main id="content" class="departs main">
-                <div class="page-header">
-                    <h2>학과안내</h2>
-                    <p>
-                        <span>창의적이고 개성있는 예술인을 양성합니다.</span><br>
-                        현장실무형 인재 교육시스템을 갖춘 백제예술대학교 입니다.
-                    </p>
-                </div>
-                <div class="depart-list">
-                    <ul>
-                        <li><a href="#">방송연예과</a></li>
-                        <li><a href="#">미디어음악과</a></li>
-                        <li><a href="#">뮤지컬과</a></li>
-                        <li><a href="#">실용댄스과</a></li>
-                        <li><a href="#">모델과</a></li>
-
-                        <li><a href="#">실용음악과</a></li>
-                        <li><a href="#">음악과</a></li>
-                        <li><a href="#">시각디자인과</a></li>
-                        <li><a href="#">패션디자인과</a></li>
-                        <li><a href="#">뷰티아트과</a></li>
-
-                        <li><a href="#">사진과</a></li>
-                        <li><a href="#">영상디자인과</a></li>
-                        <li><a href="#">방송시나리오극작과</a></li>
-                        <li><a href="#">파티디자인과</a></li>
-                        <li><a href="#">실내디자인과</a></li>
-
-                        <li><a href="#">전시디자인과</a></li>
-                        <li><a href="#">연예매니지먼트과</a></li>
-                        <li><a href="#">무대디자인과</a></li>
-                        <li><a href="#">레저스포츠과</a></li>
-                        <li><a href="#">문화컨텐츠과</a></li>
-                    </ul>
-                </div>
-            </main>
+            <h3 style="font-size: 30px">학과소개</h3>
+            <p style="font-size: 30px">학과소개</p>
+            <p>
+한류를 이끌어온 강력한 영향력을 지닌 문화콘텐츠, K-POP의 미래 인재들을 양성하는데 목표를 두며, 
+퍼포먼스 주역인 ‘K-POP보컬’ 전공, 음악을 창작하는 ‘K-POP미디 작·편곡’ ,  ‘싱어송라이터’ 전공으로 나뉘며, 
+각 전공별로 체계적이고 실제적 트레이닝을 위해 K-pop과 관련된 다양한 문화예술영역의 전문 교수진과 맞춤식으로 교육이 이루어지고 있다.</p>
         </div>
-    </div>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    </main>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/docfoot.php'); ?>
 </body>
 </html>
