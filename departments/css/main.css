@@ -1,0 +1,337 @@
+.slogan {
+  height: 573px;
+  background-color: #fff;
+  background-image: url(/departments/images/main/bg_slogan.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif; }
+  .slogan hr {
+    margin-top: 190px;
+    margin-bottom: 15px;
+    width: 35px; }
+  .slogan small {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: 35px;
+    color: #fff; }
+  .slogan p {
+    font-size: 75px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: -3px;
+    line-height: 75px; }
+    .slogan p b {
+      font-weight: 700; }
+
+.main-content {
+  position: relative;
+  margin-top: -137px;
+  margin-bottom: 60px;
+  width: 100%;
+  height: 548px;
+  background-color: #fff; }
+  .main-content .depart-notice,
+  .main-content .ba-notice {
+    position: absolute;
+    left: 0;
+    width: 584px;
+    height: 274px; }
+    .main-content .depart-notice > div,
+    .main-content .ba-notice > div {
+      position: absolute;
+      width: 292px;
+      height: 100%; }
+      .main-content .depart-notice > div h3, .main-content .depart-notice > div h4,
+      .main-content .ba-notice > div h3,
+      .main-content .ba-notice > div h4 {
+        margin-top: 0; }
+      .main-content .depart-notice > div:nth-of-type(1),
+      .main-content .ba-notice > div:nth-of-type(1) {
+        padding: 30px 35px;
+        background-color: #e8e8e8; }
+        .main-content .depart-notice > div:nth-of-type(1) h3,
+        .main-content .ba-notice > div:nth-of-type(1) h3 {
+          margin-bottom: 20px;
+          font-size: 30px;
+          line-height: .8em;
+          font-weight: 400; }
+          .main-content .depart-notice > div:nth-of-type(1) h3 small,
+          .main-content .ba-notice > div:nth-of-type(1) h3 small {
+            font-size: 14px;
+            font-weight: 100;
+            color: #555; }
+        .main-content .depart-notice > div:nth-of-type(1) a,
+        .main-content .ba-notice > div:nth-of-type(1) a {
+          display: inline-block;
+          width: 77px;
+          height: 23px;
+          background-color: #333333;
+          color: #fff;
+          text-align: center;
+          font-size: 12px;
+          line-height: 23px;
+          text-decoration: none; }
+          .main-content .depart-notice > div:nth-of-type(1) a:hover, .main-content .depart-notice > div:nth-of-type(1) a:focus,
+          .main-content .ba-notice > div:nth-of-type(1) a:hover,
+          .main-content .ba-notice > div:nth-of-type(1) a:focus {
+            opacity: .8; }
+      .main-content .depart-notice > div:nth-of-type(2) a,
+      .main-content .ba-notice > div:nth-of-type(2) a {
+        display: block;
+        padding: 25px 35px;
+        width: 100%;
+        height: 100%;
+        text-decoration: none; }
+        .main-content .depart-notice > div:nth-of-type(2) a h4,
+        .main-content .ba-notice > div:nth-of-type(2) a h4 {
+          margin-bottom: 15px;
+          color: #222;
+          font-size: 26px;
+          line-height: 36px;
+          letter-spacing: -2px; }
+        .main-content .depart-notice > div:nth-of-type(2) a p,
+        .main-content .ba-notice > div:nth-of-type(2) a p {
+          color: #333;
+          font-size: 13px;
+          line-height: 26px;
+          text-align: justify; }
+        .main-content .depart-notice > div:nth-of-type(2) a:hover, .main-content .depart-notice > div:nth-of-type(2) a:focus,
+        .main-content .ba-notice > div:nth-of-type(2) a:hover,
+        .main-content .ba-notice > div:nth-of-type(2) a:focus {
+          opacity: .8; }
+  .main-content .depart-notice {
+    top: 0; }
+    .main-content .depart-notice > div {
+      top: 0; }
+      .main-content .depart-notice > div:nth-of-type(1) {
+        left: 0;
+        text-align: right; }
+        .main-content .depart-notice > div:nth-of-type(1) h3 {
+          color: #333; }
+        .main-content .depart-notice > div:nth-of-type(1) img {
+          position: absolute;
+          bottom: 0;
+          left: -120px; }
+      .main-content .depart-notice > div:nth-of-type(2) {
+        left: 292px; }
+        .main-content .depart-notice > div:nth-of-type(2) a {
+          background-image: url(/departments/images/main/ico_point_right.gif);
+          background-repeat: no-repeat;
+          background-position: 0 50%; }
+  .main-content .ba-notice {
+    top: 0; }
+    .main-content .ba-notice > div {
+      top: 0; }
+      .main-content .ba-notice > div:nth-of-type(1) {
+        left: 292px; }
+        .main-content .ba-notice > div:nth-of-type(1) h3 {
+          position: relative;
+          color: #033333;
+          z-index: 1; }
+        .main-content .ba-notice > div:nth-of-type(1) a {
+          position: relative;
+          z-index: 1; }
+        .main-content .ba-notice > div:nth-of-type(1) img {
+          position: absolute;
+          bottom: 0;
+          right: 20px;
+          z-index: 0; }
+      .main-content .ba-notice > div:nth-of-type(2) {
+        left: 0;
+        border-left: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6; }
+        .main-content .ba-notice > div:nth-of-type(2) a {
+          background-image: url(/departments/images/main/ico_point_left.gif);
+          background-repeat: no-repeat;
+          background-position: 100% 50%; }
+  .main-content .ba-notice {
+    top: 274px; }
+  .main-content .about-depart,
+  .main-content .ba-schedule {
+    position: absolute;
+    left: 584px;
+    width: 294px;
+    height: 274px; }
+    .main-content .about-depart a,
+    .main-content .ba-schedule a {
+      display: block;
+      padding-top: 60px;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      text-decoration: none;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+      .main-content .about-depart a h3,
+      .main-content .ba-schedule a h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 100px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: .9em; }
+        .main-content .about-depart a h3 b,
+        .main-content .ba-schedule a h3 b {
+          font-weight: 400; }
+        .main-content .about-depart a h3 small,
+        .main-content .ba-schedule a h3 small {
+          color: #fff;
+          font-weight: 100;
+          font-size: 14px; }
+      .main-content .about-depart a:hover, .main-content .about-depart a:focus,
+      .main-content .ba-schedule a:hover,
+      .main-content .ba-schedule a:focus {
+        background-color: #303030; }
+  .main-content .about-depart {
+    top: 0;
+    background-image: url(/departments/images/main/bg_depart.jpg); }
+    .main-content .about-depart a h3 {
+      background-image: url(/departments/images/main/ico_mic.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0; }
+  .main-content .ba-schedule {
+    top: 274px;
+    background-image: url(/departments/images/main/bg_schedule.jpg); }
+    .main-content .ba-schedule a h3 {
+      background-image: url(/departments/images/main/ico_calendar.png);
+      background-repeat: no-repeat;
+      background-position: 50% 5px; }
+  .main-content .ad-schedule {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 25px;
+    width: 292px;
+    height: 548px;
+    background-color: #ffd217;
+    text-align: center; }
+    .main-content .ad-schedule h3 {
+      margin-top: 0;
+      font-size: 30px;
+      line-height: 40px;
+      color: #111; }
+    .main-content .ad-schedule hr {
+      margin: 25px auto 10px;
+      width: 20px;
+      text-align: center;
+      border-color: #222; }
+    .main-content .ad-schedule p {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #444; }
+    .main-content .ad-schedule dl {
+      margin-bottom: 45px;
+      padding-left: 20px;
+      text-align: left; }
+      .main-content .ad-schedule dl dt {
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #111;
+        font-weight: normal;
+        background-image: url(/departments/images/main/ico_rcaret_gray.png);
+        background-repeat: no-repeat;
+        background-position: 0 8px; }
+        .main-content .ad-schedule dl dt.active {
+          background-image: url(/departments/images/main/ico_rcaret_orange.png); }
+        .main-content .ad-schedule dl dt i {
+          position: relative;
+          top: -4px;
+          display: inline-block;
+          width: 67px;
+          height: 20px;
+          line-height: 20px;
+          font-size: 11px;
+          background-color: #cc3333;
+          color: #fff;
+          font-style: normal;
+          text-align: center;
+          border-radius: 10px; }
+      .main-content .ad-schedule dl dd {
+        margin-bottom: 25px;
+        padding-left: 20px;
+        font-size: 15px;
+        line-height: 24px;
+        color: #3e3e3e; }
+    .main-content .ad-schedule a {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      margin: 0 auto;
+      width: 255px;
+      height: 48px;
+      border: 1px solid rgba(177, 177, 177, 0.25); }
+      .main-content .ad-schedule a span {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        background-image: url(/departments/images/main/bg_ad_next.gif);
+        background-position: 100% 0;
+        background-repeat: no-repeat;
+        text-align: left;
+        line-height: 46px;
+        font-size: 15px;
+        color: #333;
+        text-indent: 25px; }
+      .main-content .ad-schedule a:hover span, .main-content .ad-schedule a:focus span {
+        color: #ffd217;
+        background-color: #2a2a2a;
+        background-position: 100% -46px; }
+    .main-content .ad-schedule img {
+      position: absolute;
+      bottom: 0;
+      right: -130px;
+      z-index: 0; }
+
+.quick-menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6; }
+  .quick-menu ul {
+    text-align: center; }
+    .quick-menu ul li {
+      display: inline-block;
+      padding-left: 30px;
+      padding-right: 30px;
+      width: 160px;
+      height: 150px;
+      vertical-align: top; }
+      .quick-menu ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        color: #222;
+        line-height: 24px;
+        text-decoration: none; }
+        .quick-menu ul li a div {
+          margin-bottom: 5px;
+          width: 100px;
+          height: 100px;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          border-radius: 50%; }
+        .quick-menu ul li a:focus div, .quick-menu ul li a:hover div {
+          background-color: #ffd217; }
+      .quick-menu ul li:nth-of-type(1) a div {
+        background-image: url(/departments/images/main/ico_school.png); }
+      .quick-menu ul li:nth-of-type(2) a div {
+        background-image: url(/departments/images/main/ico_printer.png); }
+      .quick-menu ul li:nth-of-type(3) a div {
+        background-image: url(/departments/images/main/ico_book.png); }
+      .quick-menu ul li:nth-of-type(4) a div {
+        background-image: url(/departments/images/main/ico_bed.png); }
+      .quick-menu ul li:nth-of-type(5) a div {
+        background-image: url(/departments/images/main/ico_bus.png); }
+      .quick-menu ul li:nth-of-type(6) a div {
+        background-image: url(/departments/images/main/ico_cursor.png); }
+
+/*# sourceMappingURL=main.css.map */
