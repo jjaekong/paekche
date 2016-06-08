@@ -3,8 +3,8 @@
 <header id="header">
     <div class="container">
         <h1>
-            <img src="/departments/images/logo.png" alt="백제예술대학교">
-            <small>미디어음악과</small>
+            <a href="/"><img src="/departments/images/logo.png" alt="백제예술대학교"></a>
+            <a href="/departments/main.php">미디어음악과</a>
         </h1>
         <nav id="gnb" tabindex="-1">
             <ul>

@@ -1,0 +1,423 @@
+.slogan {
+    height: 573px;
+    background-color: #fff;
+    background-image: url(/departments/images/main/bg_slogan.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    hr {
+        margin-top: 190px;
+        margin-bottom: 15px;
+        width: 35px;
+    }
+    small {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 21px;
+        letter-spacing: 0;
+        line-height: 35px;
+        color: #fff;
+    }
+    p {
+        font-size: 75px;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: -3px;
+        line-height: 75px;
+        b {
+            font-weight: 700;
+        }
+    }
+}
+
+.main-content {
+    position: relative;
+    margin-top: -137px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 548px;
+    background-color: #fff;
+    .depart-notice,
+    .ba-notice {
+        position: absolute;
+        left: 0;
+        width: 584px;
+        height: 274px;
+        > div {
+            position: absolute;
+            width: 292px;
+            height: 100%;
+            h3, h4 {
+                margin-top: 0;
+            }
+            &:nth-of-type(1) {
+                padding: 30px 35px;
+                background-color: #e8e8e8;
+                h3 {
+                    margin-bottom: 20px;
+                    font-size: 30px;
+                    line-height: .8em;
+                    font-weight: 400;
+                    small {
+                        font-size: 14px;
+                        font-weight: 100;
+                        color: #555;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    width: 77px;
+                    height: 23px;
+                    background-color: #333333;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 12px;
+                    line-height: 23px;
+                    text-decoration: none;
+                    &:hover,
+                    &:focus {
+                        opacity: .8;
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                a {
+                    display: block;
+                    padding: 25px 35px;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    h4 {
+                        margin-bottom: 15px;
+                        color: #222;
+                        font-size: 26px;
+                        line-height: 36px;
+                        letter-spacing: -2px;
+                    }
+                    p {
+                        color: #333;
+                        font-size: 13px;
+                        line-height: 26px;
+                        text-align: justify;
+                    }
+                    &:hover,
+                    &:focus {
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+    }
+    .depart-notice {
+        top: 0;
+        > div {
+            top: 0;
+            &:nth-of-type(1) {
+                left: 0;
+                text-align: right;
+                h3 {
+                    color: #333;
+                }
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    left: -120px;
+                }
+            }
+            &:nth-of-type(2) {
+                left: 292px;
+                a {
+                    background-image: url(/departments/images/main/ico_point_right.gif);
+                    background-repeat: no-repeat;
+                    background-position: 0 50%;
+                }
+            }
+        }
+    }
+    .ba-notice {
+        top: 0;
+        > div {
+            top: 0;
+            &:nth-of-type(1) {
+                left: 292px;
+                h3 {
+                    position: relative;
+                    color: #033333;
+                    z-index: 1;
+                }
+                a {
+                    position: relative;
+                    z-index: 1;
+                }
+                img {
+                    position: absolute;
+                    bottom: 0;
+                    right: 20px;
+                    z-index: 0;
+                }
+            }
+            &:nth-of-type(2) {
+                left: 0;
+                border-left: 1px solid #e6e6e6;
+                border-bottom: 1px solid #e6e6e6;
+                a {
+                    background-image: url(/departments/images/main/ico_point_left.gif);
+                    background-repeat: no-repeat;
+                    background-position: 100% 50%;
+                }
+            }
+        }
+    }
+    .ba-notice {
+        top: 274px;
+    }
+    .about-depart,
+    .ba-schedule {
+        position: absolute;
+        left: 584px;
+        width: 294px;
+        height: 274px;
+        a {
+            display: block;
+            padding-top: 60px;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            text-decoration: none;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 100px;
+                color: #fff;
+                font-size: 30px;
+                font-weight: 300;
+                line-height: .9em;
+                b {
+                    font-weight: 400;
+                }
+                small {
+                    color: #fff;
+                    font-weight: 100;
+                    font-size: 14px;
+                }
+            }
+            &:hover,
+            &:focus {
+                background-color: #303030;  
+            }
+        }
+    }
+    .about-depart {
+        top: 0;
+        background-image: url(/departments/images/main/bg_depart.jpg);
+        a {
+            h3 {
+                background-image: url(/departments/images/main/ico_mic.png);
+                background-repeat: no-repeat;
+                background-position: 50% 0;
+            }
+        }
+    }
+    .ba-schedule {
+        top: 274px;
+        background-image: url(/departments/images/main/bg_schedule.jpg);
+        a {
+            h3 {
+                background-image: url(/departments/images/main/ico_calendar.png);
+                background-repeat: no-repeat;
+                background-position: 50% 5px;
+            }
+        }
+    }
+    .ad-schedule {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 25px;
+        width: 292px;
+        height: 548px;
+        background-color: #ffd217;
+        text-align: center;
+        h3 {
+            margin-top: 0;
+            font-size: 30px;
+            line-height: 40px;
+            color: #111;
+        }
+        hr {
+            margin: 25px auto 10px;
+            width: 20px;
+            text-align: center;
+            border-color: #222;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 24px;
+            color: #444;
+        }
+        dl {
+            margin-bottom: 45px;
+            padding-left: 20px;
+            text-align: left;
+            dt {
+                padding-left: 20px;
+                font-size: 20px;
+                line-height: 24px;
+                color: #111;
+                font-weight: normal;
+                background-image: url(/departments/images/main/ico_rcaret_gray.png);
+                background-repeat: no-repeat;
+                background-position: 0 8px;
+                &.active {
+                    background-image: url(/departments/images/main/ico_rcaret_orange.png);
+                }
+                i {
+                    position: relative;
+                    top: -4px;
+                    display: inline-block;
+                    width: 67px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 11px;
+                    background-color: #cc3333;
+                    color: #fff;
+                    font-style: normal;
+                    text-align: center;
+                    border-radius: 10px;
+                }
+            }
+            dd {
+                margin-bottom: 25px;
+                padding-left: 20px;
+                font-size: 15px;
+                line-height: 24px;
+                color: #3e3e3e;
+            }
+        }
+        a {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            margin: 0 auto;
+            width: 255px;
+            height: 48px;
+            border: 1px solid rgba(177, 177, 177, .25);
+            span {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                background-image: url(/departments/images/main/bg_ad_next.gif);
+                background-position: 100% 0;
+                background-repeat: no-repeat;
+                text-align: left;
+                line-height: 46px;
+                font-size: 15px;
+                color: #333;
+                text-indent: 25px;
+            }
+            &:hover,
+            &:focus {
+                span {
+                    color: #ffd217;
+                    background-color: #2a2a2a;
+                    background-position: 100% -46px;
+                }
+            }
+        }
+        img {
+            position: absolute;
+            bottom: 0;
+            right: -130px;
+            z-index: 0;
+        }
+    }
+}
+
+.quick-menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    background-color: #fafafa;
+    border: 1px solid #e6e6e6;
+    ul {
+        text-align: center;
+        li {
+            display: inline-block;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 160px;
+            height: 150px;
+            vertical-align: top;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                font-size: 16px;
+                color: #222;
+                line-height: 24px;
+                text-decoration: none;
+                div {
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 100px;
+                    background-repeat: no-repeat;
+                    background-position: 50% 50%;
+                    border-radius: 50%;
+                }
+                &:focus,
+                &:hover {
+                    div {
+                        background-color: #ffd217;
+                    }
+                }
+            }
+            &:nth-of-type(1) {
+                a {
+                    div {
+                        background-image: url(/departments/images/main/ico_school.png);
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                a {
+                    div {
+                        background-image: url(/departments/images/main/ico_printer.png);
+                    }
+                }
+            }
+            &:nth-of-type(3) {
+                a {
+                    div {
+                        background-image: url(/departments/images/main/ico_book.png);
+                    }
+                }
+            }
+            &:nth-of-type(4) {
+                a {
+                    div {
+                        background-image: url(/departments/images/main/ico_bed.png);
+                    }
+                }
+            }
+            &:nth-of-type(5) {
+                a {
+                    div {
+                        background-image: url(/departments/images/main/ico_bus.png);
+                    }
+                }
+            }
+            &:nth-of-type(6) {
+                a {
+                    div {
+                        background-image: url(/departments/images/main/ico_cursor.png);
+                    }
+                }
+            }
+        }
+    }
+}
