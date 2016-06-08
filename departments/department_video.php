@@ -15,17 +15,17 @@
 		<div class="container">
 			<ol class="breadcrumb">
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">커뮤니티</a></li>
-				<li class="active">학과활동갤러리</li>
+				<li><a href="#">학과 동영상</a></li>
+				<li class="active">학과 동영상</li>
 			</ol>
 		</div>
 	</div>
-	<main id="content" tabindex="-1" class="departments activity-gallery">
+	<main id="content" tabindex="-1" class="departments department-video">
 		<div class="container">
 			<section class="activity">
 				<div class="section-header">
 					<hr />
-					<h3>학과활동갤러리</h3>
+					<h3>학과 동영상</h3>
 				</div>
 				<div class="section-content">
 					<div class="search-area">
@@ -39,11 +39,20 @@
 					</div>
 					<div class="gallery">
 						<figure>
-							<a href="#"><img src="/departments/images/activity00.gif" alt="2013년도 미디어음악과 정기공연 1"></a>
+							<a href="#"><img src="/departments/images/video00.gif" alt="20회 정기연주회 강남스타일"></a>
 							<figcaption>
 								<a href="#">
-									<h5>2013년도 미디어음악과 정기공연 1</h5>
-									<p>학과 사무실</p>
+									<h5>20회 정기연주회 강남스타일</h5>
+									<dl>
+										<dt>감독</dt>
+										<dd>미디어음악과</dd>
+										<dt>장르</dt>
+										<dd>기타</dd>
+										<dt>설명</dt>
+										<dd></dd>
+										<dt>작성자</dt>
+										<dd>학과사무실</dd>
+									</dl>
 									<div class="date">
 										<p>2016.03.03</p>
 										<span>233</span>
@@ -52,11 +61,20 @@
 							</figcaption>
 						</figure>
 						<figure>
-							<a href="#"><img src="/departments/images/activity01.gif" alt="2013년도 미디어음악과 정기공연 1"></a>
+							<a href="#"><img src="/departments/images/video01.gif" alt="20회 정기연주회 이노래"></a>
 							<figcaption>
 								<a href="#">
-									<h5>2013년도 미디어음악과 정기공연 1</h5>
-									<p>학과 사무실</p>
+									<h5>20회 정기연주회 이노래</h5>
+									<dl>
+										<dt>감독</dt>
+										<dd>미디어음악과</dd>
+										<dt>장르</dt>
+										<dd>기타</dd>
+										<dt>설명</dt>
+										<dd></dd>
+										<dt>작성자</dt>
+										<dd>학과사무실</dd>
+									</dl>
 									<div class="date">
 										<p>2016.03.03</p>
 										<span>233</span>
@@ -65,11 +83,20 @@
 							</figcaption>
 						</figure>
 						<figure>
-							<a href="#"><img src="/departments/images/activity02.gif" alt="2013년도 미디어음악과 정기공연 1"></a>
+							<a href="#"><img src="/departments/images/video02.gif" alt="20회 정기연주회 니까짓게"></a>
 							<figcaption>
 								<a href="#">
-									<h5>2013년도 미디어음악과 정기공연 1</h5>
-									<p>학과 사무실</p>
+									<h5>20회 정기연주회 니까짓게</h5>
+									<dl>
+										<dt>감독</dt>
+										<dd>미디어음악과</dd>
+										<dt>장르</dt>
+										<dd>기타</dd>
+										<dt>설명</dt>
+										<dd></dd>
+										<dt>작성자</dt>
+										<dd>학과사무실</dd>
+									</dl>
 									<div class="date">
 										<p>2016.03.03</p>
 										<span>233</span>
@@ -78,11 +105,20 @@
 							</figcaption>
 						</figure>
 						<figure>
-							<a href="#"><img src="/departments/images/activity03.gif" alt="2013년도 미디어음악과 정기공연 1"></a>
+							<a href="#"><img src="/departments/images/video03.gif" alt="20회 정기연주회 바람인가요"></a>
 							<figcaption>
 								<a href="#">
-									<h5>2013년도 미디어음악과 정기공연 1</h5>
-									<p>학과 사무실</p>
+									<h5>20회 정기연주회 바람인가요</h5>
+									<dl>
+										<dt>감독</dt>
+										<dd>미디어음악과</dd>
+										<dt>장르</dt>
+										<dd>기타</dd>
+										<dt>설명</dt>
+										<dd></dd>
+										<dt>작성자</dt>
+										<dd>학과사무실</dd>
+									</dl>
 									<div class="date">
 										<p>2016.03.03</p>
 										<span>233</span>
@@ -91,11 +127,20 @@
 							</figcaption>
 						</figure>
 						<figure>
-							<a href="#"><img src="/departments/images/activity04.gif" alt="2013년도 미디어음악과 정기공연 1"></a>
+							<a href="#"><img src="/departments/images/video04.gif" alt="20회 정기연주회 니가 있어야 할 곳"></a>
 							<figcaption>
 								<a href="#">
-									<h5>2013년도 미디어음악과 정기공연 1</h5>
-									<p>학과 사무실</p>
+									<h5>20회 정기연주회 니가 있어야 할 곳</h5>
+									<dl>
+										<dt>감독</dt>
+										<dd>미디어음악과</dd>
+										<dt>장르</dt>
+										<dd>기타</dd>
+										<dt>설명</dt>
+										<dd></dd>
+										<dt>작성자</dt>
+										<dd>학과사무실</dd>
+									</dl>
 									<div class="date">
 										<p>2016.03.03</p>
 										<span>233</span>
@@ -104,11 +149,20 @@
 							</figcaption>
 						</figure>
 						<figure>
-							<a href="#"><img src="/departments/images/activity05.gif" alt="2013년도 미디어음악과 정기공연 1"></a>
+							<a href="#"><img src="/departments/images/video05.gif" alt="20회 정기연주회 나만 봐라봐"></a>
 							<figcaption>
 								<a href="#">
-									<h5>2013년도 미디어음악과 정기공연 1</h5>
-									<p>학과 사무실</p>
+									<h5>20회 정기연주회 나만 봐라봐</h5>
+									<dl>
+										<dt>감독</dt>
+										<dd>미디어음악과</dd>
+										<dt>장르</dt>
+										<dd>기타</dd>
+										<dt>설명</dt>
+										<dd></dd>
+										<dt>작성자</dt>
+										<dd>학과사무실</dd>
+									</dl>
 									<div class="date">
 										<p>2016.03.03</p>
 										<span>233</span>
