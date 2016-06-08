@@ -344,3 +344,58 @@
 	float: left;
 	line-height:24px;	
 }
+
+
+/* notice */
+.departments.notice .container {padding-bottom:140px; }
+.departments.notice .container .section-header {padding:63px 0 43px 0; }
+.departments.notice .container .section-content .table-wrap .table {border-top:2px solid #555; margin-bottom:0; }
+.departments.notice .container .section-content .table-wrap .table thead {background-color:#f9f9f9; }
+.departments.notice .container .section-content .table-wrap .table thead tr {height:43px; }
+.departments.notice .container .section-content .table-wrap .table thead th {
+	text-align:center; 
+	font-size:14px; 
+	color:#333; 
+	border-bottom:0; 
+	vertical-align:middle; 
+}
+.departments.notice .container .section-content .table-wrap .table tbody {text-align:center; }
+.departments.notice .container .section-content .table-wrap .table tbody tr td:nth-of-type(2) {
+	text-align:left; 
+	padding-left:20px; 
+}
+.departments.notice .container .section-content .table-wrap .table tbody tr {
+	height:43px; 
+}
+.departments.notice .container .section-content .table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.departments.notice .container .section-content .table-wrap .table tbody tr td a {
+	font-size:13px; 
+	color:#666; 
+	vertical-align:middle; 
+}
+.departments.notice .container .section-content .table-wrap .table tbody tr td p {
+	font-size:12px; 
+	color:#fff; 
+	width:50px; 
+	height:20px; 
+	background-color:#d22d36; border-radius:5px; 
+	text-align:center; 
+	display:inline-block; 
+	line-height:20px; 
+}
+.departments.notice .container .section-content .table-wrap .table tbody tr td .hwp-file {width:13px; }
+.departments.notice .container .section-content .table-wrap .table tbody tr td .jpg-file {width:16px; }
+.departments.notice .container .section-content .table-wrap .table tbody tr td .pdf-file {width:16px; }
+
+.departments.notice .container .paging {
+	position:relative; 
+	text-align:center; 
+}
+.departments.notice .container .btn-area {
+	position:absolute; 
+	top:20px; 
+	right:0; 
+	margin:0; 
+}
