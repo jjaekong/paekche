@@ -26,42 +26,29 @@
 				<hr />
 				<h3>공지사항</h3>
 			</div>
-			<div class="section-content">
-				<div class="table-wrap">
-					<table class="table">
-						<colgroup>
-							<col style="width: 954px"/>
-							<col style="width: 216px"/>
-						</colgroup>
-						<thead>
-							<tr>
-								<th>미디어음악과 실기 및 면접 안내</th>
-								<th>학과사무실<span>|</span>2016.01.20</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td colspan="2">
-									미디어음악과 실기 및 면접에 관한 안내 사항입니다.<br>
-									문의가 많은 k-pop 미디 작.편곡 실기에 관해 다시 공지해드립니다.
-									<p>
-										<a href="#">
-											첨부파일<br>
-											<span>면접안내.hwp, 면접안내.doc, noname_test001.txt</span>
-										</a>
-									</p>
-								</td>
-							</tr>
-							<tr>
-								<td colspan="2"><a href="#">&lt;2015학년도 저작권 관련 특강&gt;공지</a></td>
-							</tr>
-							<tr>
-								<td colspan="2"><a href="#">2015학년도 비봉제(축제) 안내</a></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
+			<article class="article-header">
+				<h4>미디어음악과 실기 및 면접 안내</h4>
+				<dl>
+					<dt class="sr-only">작성자</dt>
+					<dd class="writer">학과사무실</dd>
+					<dt class="sr-only">등록일</dt>
+					<dd class="date">2016.01.20</dd>
+				</dl>
+			</article>
+			<article class="article-content">
+				미디어음악과 실기 및 면접에 관한 안내 사항입니다.<br>
+				문의가 많은 k-pop 미디 작.편곡 실기에 관해 다시 공지해드립니다. 
+			</article>
+			<article class="article-footer">
+				<dl class="attach">
+					<dt><a href="#">첨부파일</a></dt>
+					<dd><a href="#">면접안내.hwp,</a></dd>
+					<dd><a href="#">면접안내.doc,</a></dd>
+					<dd><a href="#">noname_test001.txt</a></dd>
+				</dl>
+			</article>
+			<p><a href="#">&lt;2015학년도 저작권 관련 특강&gt; 공지</a></p>
+			<p><a href="#">2015학년도 비봉제(축제) 안내</a></p>
 			<div class="btn-area">
 				<p>
 					<a class="btn btn-sm btn-gray" href="#" role="button">목록</a>

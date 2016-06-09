@@ -34,25 +34,25 @@
 							<col style="width: 1030px"/>
 						</colgroup>
 						<tbody>
-							<tr>
+							<tr class="writer">
 								<th>작성자</th>
 								<td>학과사무실</td>
 							</tr>
-							<tr>
+							<tr class="subject">
 								<th><label for="subject">제목</label></th>
 								<td><input type="text" id="subject" class="form-control"/></td>
 							</tr>
-							<tr>
+							<tr class="text-content">
 								<th><label for="text-content">내용</label></th>
 								<td><textarea id="text-content" class="form-control"></textarea></td>
 							</tr>
-							<tr>
+							<tr class="file">
 								<th><label for="file" class="attach">첨부파일</label></th>
-								<td class="file"><input type="file" id="file" class="form-control"/></td>
+								<td><input type="file" id="file" class="form-control"/></td>
 							</tr>
-							<tr>
+							<tr class="password">
 								<th><label for="password">비밀번호</label></th>
-								<td class="pw"><input type="text" id="password" class="form-control"/></td>
+								<td><input type="password" id="password" class="form-control"/></td>
 							</tr>
 						</tbody>
 					</table>
@@ -60,12 +60,15 @@
 			</div>
 			<div class="btn-area">
 				<p>
-					<a class="btn btn-pink" href="#" role="button">확인</a>
+					<a type="submit" class="btn btn-pink" href="#" role="button">확인</a>
 					<a class="btn btn-gray" href="#" role="button">취소</a>
 				</p>
 			</div>
 		</section>
 	</main>
+	<style>
+	
+	</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/docfoot.php'); ?>
 </body>
