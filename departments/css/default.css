@@ -119,30 +119,56 @@ ul, ol {
     background-color: #fff;
     border-radius: 0; }
     .page-nav .breadcrumb > li {
-      border-right: 1px solid #eaeaea;
+      float: left;
       color: #555;
       font-size: 15px; }
-      .page-nav .breadcrumb > li a {
+      .page-nav .breadcrumb > li > a {
         display: inline-block;
         padding-left: 80px;
         padding-right: 80px;
+        border-left: 1px solid #eaeaea;
         text-align: center;
         color: #555; }
       .page-nav .breadcrumb > li:before {
         padding: 0;
-        content: ''; }
+        content: none; }
       .page-nav .breadcrumb > li.active {
         padding-left: 80px;
         padding-right: 80px; }
-      .page-nav .breadcrumb > li:nth-of-type(1) {
-        border-left: 1px solid #eaeaea; }
-        .page-nav .breadcrumb > li:nth-of-type(1) a {
+        .page-nav .breadcrumb > li.active.dropdown {
           padding-left: 0;
-          padding-right: 0;
-          min-width: 65px;
-          height: 100%; }
-          .page-nav .breadcrumb > li:nth-of-type(1) a:hover, .page-nav .breadcrumb > li:nth-of-type(1) a:focus {
-            opacity: .85; }
+          padding-right: 0; }
+      .page-nav .breadcrumb > li.dropdown .dropdown-menu {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        min-width: auto;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        border-color: #eaeaea; }
+        .page-nav .breadcrumb > li.dropdown .dropdown-menu li a {
+          padding: 0;
+          height: 65px;
+          line-height: 64px;
+          border-top: 1px solid #eaeaea;
+          text-align: center;
+          font-size: 15px;
+          color: #555; }
+          .page-nav .breadcrumb > li.dropdown .dropdown-menu li a:hover, .page-nav .breadcrumb > li.dropdown .dropdown-menu li a:focus {
+            background-color: #ffd217; }
+        .page-nav .breadcrumb > li.dropdown .dropdown-menu li:first-child a {
+          border-top: 0; }
+      .page-nav .breadcrumb > li:first-child > a {
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 65px;
+        height: 100%; }
+        .page-nav .breadcrumb > li:first-child > a:hover, .page-nav .breadcrumb > li:first-child > a:focus {
+          opacity: .85; }
+      .page-nav .breadcrumb > li:last-child > a {
+        border-right: 1px solid #eaeaea; }
 
 #content {
   min-height: 100px;
