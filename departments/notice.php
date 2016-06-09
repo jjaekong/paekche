@@ -150,7 +150,7 @@
 					</li>
 					<li>
 						<a href="#" aria-label="Previous">
-							<span aria-hidden="true">&lt;</span>
+							<span aria-hidden="true">&lsaquo;</span>
 						</a>
 					</li>
 					<li class="active"><a href="#">1</a></li>
@@ -160,7 +160,7 @@
 					<li><a href="#">5</a></li>
 					<li>
 						<a href="#" aria-label="Next" >
-							<span aria-hidden="true">&gt;</span>
+							<span aria-hidden="true">&rsaquo;</span>
 						</a>
 					</li>
 					<li>

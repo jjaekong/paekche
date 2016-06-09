@@ -349,8 +349,11 @@
 /* notice */
 .departments.notice .container {padding-bottom:140px; }
 .departments.notice .container .section-header {padding:63px 0 43px 0; }
-.departments.notice .container .section-content .table-wrap .table {border-top:2px solid #555; margin-bottom:0; }
-.departments.notice .container .section-content .table-wrap .table thead {background-color:#f9f9f9; }
+.table-wrap .table {border-top:2px solid #555; margin-bottom:0; }
+.table-wrap .table thead {background-color:#f9f9f9; }
+.table-wrap .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
 .departments.notice .container .section-content .table-wrap .table thead tr {height:43px; }
 .departments.notice .container .section-content .table-wrap .table thead th {
 	text-align:center; 
@@ -366,9 +369,6 @@
 }
 .departments.notice .container .section-content .table-wrap .table tbody tr {
 	height:43px; 
-}
-.departments.notice .container .section-content .table-wrap .table tbody tr:last-child {
-	border-bottom:1px solid #ccc; 
 }
 .departments.notice .container .section-content .table-wrap .table tbody tr td a {
 	font-size:13px; 
@@ -399,3 +399,90 @@
 	right:0; 
 	margin:0; 
 }
+
+/* notice_view */
+.departments.notice-view .container {padding-bottom:140px; }
+.departments.notice-view .container .section-header {padding:63px 0 43px 0; }
+.departments.notice-view .container .section-content .table-wrap .table { }
+.departments.notice-view .container .section-content .table-wrap .table thead tr {
+	height:40px; 
+}
+.departments.notice-view .container .section-content .table-wrap .table thead tr th {
+	vertical-align:middle; 
+	font-weight:300; 
+	color:#333; 
+	font-size:14px;
+	border-bottom:0; 
+}
+.departments.notice-view .container .section-content .table-wrap .table thead tr th:nth-of-type(1) {
+	padding:0 34px; 
+}
+.departments.notice-view .container .section-content .table-wrap .table thead tr th:nth-of-type(2) {
+	padding:0 30px; 
+	text-align:center; 
+	font-size:13px; 
+}
+.departments.notice-view .container .section-content .table-wrap .table thead tr th:nth-of-type(2) span {
+	padding:0 10px; 
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr {
+	height:40px !important; 
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr td {
+	padding:0 34px; 
+	font-size:14px;
+	vertical-align:middle;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr td a {
+	color:#666;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:first-child {
+	height:400px !important; 
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:first-child td {
+	position:relative; 
+	padding:28px 34px; 
+	font-size:15px; 
+	line-height:28px;
+	vertical-align:top;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:first-child td p {
+	position:absolute; 
+	bottom:28px; 
+	left:34px; 
+	background-image:url('/departments/images/attach.png');
+	background-size:11px auto;
+	background-repeat:no-repeat;
+	background-position:2px 6px;
+	padding-left:20px;
+	font-size:14px;
+	color:#666; 
+	line-height:23px;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:first-child td p span {
+	font-size:13px;
+	color:#222;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:first-child td p a { 
+	color:#666;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:nth-of-type(2) td {
+	background-image:url('/departments/images/top_arrow.png');
+	background-size:10px auto;
+	background-repeat:no-repeat;
+	background-position:40px 50%;
+	padding-left:78px;
+}
+.departments.notice-view .container .section-content .table-wrap .table tbody tr:nth-of-type(3) td {
+	background-image:url('/departments/images/bottom_arrow.png');
+	background-size:12px auto;
+	background-repeat:no-repeat;
+	background-position:40px 50%;
+	padding-left:78px;
+}
+.departments.notice-view .container .btn-area {overflow:hidden; margin-top:20px; }
+.departments.notice-view .container .btn-area p:nth-of-type(1) {float:left; }
+.departments.notice-view .container .btn-area p:nth-of-type(2) {float:right; }
+.departments.notice-view .container .btn-area p:nth-of-type(2) .btn-white {width:60px !important; margin-right:10px; }
+.departments.notice-view .container .btn-area p:nth-of-type(2) .btn-gray {width:90px !important; }
+.departments.notice-view .container .btn-area p:nth-of-type(2) .btn-pink {width:90px !important; }
