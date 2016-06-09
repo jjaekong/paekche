@@ -27,7 +27,7 @@
 				<h3>공지사항</h3>
 			</div>
 			<div class="section-content">
-				<div class="table-wrap">
+				<form class="notice-form">
 					<table class="table">
 						<colgroup>
 							<col style="width: 140px"/>
@@ -35,40 +35,37 @@
 						</colgroup>
 						<tbody>
 							<tr>
-								<th></th>
-								<td></td>
+								<th>작성자</th>
+								<td>학과사무실</td>
 							</tr>
 							<tr>
-								<th></th>
-								<td></td>
+								<th><label for="subject">제목</label></th>
+								<td><input type="text" id="subject" class="form-control"/></td>
 							</tr>
 							<tr>
-								<th></th>
-								<td></td>
+								<th><label for="text-content">내용</label></th>
+								<td><textarea id="text-content" class="form-control"></textarea></td>
 							</tr>
 							<tr>
-								<th></th>
-								<td></td>
+								<th><label for="file" class="attach">첨부파일</label></th>
+								<td class="file"><input type="file" id="file" class="form-control"/></td>
 							</tr>
 							<tr>
-								<th></th>
-								<td></td>
+								<th><label for="password">비밀번호</label></th>
+								<td class="pw"><input type="text" id="password" class="form-control"/></td>
 							</tr>
 						</tbody>
 					</table>
-				</div>
+				</form>
 			</div>
 			<div class="btn-area">
 				<p>
-					<a class="btn btn-gray" href="#" role="button">확인</a>
-					<a class="btn btn-pink" href="#" role="button">취소</a>
+					<a class="btn btn-pink" href="#" role="button">확인</a>
+					<a class="btn btn-gray" href="#" role="button">취소</a>
 				</p>
 			</div>
 		</section>
 	</main>
-<style>
-.departments.notice-write .container .section-header {padding:63px 0 43px 0; }
-</style>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/docfoot.php'); ?>
 </body>

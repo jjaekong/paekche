@@ -22,7 +22,7 @@
 	background-image:url('/departments/images/r_arrow_l.png');
 	background-size:5px auto;
 	background-repeat:no-repeat;
-	background-position:0 5px;
+	background-position:0 8px;
 	padding-left:22px;
 	width:223px;
 	font-size:15px;
@@ -151,7 +151,7 @@
 	position:absolute; 
 	top:0; 
 	left:0;
-	content:"¡Ø"; 
+	content:"â€»"; 
 }
 .subject .section-header {margin-top:70px; }
 .subject .section-content {padding-bottom:140px; }
@@ -486,3 +486,70 @@
 .departments.notice-view .container .btn-area p:nth-of-type(2) .btn-white {width:60px !important; margin-right:10px; }
 .departments.notice-view .container .btn-area p:nth-of-type(2) .btn-gray {width:90px !important; }
 .departments.notice-view .container .btn-area p:nth-of-type(2) .btn-pink {width:90px !important; }
+
+
+/* notice-write */
+.departments.notice-write .container {padding-bottom:140px; }
+.departments.notice-write .container .section-header {padding:63px 0 43px 0; }
+.departments.notice-write .container .section-content .notice-form .table {
+	border-top:2px solid #555; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr {
+	height:50px;
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr:nth-of-type(3) {
+	height:240px;
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr:nth-of-type(3) th {
+	vertical-align:middle;
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr th {
+	background-color:#f9f9f9;
+	border-left:1px solid #ccc; 
+	font-weight:300; padding-left:40px; 
+	vertical-align:middle; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr td {
+	padding:10px 20px; 
+	border-right:1px solid #ccc; 
+	border-left:1px solid #ccc; 
+	vertical-align:middle; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr:last-child {
+	border-bottom:1px solid #ccc; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr th label {
+	font-weight:300; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr td input {
+	width:100%; 
+	height:30px; 
+	border-radius:0; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr .file input {
+	width:286px; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr .pw input {
+	width:286px; 
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr .attach {
+	background-image:url('/departments/images/attach.png');
+	background-size:11px auto;
+	background-repeat:no-repeat;
+	background-position:55px 4px;
+	width:80px;
+}
+.departments.notice-write .container .section-content .notice-form .table tbody tr td textarea {
+	width:100%; 
+	height:210px;
+	padding:6px 12px; 
+	border-radius:0; 
+}
+
+.departments.notice-write .container .btn-area {
+	margin-top:20px; 
+	text-align:center; 
+}
+.departments.notice-write .container .btn-area .btn-pink {
+	margin-right:10px; 
+}
