@@ -572,3 +572,33 @@
 .departments.notice-write .container .btn-area .btn-pink {
 	margin-right:10px; 
 }
+
+
+/* confirm-pw */
+.departments.confirm-pw .container {padding-bottom:150px; }
+.departments.confirm-pw .container .section-header {padding:63px 0 120px 0; }
+.departments.confirm-pw .container .confirm h4 {
+	height:120px;
+	background-image:url('/departments/images/lock.png');
+	background-size:49px auto;
+	background-repeat:no-repeat;
+	background-position:50% 0;
+	text-align:center;
+	font-size:24px;
+	font-weight:300;
+	color:#666;
+	padding-top:75px;
+	letter-spacing:-0.5px;
+}
+.departments.confirm-pw .container .confirm{text-align:center; }
+.departments.confirm-pw .container .confirm .form-group {display:inline-block; margin-bottom:37px; }
+.departments.confirm-pw .container .confirm .form-group input { 
+	width:430px;
+	height:46px;
+	border-radius:0;
+	box-shadow:none;
+}
+.departments.confirm-pw .container .confirm .form-group input:focus {border-color:#ccc; }
+.departments.confirm-pw .container .confirm .btn-area {margin:0; }
+.departments.confirm-pw .container .confirm .btn-area .btn {width:147px; height:48px; line-height:48px; font-size:17px; }
+.departments.confirm-pw .container .confirm .btn-area .btn-gray {margin-right:10px; }

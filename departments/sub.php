@@ -32,7 +32,7 @@
 			</div>
 			<div class="btn-area">
 				<p>
-					<a type="submit" class="btn btn-pink" href="#" role="button">확인</a>
+					<button type="submit" class="btn btn-pink" role="button">확인</button>
 					<a class="btn btn-gray" href="#" role="button">취소</a>
 				</p>
 			</div>
