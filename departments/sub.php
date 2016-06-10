@@ -32,8 +32,8 @@
 			</div>
 			<div class="btn-area">
 				<p>
-					<a class="btn btn-gray" href="#" role="button">확인</a>
-					<a class="btn btn-pink" href="#" role="button">취소</a>
+					<button type="submit" class="btn btn-pink">확인</button>
+					<a class="btn btn-gray" href="#" role="button">취소</a>
 				</p>
 			</div>
 			<nav class="paging">
@@ -45,7 +45,7 @@
 					</li>
 					<li>
 						<a href="#" aria-label="Previous">
-							<span aria-hidden="true">&lt;</span>
+							<span aria-hidden="true">&lsaquo;</span>
 						</a>
 					</li>
 					<li class="active"><a href="#">1</a></li>
@@ -55,7 +55,7 @@
 					<li><a href="#">5</a></li>
 					<li>
 						<a href="#" aria-label="Next" >
-							<span aria-hidden="true">&gt;</span>
+							<span aria-hidden="true">&rsaquo;</span>
 						</a>
 					</li>
 					<li>

@@ -58,7 +58,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><p>공지</p></td>
+								<td><span class="point">공지</span></td>
 								<td><a href="#">2014년도 졸업공연!</a></td>
 								<td><img class="hwp-file" src="/departments/images/hwp.png" alt="hwp파일"></td>
 								<td>학과사무실</td>
@@ -150,7 +150,7 @@
 					</li>
 					<li>
 						<a href="#" aria-label="Previous">
-							<span aria-hidden="true">&lt;</span>
+							<span aria-hidden="true">&lsaquo;</span>
 						</a>
 					</li>
 					<li class="active"><a href="#">1</a></li>
@@ -160,7 +160,7 @@
 					<li><a href="#">5</a></li>
 					<li>
 						<a href="#" aria-label="Next" >
-							<span aria-hidden="true">&gt;</span>
+							<span aria-hidden="true">&rsaquo;</span>
 						</a>
 					</li>
 					<li>
