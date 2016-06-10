@@ -56,8 +56,7 @@
 							<h3 class="section-title">문화 예술인의 터전,<span>백제예술대학교</span></h3>
 						</div>
 						<div class="section-content">
-							<div class="introduce">	
-								<img src="/images/introduce/chairman.jpg " alt="이사장인사말">
+							<div class="introduce">
 								<ul>
 									<li>서울대학교 사회학과 졸업</li>
 									<li>전라북도지사</li>

@@ -56,8 +56,7 @@
 							<h3 class="section-title">함께 꿈꾸면<span>이루어집니다.</span></h3>
 						</div>
 						<div class="section-content">
-							<div class="introduce">	
-								<img src="/images/introduce/president.jpg " alt="총장인사말">
+							<div class="introduce">
 								<ul>
 									<li>서울대학교 공과대학 졸업</li>
 									<li>건국대 행정대학원 도시개발학과석사</li>
