@@ -1,0 +1,56 @@
+/* staff_login */
+.staff.staff_login .login {
+	margin-top:60px;
+	padding:60px 170px;
+	width:870px;
+	border-top:2px solid #555;
+	border-bottom:1px solid #ccc;
+	background-color:#f9f9f9;
+}
+.staff.staff_login .login dl dt label {
+	font-size:14px;
+	color:#333;
+	font-weight:400;
+}
+.staff.staff_login .login dl dt {
+	display:inline-block;
+	background-image:url('/images/red_arrow.png');
+	background-size:6px auto;
+	background-repeat:no-repeat;
+	background-position:0 5px;
+	padding-left:16px;
+	width:85px;
+
+}
+.staff.staff_login .login dl dd {
+	display:inline-block;
+}
+.staff.staff_login .login dl dd input {
+	width:295px;
+	height:30px;
+	padding:10px;
+	font-size:14px;
+}
+.staff.staff_login .login form {
+	position:relative;
+}
+.staff.staff_login .login .btn-area {
+	margin:0 !important;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.staff.staff_login .login .btn-area .btn-pink {
+	width:131px;
+	height:80px;
+	background-color:#d22d36;
+	color:#fff;
+	font-size:17px;
+	padding:27px 0 !important;
+}
+.staff.staff_login .login .btn-area .btn-pink:hover {
+	opacity:0.8;
+}
+.staff.staff_login .staff-email {
+	margin-bottom:21px;
+}
