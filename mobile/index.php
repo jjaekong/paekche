@@ -6,14 +6,9 @@
     <main id="content" tabindex="-1">
         <div class="campaigns">
             <ul>
-                <li>
-                    <h3>
-                        백제 단편 시나리오<br>
-                        공모전 당선자 발표
-                    </h3>
-                    <p>재학생 여러분들의 많은 관심과 참여로 진행된 '백제 단편 시나리오 공모전' 당선자를 발표합니다.</p>
-                    <a href="#">자세히 보기</a>
-                </li>
+                <li><a href="#"><img class="img-responsive" src="/mobile/images/main/img_campaign_1.jpg" alt=""></a></li>
+                <li><a href="#"><img class="img-responsive" src="/mobile/images/main/img_campaign_1.jpg" alt=""></a></li>
+                <li><a href="#"><img class="img-responsive" src="/mobile/images/main/img_campaign_1.jpg" alt=""></a></li>
             </ul>
         </div>
         <div class="shortcuts">
@@ -31,5 +26,14 @@
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
+    <script src="/js/jquery.bxslider.min.js"></script>
+    <script>
+        (function($) {
+            $('.campaigns > ul').bxSlider({
+                prevText: '<img src="/mobile/images/main/btn_prev.gif" alt="이전" width="20" height="20">',
+                nextText: '<img src="/mobile/images/main/btn_next.gif" alt="다음" width="20" height="20">'
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

@@ -58,6 +58,29 @@ ul, ol {
     }
 }
 
+#primary-menu {
+    background-color: #fff;
+    height: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    ul {
+        li {
+            a {
+                display: block;
+                line-height: 39px;
+                text-align: center;
+                color: #333;
+                font-weight: bold;
+                text-decoration: none;
+                &:active {
+                    color: #f8b61d;
+                    line-height: 38px;
+                    border-bottom: 2px solid #f8b61d;
+                }
+            }
+        }
+    }
+}
+
 #content {
     min-height: 100px;
     background-color: #fff;
