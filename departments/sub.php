@@ -2,27 +2,34 @@
 <link href="/departments/css/introduce.css" rel="stylesheet" />
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/header.php'); ?>
-	<div class="jumbo-wall">
-		<div class="container">
-			<p>
-				<small>우리문화예술의 정통성을 바탕으로 그 본류를 주도하고</small><br>
-				미래를 선도하는 예술인 교육
-			</p>
-		</div>
-	</div>
-	<div class="page-nav">
-		<div class="container">
-			<ol class="breadcrumb">
-				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="#">자료실</a></li>
-				<li class="active">수업자료실</li>
-			</ol>
-		</div>
-	</div>
-	<main id="content" tabindex="-1">
-		<div class="container">
-			<div class="btn-area">
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/header.php'); ?>
+    <div class="jumbo-wall">
+        <div class="container">
+            <p>
+                <small>우리문화예술의 정통성을 바탕으로 그 본류를 주도하고</small><br>
+                미래를 선도하는 예술인 교육
+            </p>
+        </div>
+    </div>
+    <div class="page-nav">
+        <div class="container">
+            <ol class="breadcrumb">
+                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="#">자료실</a></li>
+                <!-- li class="active">수업자료실</li -->
+                <li class="active dropdown">
+                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">수업자료실 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">수업자료실</a></li>
+                        <li><a href="#">학생작품갤러리</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <main id="content" tabindex="-1">
+        <div class="container">
+            <div class="btn-area">
 				<p>
 					<a class="btn btn-sm btn-gray" href="#" role="button">목록</a>
 					<a class="btn btn-sm btn-white" href="#" role="button">수정</a>
@@ -67,7 +74,7 @@
 			</nav>
 			<ul class="content-list">
 				<li>대중음악가수</li>
-				<li>레코딩 & 음반프로젝트</li>
+				<li>레코딩 &amp; 음반프로젝트</li>
 				<li>보컬트레이너</li>
 				<li>보컬코러스팀</li>
 				<li>보컬음향디렉터</li>
@@ -81,8 +88,8 @@
 					<button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span><span class="sr-only">검색</span></button>
 				</form>
 			</div>
-		</div>
-	</main>
+        </div>
+    </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/departments/inc/docfoot.php'); ?>
 </body>

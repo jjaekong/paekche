@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  background-color: #333;
+  font-size: 12px; }
+
+address, p, dl {
+  margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+ul, ol {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+
+.container {
+  padding-left: 0;
+  padding-right: 0; }
+  .container .row {
+    margin-left: 0;
+    margin-right: 0; }
+
+#header {
+  height: 51px;
+  border-bottom: 1px solid #f8b61d;
+  background-color: #fff; }
+  #header .container {
+    position: relative; }
+    #header .container .logo {
+      padding-top: 8px;
+      margin-left: 10px; }
+      #header .container .logo img {
+        display: block; }
+    #header .container .btn-menu-open {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0;
+      width: 50px;
+      height: 50px;
+      background-color: #f8b61d;
+      color: #fff;
+      border-radius: 0;
+      border: 0; }
+      #header .container .btn-menu-open img {
+        display: block; }
+
+#content {
+  min-height: 100px;
+  background-color: #fff; }
+
+#quick {
+  height: 40px;
+  border-bottom: 1px solid #252525; }
+  #quick ul {
+    overflow: hidden; }
+    #quick ul li {
+      float: left;
+      width: 25%;
+      border-left: 1px solid #414141;
+      border-right: 1px solid #252525; }
+      #quick ul li a {
+        display: block;
+        line-height: 39px;
+        color: #999;
+        text-align: center; }
+      #quick ul li:first-child {
+        border-left: 0; }
+      #quick ul li:last-child {
+        border-right: 0; }
+
+#footer {
+  border-top: 1px solid #414141;
+  text-align: center;
+  font-size: 11px; }
+  #footer .logo {
+    margin-bottom: 25px;
+    padding-top: 25px; }
+    #footer .logo img {
+      display: block;
+      margin: 0 auto; }
+  #footer .information {
+    color: #f9f9f9; }
+    #footer .information address {
+      line-height: 18px; }
+    #footer .information dl dt, #footer .information dl dd {
+      display: inline-block;
+      padding-left: 2px;
+      padding-right: 2px;
+      line-height: 18px; }
+    #footer .information dl dt {
+      font-weight: 300; }
+  #footer .admisstion {
+    margin-bottom: 15px;
+    color: #f9f9f9; }
+    #footer .admisstion h5 {
+      display: inline-block;
+      padding-left: 2px;
+      padding-right: 2px;
+      font-size: 11px;
+      color: #f8b61d;
+      font-weight: 300; }
+    #footer .admisstion dl {
+      display: inline-block; }
+      #footer .admisstion dl dt, #footer .admisstion dl dd {
+        display: inline-block;
+        padding-left: 2px;
+        padding-right: 2px;
+        line-height: 18px; }
+      #footer .admisstion dl dt {
+        font-weight: 300; }
+  #footer .copyright {
+    color: #777;
+    font-size: 11px;
+    line-height: 16px; }
+    #footer .copyright a {
+      color: #777; }
+
+/*# sourceMappingURL=default.css.map */
