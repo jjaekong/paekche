@@ -86,118 +86,13 @@
 							</ul>
 						</li>
 					</ul>
+					<div class="speech-bubble">
+						<strong>중점 추진 과제 45개</strong>
+					</div>
 				</div>
 			</section>
 		</div>
 	</main>
-<style type="text/css">
-.introduce.vision .container section { 
-	margin-top:24px;
-	min-height:67px;
-	background-image:url(/mobile/images/introduce/arrow_up.png);
-	background-size:13px auto;
-	background-repeat:no-repeat;
-	background-position:50% 100%;
-}
-.introduce.vision .container section .section-header {
-	text-align:center;
-}
-.introduce.vision .container section .section-header h3 { 
-	background:none;
-	padding:0;
-	margin:0;
-	font-size:16px;
-	font-weight:400;
-	color:#000;
-}
-.introduce.vision .container section .section-content { 
-	text-align:center;
-}
-.introduce.vision .container section .section-content p { 
-	font-size:12px;
-	color:#555;
-	margin-top:10px;
-}
-.introduce.vision .container .vision {
-	margin-top:39px; 
-}
-.introduce.vision .container .target {
-	height:280px;
-}
-.introduce.vision .container .target .section-content ul {
-	margin:12px auto 0;
-	margin-top:12px;
-	overflow:hidden;
-	max-width:320px;
-
-}
-.introduce.vision .container .target .section-content ul li {
-	background-image:url(/mobile/images/introduce/target_bg.png);
-	background-repeat:no-repeat;
-	background-size:100px auto;
-	background-position:50% 0;
-	font-size:11px;
-	color:#fff;
-	height:100px;
-	width:50%;
-	padding-top:35px;
-	float:left;
-}
-.introduce.vision .container .target .section-content ul li:nth-of-type(3) {
-	margin-top:30px;
-	padding-top:43px
-}
-.introduce.vision .container .target .section-content ul li:nth-of-type(4) {
-	margin-top:30px;
-}
-.introduce.vision .container .point {
-	background:none;
-}
-.introduce.vision .container .point .section-content .point-list > li { 
-	background-size:100px 100px;
-	background-repeat:no-repeat;
-	background-position:0 0;
-	min-height:100px;
-	max-width:290px;
-	margin:20px auto 0;
-}
-.introduce.vision .container .point .section-content .point-list li h4 { 
-	font-size:15px;
-	color:#d22d36;
-	padding:12px 0 0 114px;
-	text-align:left;
-	margin-bottom:10px;
-}
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(1) { 
-	background-image:url(/mobile/images/introduce/point_img1.png);
-}
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(2) { 
-	background-image:url(/mobile/images/introduce/point_img2.png);
-}
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(2) h4 { 
-	padding-top:18px;
-}
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(3) { 
-	background-image:url(/mobile/images/introduce/point_img3.png);
-}
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(4) { 
-	background-image:url(/mobile/images/introduce/point_img4.png);
-}
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(5) { 
-	background-image:url(/mobile/images/introduce/point_img5.png);
-}
-.introduce.vision .container .point .section-content .point-list li ul > li { 
-	letter-spacing:-1px;
-	font-size:12px;
-	color:#555;
-	text-align:left;
-	padding-left:110px;
-	line-height:18px;
-}
-.introduce.vision .container .point .section-content .point-list li ul > li:before { 
-	content:"ㆍ";
-}
-</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
