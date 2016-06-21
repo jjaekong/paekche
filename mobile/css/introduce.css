@@ -1,0 +1,51 @@
+/* ideology */
+.introduce.ideology .container { 
+	padding-bottom:40px;
+}
+.introduce.ideology .container .tenontology .section-header > h3 {
+	margin-top:40px !important;
+}
+.introduce.ideology .container .tenontology .section-content p {
+	text-align:center;
+	margin-bottom:20px;
+}
+.introduce.ideology .container .tenontology .section-content p strong {
+	font-size:18px;
+	color:#d22d36;
+	line-height:25px;
+}
+.introduce.ideology .container .tenontology .section-content img {
+	margin:0 auto;
+}
+.introduce.ideology .container .purpose .section-content strong {
+	font-size:14px;
+	color:#d22d36;
+	font-weight:400;
+}
+.introduce.ideology .container .purpose .section-content p {
+	margin-top:20px;
+}
+.introduce.ideology .container .target .section-content strong {
+	font-size:14px;
+	color:#333;
+	font-weight:400;
+}
+.introduce.ideology .container .target .section-content ul {
+	text-align:center;
+	padding-top:31px;
+}
+
+.introduce.ideology .container .target .section-content ul > li {
+	margin-bottom:10px;
+}
+.introduce.ideology .container .target .section-content ul > li img {
+	margin:0 auto;
+}
+.introduce.ideology .container .target .section-content ul > li p { 
+	letter-spacing:-1px;
+	margin-top:10px;
+	font-size:12px;
+	color:#333;
+	line-height:18px;
+	text-align:center; 
+}
