@@ -177,3 +177,9 @@
 	font-size:11px;
 	color:#fff;
 }
+/* small */
+.section-header h3 small { 
+	font-style:normal;
+	font-size:13px;
+	color:#777;
+}
