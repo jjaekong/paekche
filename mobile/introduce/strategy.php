@@ -12,7 +12,7 @@
 				<p>특성화 목표와 <i>추진방향</i></p>
 			</div>
 			<div class="art">
-				<p><strong>"현재" </strong>를 주도하고<br><strong>"미래" </strong>를 선도하는 예술대학</p>
+				<p><strong>"현재"</strong>를 주도하고<br><strong>"미래"</strong>를 선도하는 예술대학</p>
 				<img src="/mobile/images/introduce/strategy_img1.gif" class="img-responsive" alt="예술•예능 분야의 수준 높은 예술 행위인 양성 , 예술 , 예능" />
 			</div>
 			<section class="core-strategy">

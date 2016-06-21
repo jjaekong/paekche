@@ -155,7 +155,7 @@
 	line-height:18px;
 }
 .introduce.vision .container .point .section-content .point-list li ul > li:before { 
-	content:"§˝";
+	content:"„Üç";
 }
 .introduce.vision .container .point .section-content .speech-bubble {
 	background-image:url(/mobile/images/introduce/speech_bubble.png);
@@ -411,7 +411,7 @@
 	padding:5px;
 }
 .introduce.location .traffic .section-content .table-wrap table tbody tr td .arrow dt:after {
-	content:"°Ê";
+	content:"‚Üí";
 	padding-left:5px;
 }
 .introduce.location .traffic .section-content .table-wrap table tbody tr td .arrow dd { 
