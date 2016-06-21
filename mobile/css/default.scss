@@ -27,6 +27,21 @@ ul, ol {
     }
 }
 
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transition: left .5s;
+}
+
+.gnb-opened {
+    overflow: hidden;
+    #container {
+        left: -200px;
+    }
+}
+
 #header {
     height: 51px;
     border-bottom: 1px solid #f8b61d;
@@ -54,6 +69,99 @@ ul, ol {
             img {
                 display: block;
             }
+        }
+    }
+}
+
+#gnb {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 9990;
+    .gnb-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#151515, .9);
+        .gnb-content {
+            position: absolute;
+            top: 0;
+            right: -250px;
+            width: 200px;
+            height: 100%;
+            background-color: #fff;
+            transition-property: right;
+            transition-duration: .3s;
+            header {
+                height: 51px;
+                border-bottom: 1px solid #f8b61d;
+                .logo {
+                    margin-left: 10px;
+                    padding-top: 10px;
+                    img {
+                        display: block;
+                    }
+                }
+                .btn-menu-close {
+                    position: absolute;
+                    top: 0;
+                    left: -50px;
+                    width: 50px;
+                    height: 50px;
+                    background-color: transparent;
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+            > ul {
+                > li {
+                    > a {
+                        display: block;
+                        padding-left: 10px;
+                        height: 40px;
+                        line-height: 39px;
+                        border-bottom: 1px solid #e3e3e3;
+                        font-size: 13px;
+                        color: #333;
+                        font-weight: bold;
+                    }
+                    > ul {
+                        display: none;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        border-bottom: 1px solid #e3e3e3;
+                        > li {
+                            > a {
+                                display: block;
+                                padding-left: 10px;
+                                font-size: 12px;
+                                line-height: 25px;
+                                color: #666;
+                            }
+                        }
+                    }
+                    &.active {
+                        > ul {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gnb-opened #gnb {
+    right: 0;
+    .gnb-container {
+        .gnb-content {
+            right: 0;
         }
     }
 }
