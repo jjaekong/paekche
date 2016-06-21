@@ -86,6 +86,9 @@
 							</ul>
 						</li>
 					</ul>
+					<div class="speech-bubble">
+						<strong>중점 추진 과제 45개</strong>
+					</div>
 				</div>
 			</section>
 		</div>
@@ -196,6 +199,21 @@
 }
 .introduce.vision .container .point .section-content .point-list li ul > li:before { 
 	content:"ㆍ";
+}
+.introduce.vision .container .point .section-content .speech-bubble {
+	background-image:url(/mobile/images/introduce/speech_bubble.png);
+	background-size:290px auto;
+	background-repeat:no-repeat;
+	background-position:50% 100%;
+	min-height:122px;
+}
+.introduce.vision .container .point .section-content .speech-bubble strong { 
+	margin-top:80px;
+	text-align:center;
+	font-size:14px;
+	color:#f37021;
+	display:inline-block;
+	font-weight:400;
 }
 </style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
