@@ -375,3 +375,224 @@
 	background-repeat:no-repeat;
 	background-position:25px 50%;
 }
+
+/* location */
+.introduce.location .map { 
+	margin-top:42px;
+}
+.introduce.location .traffic .section-content .table-wrap table thead tr th {
+	height:40px;
+	text-align:left;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr:nth-of-type(1) td {
+	border-top:0;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td { 
+	padding:20px 10px;
+	text-align:center;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td:nth-of-type(2) {
+	text-align:left;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td dl dt {
+	display:inline;
+	font-weight:300;
+	font-size:11px;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td dl {
+
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td dl dd {
+	display:inline;
+	font-size:11px;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td dl dd:before {
+	content:":";
+	padding:5px;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td .arrow dt:after {
+	content:"¡æ";
+	padding-left:5px;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td .arrow dd { 
+	padding:0;
+	padding-left:5px;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td .arrow dd:before { 
+	content:"";
+	padding:0;
+}
+.introduce.location .traffic .section-content .table-wrap {
+	margin-top:20px;
+}
+.introduce.location .traffic .section-content .table-wrap:nth-of-type(1) {
+	margin-top:0;
+}
+.introduce.location .bus-schedule .section-content .nav-pills {
+	min-width:290px;
+	margin:0 auto;
+	text-align:center;
+}
+.introduce.location .bus-schedule .section-content .nav-pills li a {
+	border-radius:0;
+	color:#333;
+	font-size:12px;
+	margin:0;
+}
+.introduce.location .bus-schedule .section-content .nav-pills .active {
+	border-bottom:1px solid #685b55;
+	margin:0;
+}
+.introduce.location .bus-schedule .section-content .nav-pills .active a {
+	background-color:#685b55;
+	color:#fff;
+	margin:0;
+}
+.introduce.location .bus-schedule .section-content .nav-pills li {
+	width:50%;
+	height:38px;
+	margin:0;
+	padding:0;
+	background-color:#f9f9f9;
+	border-bottom:1px solid #ccc;
+	float:left;
+	display:inline-block;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane { 
+	min-width:290px;
+	padding:30px 6px 0 6px;
+	margin:0 auto;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul {
+	overflow:hidden;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li { 
+	width:25%;
+	letter-spacing:-1px;
+	font-size:12px;
+	height:70px;
+	text-align:center;	
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+1) {
+	float:left;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+1):after {
+	position:absolute;
+	top:4px;
+	right:-7px;
+	display:block;
+	content:url(/mobile/images/introduce/right_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+2) {
+	float:left;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+2):after {
+	position:absolute;
+	top:4px;
+	right:-7px;
+	display:block;
+	content:url(/mobile/images/introduce/right_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+3) {
+	float:left;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+3):after {
+	position:absolute;
+	top:4px;
+	right:-7px;
+	display:block;
+	content:url(/mobile/images/introduce/right_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+4) {
+	float:left;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+4):after {
+	position:absolute;
+    bottom:9px;
+	left:50%;
+	margin-left:-11px;
+    display:inline-block;
+    content:url(/mobile/images/introduce/down_arrow.png);
+    transform:scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+5) {
+	float:right;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+5):before {
+	position:absolute;
+	top:4px;
+	left:-7px;
+	display:block;
+	content:url(/mobile/images/introduce/left_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+6) {
+	float:right;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+6):before {
+	position:absolute;
+	top:4px;
+	left:-7px;
+	display:block;
+	content:url(/mobile/images/introduce/left_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+7) {
+	float:right;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+7):before {
+	position:absolute;
+	top:4px;
+	left:-7px;
+	display:block;
+	content:url(/mobile/images/introduce/left_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+8) {
+	float:right;
+	position:relative;
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:nth-of-type(8n+8):after {
+	position:absolute;
+	bottom:9px;
+	left: 50%;
+	margin-left:-11px;
+	display:inline-block;
+	content:url(/mobile/images/introduce/down_arrow.png);
+	transform: scale(.3);
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:last-child:before { 
+	content:"";
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li:last-child:after { 
+	content:"";
+}
+.introduce.location .bus-schedule .section-content .tab-content .tab-pane ul li i { 
+	color:#d22d36;
+	font-style:normal;
+}
+.height-padding{
+	padding-top:8px;
+}
+.introduce.location .bus-schedule .section-content .table-wrap { 
+	margin-top:20px;
+}
+.introduce.location .bus-schedule .section-content .table-wrap .table thead tr th {
+	text-align:center;
+	font-size:12px;
+	font-weight:400;
+}
+.introduce.location .bus-schedule .section-content .table-wrap .table tbody tr td {
+	text-align:center;
+	font-size:12px;
+}

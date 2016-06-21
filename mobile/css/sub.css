@@ -50,7 +50,7 @@
 
 /* arrow-list 공통 */
 .arrow-list li {
-	padding-left:15px;
+	padding-left:10px;
 	background-image:url(/mobile/images/sub/r_arrow_l.png);
 	background-size:5px auto;
 	background-repeat:no-repeat;
