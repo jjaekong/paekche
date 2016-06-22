@@ -380,6 +380,9 @@
 .introduce.location .map { 
 	margin-top:42px;
 }
+.introduce.location .map img {
+	margin:0 auto;
+}
 .introduce.location .traffic .section-content .table-wrap table thead tr th {
 	height:40px;
 	text-align:left;
