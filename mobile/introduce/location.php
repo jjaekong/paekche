@@ -33,7 +33,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>직행벙스</td>
+									<td>직행버스</td>
 									<td>
 										<ul class="arrow-list">
 											<li>
@@ -123,7 +123,7 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>직행벙스</td>
+									<td>직행버스</td>
 									<td>
 										<ul class="arrow-list">
 											<li>
