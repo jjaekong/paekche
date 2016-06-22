@@ -13,6 +13,7 @@
 	font-size:18px;
 	color:#d22d36;
 	line-height:25px;
+	font-weight:400;
 }
 .introduce.ideology .container .tenontology .section-content img {
 	margin:0 auto;
@@ -230,7 +231,7 @@
 	max-width:290px; 
 	height:221px;
 	background-image:url(/mobile/images/introduce/comma.png);
-	background-size:12px auto;
+	background-size:7px auto;
 	background-repeat:no-repeat;
 	background-position:50% 48%;
 	text-align:center;
@@ -283,6 +284,7 @@
 }
 .introduce.emblem .section-content img { 
 	margin:0 auto;
+	padding:0 29px;
 }
 .introduce.emblem .didactic .section-content h4 {
 	font-size:18px;
@@ -296,6 +298,7 @@
 }
 .introduce.emblem .didactic .section-content img:nth-of-type(1) {
 	margin-bottom:20px;
+	padding:0 29px;
 }
 .introduce.emblem .logo-symbol .section-content > h4 {
 	padding-left:15px;
@@ -315,6 +318,7 @@
 	color:#555;
 	margin:0;
 	margin-bottom:10px;
+	font-weight:300;
 }
 .introduce.emblem .logo-symbol .section-content p {
 	font-size:12px;
@@ -380,6 +384,12 @@
 .introduce.location .map { 
 	margin-top:42px;
 }
+.introduce.location .map img {
+	margin:0 auto;
+}
+.introduce.location .traffic .section-header h3 {
+	margin-top:20px;
+}
 .introduce.location .traffic .section-content .table-wrap table thead tr th {
 	height:40px;
 	text-align:left;
@@ -390,6 +400,9 @@
 .introduce.location .traffic .section-content .table-wrap table tbody tr td { 
 	padding:20px 10px;
 	text-align:center;
+}
+.introduce.location .traffic .section-content .table-wrap table tbody tr td:first-child { 
+	padding:0;
 }
 .introduce.location .traffic .section-content .table-wrap table tbody tr td:nth-of-type(2) {
 	text-align:left;
@@ -595,4 +608,8 @@
 .introduce.location .bus-schedule .section-content .table-wrap .table tbody tr td {
 	text-align:center;
 	font-size:12px;
+	padding:8px 0;
+}
+.introduce.location .bus-schedule .section-content .table-wrap .table tbody tr:nth-of-type(1) td { 
+	font-weight:400;
 }
