@@ -11,23 +11,23 @@
 				<h2>뉴스 & 공지사항</h2>
 				<p>백제예술대학교 <i>뉴스 & 공지사항</i></p>
 			</div>
-			<div class="view-wrap">
-				<article class="article-header">
+			<article class="view-wrap">
+				<div class="article-header">
 					<h3>학자금대출 특별추천 운영지침 및 추천 요청서</h3>
 					<p>학생지원처</p>
 					<p>2016-01-01</p>
-				</article>
-				<article class="article-content">
+				</div>
+				<div class="article-content">
 					우리대학 재학생들의 창조 경제에 부합하는 창의 인재 양성의 일환으로 프로그램을 진행하오니 많은 참여 부탁드립니다.
-				</article>
-				<article class="article-footer">
+				</div>
+				<div class="article-footer">
 					<dl class="attach">
 						<dt><a href="#">첨부파일</a></dt>
 						<dd><a href="#">테스트.hwp,</a></dd>
 						<dd><a href="#">test.doc,</a></dd>
 						<dd><a href="#">noname_test001.txt</a></dd>
 					</dl>
-				</article>
+				</div>
 				<p><a href="#">백제 단편 시나리오 공모전 당선자 발표</a></p>
 				<p><a href="#">11월 화요예술특강</a></p>
 				<div class="btn-area">
@@ -39,7 +39,7 @@
 						<a class="btn white-btn" href="#" role="button">삭제</a>
 					</p>
 				</div>
-			</div>
+			</article>
 		</div>
 	</main>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
