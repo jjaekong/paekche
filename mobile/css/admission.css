@@ -1,0 +1,68 @@
+/* guide */
+.admission.guide .admission-guide { 
+	margin-top:40px;
+}
+.admission.guide .admission-guide > p {
+	font-size:12px;
+	color:#666;
+	line-height:20px;
+}
+.admission.guide .section-content .arrow-list li:nth-of-type(2) {
+	margin-top:20px;
+}
+.admission.guide .section-content .arrow-list li h4 { 
+	font-weight:bold;
+	font-size:12px; 
+	color:#555;
+}
+.admission.guide .section-content .arrow-list li p { 
+	font-size:12px;
+	color:#666;
+	margin-top:10px;
+}
+.admission.guide .section-content .arrow-list li:nth-of-type(2) dl:nth-of-type(1) dt { 
+	font-weight:bold;
+	font-size:12px; 
+	color:#555;
+}
+.admission.guide .section-content .arrow-list li:nth-of-type(2) dl:nth-of-type(1) dd { 
+	font-weight:bold;
+	color:#555;
+}
+.admission.guide .section-content .arrow-list li dl:nth-of-type(1) { 
+	margin-top:10px;
+}
+.admission.guide .section-content .arrow-list li dl:nth-of-type(2) { 
+	margin-top:5px;
+}
+.admission.guide .section-content .arrow-list li dl dt {
+	display:inline;
+	font-size:12px;
+	color:#666;
+	font-weight:300;
+}
+.admission.guide .section-content .arrow-list li dl dd { 
+	display:inline-block;
+	font-size:12px;
+	color:#666;
+}
+.admission.guide .section-content .arrow-list li dl dd:before { 
+	content:":";
+	padding:5px;
+}
+.admission.guide .section-content .btn-area { 
+	margin-top:30px;
+	text-align:center;
+}
+.admission.guide .section-content .btn-area .btn { 
+	width:290px;
+	height:50px;
+	color:#fff;
+	line-height:36px;
+	padding-left:50px;
+	background-image:url(/mobile/images/admission/guide_btn.png);
+	background-size:29px auto;
+	background-repeat:no-repeat;
+	background-position:65px 50%;
+	background-color:#f8b61d;
+}
