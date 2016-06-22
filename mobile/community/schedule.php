@@ -53,9 +53,6 @@
 			</div>
 		</div>
 	</main>
-<style type="text/css">
-
-</style>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>
