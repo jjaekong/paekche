@@ -15,23 +15,23 @@
                 <li class="active">
                     <a href="#">대학소개</a>
                     <ul>
-                        <li><a href="#">설립이념</a></li>
-                        <li><a href="#">비전/발전전략</a></li>
-                        <li><a href="#">특성화전략</a></li>
-                        <li><a href="#">상징소개</a></li>
-                        <li><a href="#">찾아오시는 길</a></li>
+                        <li><a href="/mobile/introduce/ideology.php">설립이념</a></li>
+                        <li><a href="/mobile/introduce/vision.php">비전/발전전략</a></li>
+                        <li><a href="/mobile/introduce/strategy.php">특성화전략</a></li>
+                        <li><a href="/mobile/introduce/emblem.php">상징소개</a></li>
+                        <li><a href="/mobile/introduce/location.php">찾아오시는 길</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">입학안내</a>
+                    <a href="/mobile/admission/guide.php">입학안내</a>
                 </li>
                 <li>
                     <a href="#">백제광장</a>
                     <ul>
-                        <li><a href="#">뉴스&amp;공지사항</a></li>
+                        <li><a href="/mobile/community/board_list.php">뉴스&amp;공지사항</a></li>
                         <li><a href="#">학사공지</a></li>
-                        <li><a href="#">학사일정</a></li>
-                        <li><a href="#">백제스타</a></li>
+                        <li><a href="/mobile/community/schedule.php">학사일정</a></li>
+                        <li><a href="/mobile/community/star_list.php">백제스타</a></li>
                     </ul>
                 </li>
             </ul>
@@ -41,10 +41,10 @@
 <nav id="primary-menu">
     <div class="container">
         <ul class="row">
-            <li class="col-xs-3"><a href="#">대학소개</a></li>
-            <li class="col-xs-3"><a href="#">입학안내</a></li>
-            <li class="col-xs-3"><a href="#">학사일정</a></li>
-            <li class="col-xs-3"><a href="#">백제광장</a></li>
+            <li class="col-xs-3"><a href="/mobile/introduce/ideology.php">대학소개</a></li>
+            <li class="col-xs-3"><a href="/mobile/admission/guide.php">입학안내</a></li>
+            <li class="col-xs-3"><a href="/mobile/community/schedule.php">학사일정</a></li>
+            <li class="col-xs-3"><a href="/mobile/community/board_list.php">백제광장</a></li>
         </ul>
     </div>
 </nav>
