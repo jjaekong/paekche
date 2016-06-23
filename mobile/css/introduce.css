@@ -51,6 +51,7 @@
 	text-align:center; 
 }
 
+
 /* vision */
 .introduce.vision .container section { 
 	margin-top:24px;
@@ -83,14 +84,12 @@
 	margin-top:39px; 
 }
 .introduce.vision .container .target {
-	height:280px;
+	padding-bottom:14px;
 }
+
 .introduce.vision .container .target .section-content ul {
-	margin:12px auto 0;
 	margin-top:12px;
 	overflow:hidden;
-	max-width:320px;
-
 }
 .introduce.vision .container .target .section-content ul li {
 	background-image:url(/mobile/images/introduce/target_bg.png);
@@ -100,51 +99,54 @@
 	font-size:11px;
 	color:#fff;
 	height:100px;
-	width:50%;
 	padding-top:35px;
 	float:left;
+	margin-bottom:30px;
 }
 .introduce.vision .container .target .section-content ul li:nth-of-type(3) {
-	margin-top:30px;
 	padding-top:43px
-}
-.introduce.vision .container .target .section-content ul li:nth-of-type(4) {
-	margin-top:30px;
 }
 .introduce.vision .container .point {
 	background:none;
 }
-.introduce.vision .container .point .section-content .point-list > li { 
+
+.introduce.vision .container .point .section-content .point-list > li {
+	margin-top:20px;
+	padding:0;
+}
+.introduce.vision .container .point .section-content .point-list > li div { 
 	background-size:100px 100px;
 	background-repeat:no-repeat;
 	background-position:0 0;
 	min-height:100px;
-	max-width:290px;
-	margin:20px auto 0;
 }
-.introduce.vision .container .point .section-content .point-list li h4 { 
+.introduce.vision .container .point .section-content .point-list li div { 
+	max-width:290px;
+	margin:0 auto;
+}
+.introduce.vision .container .point .section-content .point-list li div h4 { 
 	font-size:15px;
 	color:#d22d36;
-	padding:12px 0 0 114px;
+	padding:12px 0 0 130px;
 	text-align:left;
 	margin-bottom:10px;
 }
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(1) { 
+.introduce.vision .container .point .section-content .point-list > li:nth-of-type(1) div { 
 	background-image:url(/mobile/images/introduce/point_img1.png);
 }
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(2) { 
+.introduce.vision .container .point .section-content .point-list > li:nth-of-type(2) div { 
 	background-image:url(/mobile/images/introduce/point_img2.png);
 }
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(2) h4 { 
+.introduce.vision .container .point .section-content .point-list > li:nth-of-type(2) div h4 { 
 	padding-top:18px;
 }
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(3) { 
+.introduce.vision .container .point .section-content .point-list > li:nth-of-type(3) div { 
 	background-image:url(/mobile/images/introduce/point_img3.png);
 }
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(4) { 
+.introduce.vision .container .point .section-content .point-list > li:nth-of-type(4) div { 
 	background-image:url(/mobile/images/introduce/point_img4.png);
 }
-.introduce.vision .container .point .section-content .point-list > li:nth-of-type(5) { 
+.introduce.vision .container .point .section-content .point-list > li:nth-of-type(5) div { 
 	background-image:url(/mobile/images/introduce/point_img5.png);
 }
 .introduce.vision .container .point .section-content .point-list li ul > li { 
@@ -152,7 +154,7 @@
 	font-size:12px;
 	color:#555;
 	text-align:left;
-	padding-left:110px;
+	padding-left:130px;
 	line-height:18px;
 }
 .introduce.vision .container .point .section-content .point-list li ul > li:before { 
@@ -174,6 +176,7 @@
 	font-weight:400;
 }
 
+
 /* strategy */
 .introduce.strategy .art { 
 	margin-top:32px;
@@ -192,52 +195,57 @@
 .introduce.strategy .art img { 
 	margin:30px auto 0;
 }
-.introduce.strategy .core-strategy .section-content > div { 
-	height:80px;
-	background-image:url(/mobile/images/introduce/plus_btn.png);
-	background-size:14px auto;
-	background-repeat:no-repeat;
-	background-position:50% 100%;
-	margin-top:9px;
+.introduce.strategy .core-strategy .section-content ul li {
+	height:104px;
 }
-.introduce.strategy .core-strategy .section-content > div:nth-of-type(1) {
-	margin-top:0;
+.introduce.strategy .core-strategy .section-content ul li:after { 
+	margin:0 auto;
+	text-align:center;
+	display:block;
+	content:url(/mobile/images/introduce/plus_btn.png);
+	transform: scale(.3);
 }
-.introduce.strategy .core-strategy .section-content > div:nth-of-type(3) {
-	background:none;
-	height:56px;
+.introduce.strategy .core-strategy .section-content ul li:nth-of-type(3):after {
+	content:"";
 }
-.introduce.strategy .core-strategy .section-content > div p {
+.introduce.strategy .core-strategy .section-content ul li div {
 	font-size:12px;
-	line-height:20px;
-	height:56px;
 	color:#333;
 	padding-top:7px;
 	text-align:center;
-	background-image:url(/mobile/images/introduce/bubble.png);
-	background-size:290px auto;
-	background-repeat:no-repeat;
-	background-position:50% 0;
+	line-height:20px;
+	max-width:290px;
+	height:56px;
+	background-image:url(/mobile/images/introduce/pattern.gif);
+	background-size:3px auto;
+	border-radius:30px;
+	margin:0 auto;
 }
-.introduce.strategy .core-strategy .section-content > div p i {
+.introduce.strategy .core-strategy .section-content ul li div i {
 	font-style:normal;
 	color:#f37021;
+}
+.introduce.strategy .core-strategy .section-content ul li:nth-of-type(1) {
+	margin-top:0;
+}
+.introduce.strategy .core-strategy .section-content ul li:nth-of-type(3) {
+	height:56px;
 }
 .introduce.strategy .progress-direction .section-header h3 {
 	margin-bottom:50px;
 }
-.introduce.strategy .progress-direction .section-content > ol li { 
-	position:relative;
-	max-width:290px; 
-	height:221px;
+.introduce.strategy .progress-direction .section-content > ol li div {
 	background-image:url(/mobile/images/introduce/comma.png);
 	background-size:7px auto;
 	background-repeat:no-repeat;
 	background-position:50% 48%;
+	position:relative;
+	max-width:290px; 
+	height:221px;
 	text-align:center;
-	margin:0 auto 40px;
+	margin:0 auto 30px;
 }
-.introduce.strategy .progress-direction .section-content > ol li h4 { 
+.introduce.strategy .progress-direction .section-content > ol li div h4 { 
 	position:absolute; 
 	top:-27px;
 	left:40%;
@@ -250,29 +258,40 @@
 	display:inline-block;
 	padding-top:20px;
 }
-.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(1) {
+.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(1) div {
 	background-color:#685b55;
 }
-.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(2) {
+.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(2) div {
 	background-color:#d22d36;
 }
-.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(2) p:nth-of-type(1) { 
+.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(2) div p:nth-of-type(1) { 
 	padding-top:40px;
 }
-.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(3) {
+.introduce.strategy .progress-direction .section-content > ol li:nth-of-type(3) div {
 	background-color:#685b55;
 	margin-bottom:0;
 }
-.introduce.strategy .progress-direction .section-content > ol li p { 
+.introduce.strategy .progress-direction .section-content > ol li div p { 
 	line-height:21px;
 	color:#fff;
 	font-size:13px;
 }
-.introduce.strategy .progress-direction .section-content > ol li p:nth-of-type(1) {
+.introduce.strategy .progress-direction .section-content > ol li div p:nth-of-type(1) {
 	padding-top:35px;
 }
-.introduce.strategy .progress-direction .section-content > ol li p:nth-of-type(2) {
+.introduce.strategy .progress-direction .section-content > ol li div p:nth-of-type(2) {
 	margin-top:50px;
+}
+@media screen and (min-width:768px){ 
+	.introduce.strategy .core-strategy .section-content ul li {
+		position:relative;
+		height:56px;
+	}
+	.introduce.strategy .core-strategy .section-content ul li:after {
+		position:absolute;
+		top:5px;
+		right:-21px;
+	}
 }
 
 
@@ -284,7 +303,6 @@
 }
 .introduce.emblem .section-content img { 
 	margin:0 auto;
-	padding:0 29px;
 }
 .introduce.emblem .didactic .section-content h4 {
 	font-size:18px;
@@ -296,7 +314,7 @@
 	font-size:12px;
 	color:#555;
 }
-.introduce.emblem .didactic .section-content img:nth-of-type(1) {
+.introduce.emblem .didactic .section-content p:nth-of-type(1) img {
 	margin-bottom:20px;
 	padding:0 29px;
 }
@@ -337,7 +355,10 @@
 	color:#555;
 	margin-bottom:25px;
 }
-.introduce.emblem .school-banner .section-content p {
+.introduce.emblem .school-banner .section-content figure img {
+	padding:0 29px;
+}
+.introduce.emblem .school-banner .section-content figure figcaption {
 	text-align:center;
 	font-size:12px;
 	color:#777;

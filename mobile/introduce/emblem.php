@@ -17,8 +17,12 @@
 				</div>
 				<div class="section-content">
 					<h4>PAEKCHE<br><small>INSTITUTE OF THE ARTS</small></h4>
-					<img src="/mobile/images/introduce/emblem_img.png" class="img-responsive" alt="교훈석">
-					<img src="/mobile/images/introduce/emblem_img2.gif" class="img-responsive" alt="자연인,문화인,예술인">
+					<p>
+						<img src="/mobile/images/introduce/emblem_img.png" class="img-responsive" alt="교훈석">
+					</p>
+					<p>
+						<img src="/mobile/images/introduce/emblem_img2.gif" class="img-responsive" alt="자연인,문화인,예술인">
+					</p>
 				</div>
 			</section>
 			<section class="logo-symbol">
@@ -27,9 +31,13 @@
 				</div>
 				<div class="section-content">
 					<h4>Logo</h4>
-					<img src="/mobile/images/introduce/logo.gif" class="img-responsive" alt="로고">
+					<p>
+						<img src="/mobile/images/introduce/logo.gif" class="img-responsive" alt="로고">
+					</p>
 					<h4>Symbol</h4>
-					<img src="/mobile/images/introduce/symbol.gif" class="img-responsive" alt="상징">
+					<p>
+						<img src="/mobile/images/introduce/symbol.gif" class="img-responsive" alt="상징">
+					</p>
 					<h5>백제예술대학교 로고는</h5>
 					<p><i>Cosmos(우주)</i>와 <i>Global(세계적인)</i>을 상징하는 2개의 원 속에 창의적 감성(Yellow)과 냉철한 이성(Balck)이 조화롭게 이루어져 화려하게 빛나는<i>신성(new star)</i>을 중심으로 역동적 에너지의 불꽃으로 승화하는 이미지를 상징한다.</p>
 				</div>
@@ -40,8 +48,10 @@
 					<p>백제예술대학교 <i>교기</i></p>
 				</div>
 				<div class="section-content">
-					<img src="/mobile/images/introduce/school_banner.png" class="img-responsive" alt="교기">
-					<p>교기</p>
+					<figure>
+						<img src="/mobile/images/introduce/school_banner.png" class="img-responsive" alt="교기">
+						<figcaption>교기</figcaption>
+					</figure>
 				</div>
 			</section>
 			<section class="school-song">
