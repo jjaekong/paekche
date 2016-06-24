@@ -536,6 +536,9 @@ body.sub.departs > .wrapper {
         content: ''; }
       #footer .policy li a {
         color: #999; }
+		#footer .policy li a i {
+        color: #d22d36;
+		font-style:normal; }
   #footer .contact {
     margin-bottom: 15px; }
     #footer .contact li {
