@@ -22,12 +22,12 @@
 							<li><a href="#">예결산공고</a></li>
 							<li><a href="#">입찰공고</a></li>
 							<li><a href="#">대학정보공사</a></li>
-							<li><a href="#">정보공개</a></li>
+							<li><a href="/policy/information.php">정보공개</a></li>
 							<li><a href="#">대학평의원회</a></li>
 							<li><a href="#">대학자체평가</a></li>
 							<li><a href="#">전북문화예술교육원</a></li>
-							<li><a href="#">개인정보취급방침</a></li>
-							<li><a href="#">영상정보 처리방침</a></li>
+							<li><a href="/policy/privacy.php">개인정보취급방침</a></li>
+							<li><a href="/policy/video.php">영상정보 처리방침</a></li>
 							<li class="active"><a href="/policy/email.php">이메일무단수집거부</a></li>
 						</ul>
 					</nav>

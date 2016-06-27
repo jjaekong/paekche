@@ -1,6 +1,6 @@
 /* public */
 .policy p { 
-	line-height:25px;
+	line-height:28px;
 	font-size:15px;
 	color:#333;
 }
@@ -15,13 +15,24 @@
 .policy .attention { 
 	font-size:15px;
 	color:#333;
-	line-height:25px;
-	line-height:25px;
+	line-height:28px;
 	letter-spacing: -1px;
 }
 .policy .attention:before { 
 	content:"※";
 	padding-right:5px;
+}
+/* reference */
+.policy .reference {
+	font-size:15px;
+	color:#333;
+	line-height:28px;
+}
+.policy .reference:before { 
+	content:"<";
+}
+.policy .reference:after { 
+	content:">";
 }
 /* decimal-list */
 .policy .decimal-list { 
@@ -29,7 +40,7 @@
 	list-style-type:decimal;
 	font-size:15px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 	letter-spacing: -1px;
 }
 /* decimal-zero */
@@ -38,8 +49,14 @@
 	list-style-type:decimal-leading-zero;
 	font-size:15px;
 	color:#333;
-	line-height:25px;
-
+	line-height:28px;
+}
+.hangul-list { 
+	padding-left:20px;
+	list-style-type:hangul;
+	font-size:15px;
+	color:#333;
+	line-height:28px;
 }
 /* straight-line */
 .policy .straight-line > li {
@@ -47,7 +64,7 @@
 	padding-left:15px;
 	font-size:15px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 	letter-spacing: -1px;
 }
 .policy .straight-line > li:before {
@@ -62,7 +79,7 @@
 	padding-left:10px;
 	font-size:15px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 	letter-spacing: -1px;
 }
 .policy .white-circle > li:before {
@@ -71,13 +88,28 @@
 	left:0;
 	content:"°";
 }
+/* square-white */
+.policy .square-white li {
+	position:relative;
+	padding-left:20px;
+	font-size:15px;
+	color:#333;
+	line-height:28px;
+	letter-spacing: -1px;
+}
+.policy .square-white > li:before {
+	position:absolute;
+	top:-4px;
+	left:0;
+	content:"□";
+}
 /* upper-roman */
 .upper-roman { 
 	padding-left:15px;
 	list-style-type:upper-roman;
 	font-size:20px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 }
 /* circle-list */
 .policy .circle-list {
@@ -89,7 +121,7 @@
 	color:#333;
 	padding-left:20px; 
 	counter-increment:my-list-index;
-	line-height:25px;
+	line-height:28px;
 	letter-spacing: -1px;
 }
 .policy .circle-list > li:before {
@@ -111,7 +143,7 @@
 .policy .square {
 	font-size:15px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 }
 .policy .square:before {
 	content:"▣";
@@ -119,7 +151,7 @@
 }
 /* square-bold */
 .policy .square-bold {
-	line-height:25px;
+	line-height:28px;
 	font-size:15px;
 	color:#333;
 }
@@ -129,7 +161,7 @@
 }
 /* law */
 .policy .law {
-	line-height:25px;
+	line-height:28px;
 	font-size:15px;
 	color:#333;
 	margin-top:30px;
@@ -145,7 +177,7 @@
 /* standard */
 .policy .standard {
 	position:relative;
-	line-height:25px;
+	line-height:28px;
 	font-size:15px;
 	color:#333;
 	padding-left:10px;
@@ -186,11 +218,24 @@
 	color:#333 !important;
 	text-align:center;
 	padding:10px 0;
-	line-height:25px;
+	line-height:28px;
 	letter-spacing:0;
 	border-left:1px solid #ccc;
 	border-top:1px solid #ccc;
 	border-bottom:1px solid #ccc;
+}
+.table-wrap .table thead tr th:nth-of-type(1) { 
+	border-left:0;
+}
+.table-wrap .table tbody tr td:nth-of-type(1) { 
+	border-left:0;
+}
+
+.policy dl dt {
+	line-height:28px;
+}
+.policy dl dd {
+	line-height:28px;
 }
 /* inline-dl */
 .policy .inline-dl {
@@ -201,13 +246,13 @@
 	font-size:15px;
 	color:#333;
 	font-weight:normal;
-	line-height:25px;
+	line-height:28px;
 }
 .policy .inline-dl dd {
 	display:inline;
 	font-size:15px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 }
 .policy .inline-dl dd:before {
 	content:":";
@@ -218,12 +263,12 @@
 	font-size:15px;
 	color:#333;
 	font-weight:normal;
-	line-height:25px;
+	line-height:28px;
 }
 .policy .block-dl dd {
 	font-size:15px;
 	color:#333;
-	line-height:25px;
+	line-height:28px;
 }
 .policy dl dd a {
 	
@@ -300,4 +345,98 @@
 }
 .policy.information .upper-roman .decimal-list li .block-dl dd .straight-line {
 	margin-left:20px;
+}
+
+
+/* privacy */
+.policy.privacy { 
+	padding-bottom:150px;
+}
+.policy.privacy .personal-information { 
+	padding:30px 15px;
+}
+.policy.privacy .personal-information header {
+	font-size:15px;
+	line-height:28px;
+	color:#333;
+}
+.policy.privacy .personal-information .standard-list h3 {
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+}
+.policy.privacy .personal-information .standard-list .standard {
+	
+}
+.policy.privacy .personal-information .standard-list .white-circle {
+	margin:10px 0 0 15px;
+}
+.policy.privacy .personal-information .standard-list .white-circle li {
+	margin-bottom:5px;
+}
+.policy.privacy .personal-information .standard-list .white-circle li h4 {
+	margin:10px 0 5px 0;
+	font-weight:500;
+}
+.policy.privacy .personal-information .standard-list li h6 { 
+	margin:20px 0;
+	font-weight:bold;
+	text-align:center;
+}
+.policy.privacy .personal-information .standard-list .decimal-list { 
+	margin-left:15px;
+}
+.policy.privacy .personal-information .standard-list .decimal-list .table-wrap { 
+	margin-left:-15px;
+}
+.policy.privacy .personal-information .standard-list .decimal-list .table-wrap .table tbody tr th { 
+	background-color:#f9f9f9;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.policy.privacy .personal-information .standard-list .decimal-list .table-wrap .table tbody tr td { 
+	text-align:left;
+	padding:10px 15px;
+}
+.policy.privacy .personal-information .standard-list li:nth-of-type(4) .table-wrap .table tbody tr td { 
+	padding-left:20px;
+	text-align:left;
+}
+.policy.privacy .personal-information .standard-list li:nth-of-type(4) .table-wrap .table tbody tr:nth-of-type(1) td:nth-of-type(1) { 
+	text-align:center;
+}
+.policy.privacy .personal-information .standard-list li:nth-of-type(4) .table-wrap .table tbody tr .standard:before {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.policy.privacy .personal-information .standard-list li:nth-of-type(8) .table-wrap .table thead tr:nth-of-type(1) th { 
+	border-bottom:1px solid #ccc !important;
+}
+.policy.privacy .personal-information .standard-list li:nth-of-type(8) .table-wrap .table thead tr:nth-of-type(2) th { 
+	border-left:1px solid #ccc !important;;
+}
+.policy.privacy .personal-information .standard-list li:nth-of-type(9) .square-white li h6 { 
+	text-align:left;
+}
+
+
+/* privacy-tab2 */
+.policy.privacy-tab2 {
+	padding-bottom:150px;
+}
+.policy.privacy-tab2 .personal-information { 
+	padding:30px 15px;
+}
+.policy.privacy-tab2 .personal-information .decimal-list li {
+	font-size:20px;
+}
+.policy.privacy-tab2 .personal-information .decimal-list li h3 {
+	font-size:20px;
+}
+.policy.privacy-tab2 .personal-information .decimal-list li h3 a {
+	color:#333; 
+}
+.policy.privacy-tab2 .personal-information .decimal-list li h3 a:hover {
+	text-decoration:underline;
 }
