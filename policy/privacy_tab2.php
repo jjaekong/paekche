@@ -29,7 +29,7 @@
 							<li class="active"><a href="/policy/privacy.php">개인정보취급방침</a></li>
 							<li><a href="/policy/video.php">영상정보 처리방침</a></li>
 							<li><a href="/policy/email.php">이메일무단수집거부</a></li>
-						</ul>
+						</ul> 
 					</nav>
 					<nav class="quick">
 						<ul class="row">

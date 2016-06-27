@@ -131,7 +131,7 @@
 													<col style="width:150px"/>
 													<col style="width:150px"/>
 													<col style="width:500px"/>
-												</colgroup>
+												</colgroup> 
 												<tbody>
 													<tr>
 														<th colspan="2">개인정보파일명</th>

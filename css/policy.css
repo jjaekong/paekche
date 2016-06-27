@@ -29,7 +29,7 @@
 	line-height:28px;
 }
 .policy .reference:before { 
-	content:"<";
+	content:"<"; 
 }
 .policy .reference:after { 
 	content:">";
@@ -44,7 +44,7 @@
 	letter-spacing: -1px;
 }
 /* decimal-zero */
-.policy .decimal-zero {
+.policy .decimal-zero { 
 	padding-left:20px;
 	list-style-type:decimal-leading-zero;
 	font-size:15px;
