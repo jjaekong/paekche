@@ -405,6 +405,10 @@
 .policy.privacy .personal-information .standard-list li:nth-of-type(4) .table-wrap .table tbody tr:nth-of-type(1) td:nth-of-type(1) { 
 	text-align:center;
 }
+.policy.privacy .personal-information .standard-list li:nth-of-type(4) .table-wrap .table tbody tr:nth-of-type(1) td:nth-of-type(2):before { 
+	position:absolute;
+	top:23px;
+}
 .policy.privacy .personal-information .standard-list li:nth-of-type(4) .table-wrap .table tbody tr .standard:before {
 	position:absolute;
 	top:10px;

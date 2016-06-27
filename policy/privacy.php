@@ -441,10 +441,10 @@
 								<div class="table-wrap">
 									<table class="table table-border">
 										<colgroup>
-											<col style="width:125px"/>
+											<col style="width:100px"/>
 											<col style="width:150px"/>
 											<col style="width:150px"/>
-											<col style="width:150px"/>
+											<col style="width:175px"/>
 											<col style="width:150px"/>
 											<col style="width:100px"/>
 										</colgroup>
