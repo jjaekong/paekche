@@ -1,5 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/css/campuslife.css" rel="stylesheet" />
+<link href="/css/campuslife.css" rel="stylesheet">
+<link href="/css/board.css" rel="stylesheet">
 </head>
 <body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
@@ -62,7 +63,113 @@
 							<li><a href="/campuslife/notice_outside.php" >교외장학금</a></li>
 						</ul>
 						<div class="tab-content">
-							<div class="tab-pane active">nav-tab-1</div>
+							<div class="tab-pane active">
+								<div class="search-area">
+									<form>
+										<div class="form-group">
+											<label for="search-keyword" class="sr-only">검색어</label>
+											<input type="text" name="#" id="search-keyword" class="form-control" placeholder="Search">
+										</div>
+										<button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span><span class="sr-only">검색</span></button>
+									</form>
+								</div>
+								<div class="board-list table-wrap">
+									<table class="table">
+										<colgroup>
+											<col style="width: 80px;">
+											<col>
+											<col style="width: 50px;">
+											<col style="width: 100px;">
+											<col style="width: 100px;">
+											<col style="width: 80px;">
+										</colgroup>
+										<thead>
+											<tr>
+												<th>번호</th>
+												<th>제목</th>
+												<th>형식</th>
+												<th>작성자</th>
+												<th>등록일</th>
+												<th>조회</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td><span class="label label-notice">공지</span></td>
+												<td class="title"><a href="#">학자금대출 특별추천 운영지침 및 추천요청서 학자금대출 특별추천 운영지침 및 추천요청서 학자금대출 특별추천 운영지침 및 추천요청서 <img src="/images/ico_lock.png" alt="비밀글"></a></td>
+												<td><img src="/images/ico_file_hwp.png" alt="한글파일"></td>
+												<td>학생지원처</td>
+												<td>2016.01.20</td>
+												<td>46</td>
+											</tr>
+											<tr>
+												<td>10</td>
+												<td class="title"><a href="#">학자금대출 특별추천 운영지침 및 추천요청서</a></td>
+												<td><img src="/images/ico_file_jpg.png" alt="한글파일"></td>
+												<td>학생지원처</td>
+												<td>2016.01.20</td>
+												<td>46</td>
+											</tr>
+											<tr>
+												<td>10</td>
+												<td class="title"><a href="#">학자금대출 특별추천 운영지침 및 추천요청서</a></td>
+												<td><img src="/images/ico_file_pdf.png" alt="한글파일"></td>
+												<td>학생지원처</td>
+												<td>2016.01.20</td>
+												<td>46</td>
+											</tr>
+											<tr>
+												<td>10</td>
+												<td class="title"><a href="#">학자금대출 특별추천 운영지침 및 추천요청서 <img src="/images/ico_lock.png" alt="비밀글"></a></td>
+												<td><img src="/images/ico_file_pdf.png" alt="한글파일"></td>
+												<td>학생지원처</td>
+												<td>2016.01.20</td>
+												<td>46</td>
+											</tr>
+											<tr>
+												<td>10</td>
+												<td class="title"><a href="#">학자금대출 특별추천 운영지침 및 추천요청서 <img src="/images/ico_new.png" alt="새글"></a></td>
+												<td><img src="/images/ico_file_pdf.png" alt="한글파일"></td>
+												<td>학생지원처</td>
+												<td>2016.01.20</td>
+												<td>46</td>
+											</tr>
+											<tr class="reply">
+												<td>10</td>
+												<td class="title"><a href="#">학자금대출 특별추천 운영지침 및 추천요청서</a></td>
+												<td><img src="/images/ico_file_pdf.png" alt="한글파일"></td>
+												<td>학생지원처</td>
+												<td>2016.01.20</td>
+												<td>46</td>
+											</tr>
+										</tbody>
+									</table>
+									<nav class="paging">
+										<ul class="pagination">
+											<li>
+												<a href="#" aria-label="이전">
+													<span aria-hidden="true">&laquo;</span>
+												</a>
+											</li>
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li>
+												<a href="#" aria-label="다음">
+													<span aria-hidden="true">&raquo;</span>
+												</a>
+											</li>
+										</ul>
+										<div class="btn-area">
+											<p>
+												<a href="#" class="btn btn-important btn-sm">글쓰기</a>
+											</p>
+										</div>
+									</nav>
+								</div>
+							</div>
 						</div>
 					</div>
 				</main>
