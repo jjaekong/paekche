@@ -18,16 +18,16 @@
 					<h3>대학생활</h3>
 					<nav id="lnb">
 						<ul>
-							<li><a href="#">학사일정</a></li>
+							<li><a href="/campuslife/schedule.php">학사일정</a></li>
 							<li><a href="/campuslife/service.php">재학생서비스</a></li>
-							<li><a href="#">학사행정</a></li>
+							<li><a href="/campuslife/statutes.php">학사행정</a></li>
 							<li><a href="#">학사 Q&A</a></li>
-							<li class="active"><a href="/campuslife/scholarship.php">장학제도</a></li>
-							<li><a href="#">통학버스운행안내</a></li>
-							<li><a href="#">인터넷 / IT 서비스</a></li>
+							<li class="active"><a href="/campuslife/notice_list.php">장학제도</a></li>
+							<li><a href="/campuslife/school_bus.php">통학버스운행안내</a></li>
+							<li><a href="/campuslife/repair.php">인터넷 / IT 서비스</a></li>
 							<li><a href="#">도서관안내</a></li>
-							<li><a href="#">방송국</a></li>
-							<li><a href="#">시설안내</a></li>
+							<li><a href="/campuslife/broadcasting.php">방송국</a></li>
+							<li><a href="/campuslife/performance.php">시설안내</a></li>
 						</ul>
 					</nav>
 					<nav class="quick">
@@ -54,7 +54,7 @@
 					</div>
 					<section class="benefit">
 						<ul class="nav nav-pills nav-justified" role="tablist">
-							<li><a href="/campuslife/notice.php">장학공지</a></li>
+							<li><a href="/campuslife/notice_list.php">장학공지</a></li>
 							<li><a href="#">국가장학금</a></li>
 							<li class="active"><a href="/campuslife/notice_benefit.php" >이중수혜확인</a></li>
 							<li><a href="/campuslife/notice_inside.php" >교내장학금</a></li>
