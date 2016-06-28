@@ -814,13 +814,13 @@
 									<li>
 										<h6>개인정보 열람청구 처리 절차</h6>
 										<p>
-											<img src="/images/policy/" alt="개인정보 열람청구 처리 절차">
+											<img src="/images/policy/privacy_table01.jpg" alt="개인정보 열람청구 처리 절차">
 										</p>
 									</li>
 									<li>
 										<h6>개인정보 정정청구 처리 절차</h6>
 										<p>
-											<img src="/images/policy/" alt="개인정보 정정청구 처리 절차">
+											<img src="/images/policy/privacy_table02.jpg" alt="개인정보 정정청구 처리 절차">
 										</p>
 									</li>
 									<li>

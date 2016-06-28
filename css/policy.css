@@ -99,7 +99,7 @@
 }
 .policy .square-white > li:before {
 	position:absolute;
-	top:-4px;
+	top:-6px;
 	left:0;
 	content:"□";
 }
