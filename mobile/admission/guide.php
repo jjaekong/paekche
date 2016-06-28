@@ -23,19 +23,14 @@
 				<div class="section-content">
 					<ul class="arrow-list">
 						<li>
-							<h4>수시· 정시모집</h4>
+							<h4>수시 · 정시모집</h4>
 							<p>일반전형, 특별전형, 농·어촌 출신자, 기초생활수급자</p>
 						</li>
 						<li>
-							<dl>
-								<dt>담당부서명</dt>
-								<dd>홍보처</dd>
-							</dl>
+							<h4>담당부서명 : 홍보처</h4>
 							<dl>
 								<dt>Tel</dt>
 								<dd>063-260-9001</dd>
-							</dl>
-							<dl>
 								<dt>Fax</dt>
 								<dd>063-260-9006</dd>
 							</dl>

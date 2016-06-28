@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="page-header">
 				<hr />
-				<h2>오시는 길</h2>
+				<h2>찾아오시는 길</h2>
 				<p>백제예술대학교로 <i>찾아오시는 길</i></p>
 			</div>
 			<div class="map">
