@@ -47,6 +47,7 @@
         right: 0; }
 
 .board-view {
+  margin-bottom: 100px;
   width: 870px;
   border-top: 2px solid #333; }
   .board-view > header {
@@ -81,11 +82,12 @@
           content: '|'; }
   .board-view > .board-content {
     padding: 20px !important;
-    min-height: 300px;
+    min-height: 600px;
     font-size: 14px !important;
     line-height: 30px !important;
     color: #666 !important;
-    border-bottom: 1px solid #ccc; }
+    border-bottom: 1px solid #ccc;
+    }
   .board-view > .board-nav li {
     border-bottom: 1px solid #ccc; }
     .board-view > .board-nav li a {
