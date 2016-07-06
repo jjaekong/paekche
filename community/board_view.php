@@ -64,6 +64,9 @@
                         <div class="board-content">
                             제가 온라인으로 복학신청을 했는데요 ~저장을 누르면 끝나는건가요?신청되었는지 궁금합니다!
                         </div>
+						<ul class="attach">
+							<li><a href="#">20160413789456.jpg </a></li>
+						</ul>
                         <ul class="board-nav">
                             <li class="next"><a href="#"><span class="glyphicon glyphicon-menu-up"></span>온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제 온라인 복학신청문제</a></li>
                             <li class="prev"><a href="#"><span class="glyphicon glyphicon-menu-down"></span>온라인 복학신청합니다~</a></li>
@@ -81,6 +84,45 @@
                             </div>
                         </div>
                     </article>
+					<div class="reply-area">
+						<!--
+						<p class="no-reply">등록된 댓글이 없습니다.</p>
+						-->
+						<article class="reply">
+							<div class="reply-header">
+								<p>학생지원처 <span>2016.01.20</span></p>
+								<ul>
+									<li><a href="#" class="modify">수정</a></li>
+									<li><a href="#" class="delete">삭제</a></li>
+								</ul>
+							</div>
+							<div class="reply-content">
+								<p>
+									안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 
+								</p>
+							</div>
+						</article>
+						<article class="reply">
+							<div class="reply-header">
+								<p>학생지원처 <span>2016.01.20</span></p>
+								<ul>
+									<li><a href="#" class="modify">수정</a></li>
+									<li><a href="#" class="delete">삭제</a></li>
+								</ul>
+							</div>
+							<div class="reply-content">
+								<p>
+									안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 안녕하세요 학생지원처입니다. 
+								</p>
+							</div>
+						</article>
+						<div class="reply-form">
+							<form>
+								<textarea name="#" id="re-write"></textarea>
+								<button style="submit">등록</button>
+							</form>
+						</div>
+					</div>
                 </main>
             </div>
         </div>
