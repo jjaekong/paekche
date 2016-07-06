@@ -339,6 +339,7 @@
 }
 .community.star .star-content .star-list ul li figure img {
 	margin:0 auto;
+	border-radius:50%;
 }
 .community.star .star-content .star-list ul li figure figcaption {
 	text-align:center;
